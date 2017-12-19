@@ -1,0 +1,31 @@
+{
+  "name": "mcd4me",
+  "version": "0.1.0",
+  "description": "Online ordering app for 2E McDonalds orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFarejowicz/McD4Me.git"
+  },
+  "keywords": [
+    "http",
+    "node",
+    "javascript",
+    "web",
+    "app",
+    "server",
+    "express"
+  ],
+  "author": "Matt Farejowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MFarejowicz/McD4Me/issues"
+  },
+  "homepage": "https://github.com/MFarejowicz/McD4Me#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
