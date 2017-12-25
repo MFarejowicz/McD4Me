@@ -1,3 +1,128 @@
 html, body {
-  background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcca08;
+  font-family: "Neue Haas Unica Regular", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+#title {
+  font-size: 100px;
+}
+
+#host {
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+#host:focus {
+  outline: 0;
+}
+
+#join {
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+#join:focus {
+  outline: 0;
+}
+
+footer {
+  background-color: #080808;
+  color: #d0d0d0;
+  display: flex;
+  vertical-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear: both;
+}
+
+.bot {
+  width: 90%;
+  margin: auto;
+}
+
+@media all and (max-width: 1720px){
+  #float {
+    display: none;
+  }
+  #burrito {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1420px){
+  #pizza {
+    display: none;
+  }
+  #cupcake {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1100px){
+  #soda {
+    display: none;
+  }
+  #ice {
+    display: none;
+  }
+}
+
+@media all and (max-width: 780px){
+  #burger {
+    width: 80px
+  }
+  #fries {
+    width: 80px;
+  }
+  #title {
+    font-size: 40px;
+  }
+}
+
+@font-face {
+font-family: "Neue Haas Unica Regular";
+src: url("./fonts/NeueHaasUnicaPro-Regular.ttf");
+}
+
+@font-face {
+font-family: "Neue Haas Unica Bold";
+src: url("./fonts/NeueHaasUnicaPro-Bold.ttf");
 }
