@@ -110,6 +110,19 @@ h1, h2, h3, h4, h5, h6, p {
   outline: 0;
 }
 
+#create {
+  width: 400px;
+  font-size: 50px;
+}
+
+#create:hover span {
+  padding-right: 30px;
+}
+
+label {
+  cursor: url('./img/cursor/cursor-auto.png'), auto;
+}
+
 footer {
   background-color: #080808;
   color: #d0d0d0;

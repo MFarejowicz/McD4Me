@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>McD4Me</title>
+    <title>McD4Me - New</title>
 
     <link href="./static/style.css" rel="stylesheet">
   </head>
@@ -26,7 +26,36 @@
           <img id="pizza" src="./static/img/pizza.png"></img>
           <img id="float" src="./static/img/float.png"></img>
         </div>
-        Hosting
+        <div class="content">
+          <h3 class="prompt">Start a New Room</h3>
+          <form id="create-form">
+            <div>
+              <label for="where">Restaurant to order from:</label>
+              <br/>
+              <select id="where" name="where" required>
+                <option value="McDonald's" selected>McDonald's</option>
+                <option value="test">Test</option>
+              </select>
+            </div>
+            <div>
+              <label for="when">Close orders at:</label>
+              <br/>
+              <input id="when" type="time" name="when" required></input>
+            </div>
+            <div>
+              <label for="maxNum">Max orders:</label>
+              <br/>
+              <input type="number" id="maxNum" name="maxNum" value="15" required></input>
+            </div>
+            <div>
+              <label for="pass">Host password (optional):</label>
+              <br/>
+              <input type="text" id="pass" name="pass" placeholder="Host password">
+            </div>
+            <br/>
+            <button id="create" class="butt" type="button"><span>Create Room</span></button>
+          </form>
+        </div>
       </div>
     </div>
     <footer>
@@ -34,5 +63,6 @@
         <p>McD4Me - mattf, 2018</p>
       </div>
     </footer>
+  <script src="./static/main.js"></script>
   </body>
 </html>
