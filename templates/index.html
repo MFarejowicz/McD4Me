@@ -13,7 +13,7 @@
   <body>
     <div id="wrapper">
       <div id="main">
-        <div style="display: flex; justify-content: center; align-items: center">
+        <div class="top">
           <img id="burrito" src="./static/img/burrito.png"></img>
           <img id="cupcake" src="./static/img/cupcake.png"></img>
           <img id="soda" src="./static/img/soda.png"></img>
@@ -26,23 +26,31 @@
           <img id="pizza" src="./static/img/pizza.png"></img>
           <img id="float" src="./static/img/float.png"></img>
         </div>
-        <div style="width: 60%; margin: 30px auto 0;">
+        <div class="content">
           <div>
-            <h3 style="font-size: 50px; text-decoration: underline">What is this?</h3>
-            <p style="font-size: 20px">
-              A web app intended to be used when groups want to place a large food order together, using one individual as the designated orderer.
+            <h3 class="prompt">What is this?</h3>
+            <p class="description">
+              Imagine this: It's 11:00pm on a Wednesday night. You're hanging out in a lounge in your dorm, and then suddenly you get a craving...
+              You could really go for some McDonald's right now. Being the benevolent community member you are, you ask if anyone else wants McDonald's
+              as well, and a flurry of people express their interest. Well now you've got a problem: How are you going to keep track of everyone's order?
+              <br/> <br/>
+              Cue McD4Me, a web app to manage large group orders. If you're the one ordering, hit <b>Host</b> below to start an online order room. If you're
+              hopping on an order, hit <b>Join</b> below and enter the room code. The rest should be straightforward.
+              <br/> <br/>
+              <span class="disclaimer"> Note that McD4Me won't do any actual ordering for you, it simply keeps track of all of the orders for a large group.</span>
             </p>
           </div>
-          <div style="margin-top: 100px; display: flex; justify-content: space-around">
-            <button id="host" type="button">Host</button>
-            <button id="join" type="button">Join</button>
+          <div class="buttons">
+            <button id="host" class="butt" type="button"><span>Host</span></button>
+            <button id="join" class="butt" type="button"><span>Join</span></button>
           </div>
         </div>
       </div>
     </div>
     <footer>
       <div class="bot">
-        <p>McD4Me - mattf, 2018</p>
+        <p class="plug">mattf - 2018</p>
+        <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
   </body>

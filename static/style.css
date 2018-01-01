@@ -6,6 +6,7 @@ html, body {
 body {
   background-color: #fcca08;
   font-family: "Neue Haas Unica Regular", sans-serif;
+  cursor: url('./img/cursor/cursor-auto.png'), auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -23,41 +24,89 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 50px;
 }
 
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
 #title {
   font-size: 100px;
 }
 
-#host {
+.content {
+  width: 60%;
+  margin: 10px auto 0;
+}
+
+.prompt {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.plug {
+  font-family: sans-serif;
+}
+
+.disclaimer {
+  font-size: 16px;
+}
+
+.buttons {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.butt {
   background-color: #000000;
   font-family: "Neue Haas Unica Bold", sans-serif;
   color: #ffffff;
   border: none;
   border-radius: 12px;
-  width: 300px;
+  width: 350px;
   text-align: center;
   text-decoration: none;
   font-size: 100px;
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
+.butt span {
   cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-#host:focus {
-  outline: 0;
+.butt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
-#join {
-  background-color: #000000;
-  font-family: "Neue Haas Unica Bold", sans-serif;
-  color: #ffffff;
-  border: none;
-  border-radius: 12px;
-  width: 300px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 100px;
-  cursor: pointer;
+.butt:hover span {
+  padding-right: 60px;
 }
 
-#join:focus {
+.butt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.butt:active {
+  transform: translateY(4px);
+}
+
+.butt:focus {
   outline: 0;
 }
 
@@ -76,6 +125,7 @@ footer {
 .bot {
   width: 90%;
   margin: auto;
+  font-size: 14px;
 }
 
 @media all and (max-width: 1720px){
@@ -88,6 +138,9 @@ footer {
 }
 
 @media all and (max-width: 1420px){
+  .content {
+    width: 70%;
+  }
   #pizza {
     display: none;
   }
@@ -97,11 +150,25 @@ footer {
 }
 
 @media all and (max-width: 1100px){
+  .content {
+    width: 80%;
+  }
   #soda {
     display: none;
   }
   #ice {
     display: none;
+  }
+}
+
+@media all and (max-width: 900px){
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #join {
+    margin-top: 30px;
   }
 }
 
@@ -114,6 +181,25 @@ footer {
   }
   #title {
     font-size: 40px;
+  }
+  .content {
+    margin-top: 0px;
+  }
+  .prompt {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .disclaimer {
+    font-size: 14px;
+  }
+  .butt {
+    width: 250px;
+    font-size: 70px;
+  }
+  .butt:hover span {
+    padding-right: 45px;
   }
 }
 
