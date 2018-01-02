@@ -27,40 +27,46 @@
           <img id="float" src="./static/img/float.png"></img>
         </div>
         <div class="content">
-          <h3 class="prompt">Start a New Room</h3>
+          <h3 class="prompt" id="create-prompt">Start a New Room</h3>
           <form id="create-form">
-            <div>
-              <label for="where">Restaurant to order from:</label>
-              <br/>
-              <select id="where" name="where" required>
-                <option value="McDonald's" selected>McDonald's</option>
-                <option value="test">Test</option>
-              </select>
+            <div class="row">
+              <div class="row-item">
+                <label for="where">Restaurant to order from:</label>
+                <br/>
+                <select id="where" name="where" required>
+                  <option value="McDonald's" selected>McDonald's</option>
+                  <option value="test">Test</option>
+                </select>
+              </div>
+              <div class="row-item">
+                <label for="when">Close orders at:</label>
+                <br/>
+                <input id="when" type="time" name="when" required></input>
+              </div>
             </div>
-            <div>
-              <label for="when">Close orders at:</label>
-              <br/>
-              <input id="when" type="time" name="when" required></input>
+            <div class="row">
+              <div class="row-item">
+                <label for="maxNum">Max orders:</label>
+                <br/>
+                <input type="number" id="maxNum" name="maxNum" value="15" required></input>
+              </div>
+              <div class="row-item">
+                <label for="pass">Host password (optional):</label>
+                <br/>
+                <input type="text" id="pass" name="pass" >
+              </div>
             </div>
-            <div>
-              <label for="maxNum">Max orders:</label>
-              <br/>
-              <input type="number" id="maxNum" name="maxNum" value="15" required></input>
+            <div class="create-button">
+              <button id="create" class="butt" type="button"><span>Create Room</span></button>
             </div>
-            <div>
-              <label for="pass">Host password (optional):</label>
-              <br/>
-              <input type="text" id="pass" name="pass" placeholder="Host password">
-            </div>
-            <br/>
-            <button id="create" class="butt" type="button"><span>Create Room</span></button>
           </form>
         </div>
       </div>
     </div>
     <footer>
       <div class="bot">
-        <p>McD4Me - mattf, 2018</p>
+        <p class="plug">mattf - 2018</p>
+        <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
   <script src="./static/main.js"></script>

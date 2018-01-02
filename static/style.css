@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .description {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
 
@@ -108,6 +108,27 @@ h1, h2, h3, h4, h5, h6, p {
 
 .butt:focus {
   outline: 0;
+}
+
+#create-form {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0 40px;
+}
+
+.row-item {
+  width: 500px;
+}
+
+#where, #when, #maxNum, #pass {
+  width: 300px;
+  font-size: 25px;
+  padding: 5px;
 }
 
 #create {
@@ -182,6 +203,38 @@ footer {
   }
   #join {
     margin-top: 30px;
+  }
+  #create-prompt {
+    text-align: center;
+  }
+  #create-form {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .row-item {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  #where, #when, #maxNum, #pass {
+    width: 225px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .create-button {
+    display:flex;
+    justify-content:space-around;
+  }
+  #create {
+    width: 225px;
+    font-size: 30px;
+  }
+  #create:hover span {
+    padding-right: 20px;
   }
 }
 

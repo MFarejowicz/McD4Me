@@ -2,7 +2,7 @@
   "name": "mcd4me",
   "version": "0.1.0",
   "description": "Online ordering app for 2E McDonalds orders",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
