@@ -131,12 +131,12 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 5px;
 }
 
-#create {
+#create, #submit {
   width: 400px;
   font-size: 50px;
 }
 
-#create:hover span {
+#create:hover span, #submit:hover span {
   padding-right: 30px;
 }
 
@@ -225,7 +225,7 @@ footer {
     font-size: 16px;
     padding: 5px;
   }
-  .create-button {
+  .single-button {
     display:flex;
     justify-content:space-around;
   }

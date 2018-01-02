@@ -1,0 +1,189 @@
+{
+  "Extra Value Meals": [
+    {
+      "name": "Big Mac Meal",
+      "price": 6.69,
+    },
+    {
+      "name": "Quarter Pounder with Cheese Meal",
+      "price": 6.39,
+    },
+    {
+      "name": "Quarter Pounder Meal",
+      "price": 6.09,
+    },
+    {
+      "name": "Double Quarter Pounder with Cheese Meal",
+      "price": 7.49,
+    },
+    {
+      "name": "Buttermilk Crispy Chicken Sandwich Meal",
+      "price": 6.99,
+    },
+    {
+      "name": "Artisan Grilled Chicken Sandwich Meal",
+      "price": 6.99,
+    },
+    {
+      "name": "10 Piece Chicken McNuggets Meal",
+      "price": 6.79,
+    },
+    {
+      "name": "Filet-O-Fish Meal",
+      "price": 6.29,
+    },
+    {
+      "name": "4pc. Buttermilk Crispy Tenders Meal",
+      "price": 5.89,
+    },
+    {
+      "name": "6pc. Buttermilk Crispy Tenders Meal",
+      "price": 7.79,
+    },
+    {
+      "name": "10pc. Buttermilk Crispy Tenders Meal",
+      "price": 11.69,
+    },
+    {
+      "name": "Quarter Cheese Deluxe Meal",
+      "price": 6.49,
+    }
+  ],
+  "All Day Breakfast": [
+    {
+      "name": "Egg McMuffin Meal",
+      "price": 4.99
+    },
+    {
+      "name": "Sausage McMuffin with Egg Meal",
+      "price": 4.89
+    },
+    {
+      "name": "Bacon, Egg & Cheese Biscuit Meal",
+      "price": 4.99
+    },
+    {
+      "name": "Sausage Biscuit with Egg Meal",
+      "price": 4.89
+    },
+    {
+      "name": "Bacon, Egg & Cheese McGriddles Meal",
+      "price": 4.99
+    },
+    {
+      "name": "Sausage, Egg & Cheese McGriddles Meal",
+      "price": 4.99
+    },
+    {
+      "name": "Egg McMuffin",
+      "price": 3.59
+    },
+    {
+      "name": "Sausage McMuffin",
+      "price": 1.19
+    },
+    {
+      "name": "Bacon, Egg & Cheese Biscuit",
+      "price": 3.59
+    },
+    {
+      "name": "Sausage Biscuit with Egg",
+      "price": 3.49
+    },
+    {
+      "name": "Sausage, Egg, & Cheese Biscuit",
+      "price": 3.79
+    },
+    {
+      "name": "Bacon, Egg & Cheese McGriddles",
+      "price": 3.59
+    },
+    {
+      "name": "Sausage, Egg & Cheese McGriddles",
+      "price": 3.59
+    },
+    {
+      "name": "Sausage McGriddles",
+      "price": 2.99
+    },
+    {
+      "name": "Sausage Burrito",
+      "price": 1.29
+    },
+    {
+      "name": "Hash Browns",
+      "price": 1.00
+    },
+    {
+      "name": "3 Hotcakes",
+      "price": 2.99
+    },
+    {
+      "name": "3 Hotcakes with Sausage",
+      "price": 3.49
+    },
+    {
+      "name": "Sausage McMuffin with Egg",
+      "price": 3.49
+    },
+    {
+      "name": "Sausage Biscuit",
+      "price": 1.00
+    },
+    {
+      "name": "Egg Biscuit",
+      "price": 1.29
+    },
+    {
+      "name": "2 McGriddles",
+      "price": 1.00
+    },
+    {
+      "name": "Oatmeal without Brown Sugar",
+      "price": 2.29
+    },
+    {
+      "name": "Fruit & Maple Oatmeal",
+      "price": 2.29
+    },
+    {
+      "name": "Blueberry Muffin",
+      "price": 1.69
+    },
+    {
+      "name": "Carrot Cake Muffin",
+      "price": 1.69
+    },
+    {
+      "name": "Cranberry Orange Muffin",
+      "price": 1.69
+    }
+  ],
+  "Signiture Crafted Recipes": [
+
+  ],
+  "Promotions & Offers": [
+
+  ],
+  "Happy Meal": [
+
+  ],
+  "McCafe": [
+
+  ],
+  "Fries & Sides": [
+
+  ],
+  "Sweets & Treats": [
+
+  ],
+  "Beverages": [
+
+  ],
+  "Salads": [
+
+  ],
+  "Individual Items": [
+
+  ]
+}
