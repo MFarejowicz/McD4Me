@@ -2,19 +2,21 @@
 
   // Initialize Firebase
   const config = {
-  apiKey: "AIzaSyCWNhabtGA9a9Zu-1FovZ39u9Y7Cl-C2BM",
-  authDomain: "mcd4me-94dda.firebaseapp.com",
-  databaseURL: "https://mcd4me-94dda.firebaseio.com",
-  projectId: "mcd4me-94dda",
-  storageBucket: "mcd4me-94dda.appspot.com",
-  messagingSenderId: "988385113266"
+    apiKey: "AIzaSyCWNhabtGA9a9Zu-1FovZ39u9Y7Cl-C2BM",
+    authDomain: "mcd4me-94dda.firebaseapp.com",
+    databaseURL: "https://mcd4me-94dda.firebaseio.com",
+    projectId: "mcd4me-94dda",
+    storageBucket: "mcd4me-94dda.appspot.com",
+    messagingSenderId: "988385113266"
   };
   firebase.initializeApp(config);
 
   const orderList = document.getElementById('test');
-  const dbRefList = firebase.database().ref().child('orders');
+  var ref = firebase.database().ref();
 
-  dbRefList.on('value', snap => console.log(snap.val()));
+  ref.on('value', function(snap) {
+    console.log(snap.val());
+  });
 
 }());
 

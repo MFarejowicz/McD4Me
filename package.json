@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/MFarejowicz/McD4Me#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "firebase": "^4.8.2"
   }
 }
