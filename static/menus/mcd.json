@@ -160,28 +160,209 @@
     }
   ],
   "Signiture Crafted Recipes": [
-
+    {
+      "name": "Signature Crafted Crispy Chicken Meal",
+      "price": 6.89
+    },
+    {
+      "name": "Signature Crafted Grilled Chicken Meal",
+      "price": 6.89
+    },
+    {
+      "name": "Signature Crafted Quarter Pounder Meal",
+      "price": 6.89
+    },
+    {
+      "name": "Signature Crafted Crispy Chicken",
+      "price": 4.79
+    },
+    {
+      "name": "Signature Crafted Grilled Chicken",
+      "price": 4.79
+    },
+    {
+      "name": "Signature Crafted Quarter Pounder",
+      "price": 4.79
+    }
   ],
   "Promotions & Offers": [
 
   ],
   "Happy Meal": [
-
+    {
+      "name": "4pc. Chicken McNuggets Happy Meal",
+      "price": 3.79
+    },
+    {
+      "name": "6pc. Chicken McNuggets Mighty Kids Meal",
+      "price": 4.39
+    },
+    {
+      "name": "Cheeseburger Happy Meal",
+      "price": 3.39
+    },
+    {
+      "name": "Hamburger Happy Meal",
+      "price": 3.39
+    },
+    {
+      "name": "McDouble Mighty Kids Meal",
+      "price": 3.69
+    }
   ],
   "McCafe": [
-
+    {
+      "name": "McCafe Smoothie",
+      "price": 2.69
+    },
+    {
+      "name": "McCafe Shake",
+      "price": 2.39
+    },
+    {
+      "name": "McCafe Frappe",
+      "price": 2.59
+    },
+    {
+      "name": "McCafe Mocha",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Iced Mocha",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Latte",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Hot Chocolate",
+      "price": 2.09
+    },
+    {
+      "name": "McCafe Coffee",
+      "price": 1.00
+    },
+    {
+      "name": "McCafe Decaf Coffee",
+      "price": 1.00
+    },
+    {
+      "name": "McCafe Macchiato",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Cappuchino",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Americano",
+      "price": 2.19
+    },
+    {
+      "name": "McCafe Southern Style Lemonade",
+      "price": 1.80
+    }
   ],
   "Fries & Sides": [
-
+    {
+      "name": "Fries",
+      "price": 1.49
+    },
+    {
+      "name": "Apple Slices",
+      "price": 0.50
+    },
+    {
+      "name": "Side Salad",
+      "price": 1.69
+    },
+    {
+      "name": "Fruit 'N Yogurt Parfait'",
+      "price": 1.00
+    },
+    {
+      "name": "Hash Brown",
+      "price": 1.00
+    }
   ],
   "Sweets & Treats": [
-
+    {
+      "name": "McFlurry",
+      "price": 2.19
+    },
+    {
+      "name": "Sundae",
+      "price": 1.00
+    },
+    {
+      "name": "Apple Pie",
+      "price": 0.69
+    },
+    {
+      "name": "Cookie",
+      "price": 0.59
+    },
+    {
+      "name": "Pumpkin & Creme Pie",
+      "price": 0.89
+    },
+    {
+      "name": "Holiday Pie",
+      "price": 0.69
+    }
   ],
   "Beverages": [
-
+    {
+      "name": "Soft Drink",
+      "price": 1.00
+    },
+    {
+      "name": "Minute Maid Orange Juice",
+      "price": 1.89
+    },
+    {
+      "name": "Minute Maid Apple Juice Box",
+      "price": 0.99
+    },
+    {
+      "name": "1% Low Fat Milk Jug",
+      "price": 0.99
+    },
+    {
+      "name": "Fat Free Chocolate Milk Jug",
+      "price": 0.99
+    },
+    {
+      "name": "Dasani Water",
+      "price": 1.49
+    },
+    {
+      "name": "Sweet Tea",
+      "price": 1.00
+    },
+    {
+      "name": "Iced Tea",
+      "price": 1.00
+    },
+    {
+      "name": "Hot Tea",
+      "price": 1.00
+    }
   ],
   "Salads": [
-
+    {
+      "name": "Southwest Salad",
+      "price": 4.19
+    },
+    {
+      "name": "Bacon Ranch Salad",
+      "price": 4.19
+    },
+    {
+      "name": "Side Salad",
+      "price": 1.69
+    }
   ],
   "Individual Items": [
 
