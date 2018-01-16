@@ -1,12 +1,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Online Order Form for 2E">
-    <meta name="author" content="Matt Farejowicz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Online Order Form for 2E">
+    <meta name="author" content="Matt Farejowicz">
 
     <title>McD4Me</title>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="./static/style.css" rel="stylesheet">
@@ -41,8 +43,10 @@
               <span class="disclaimer"> Note that McD4Me won't do any actual ordering for you, it simply keeps track of all of the orders for a large group.</span>
             </p>
           </div>
+          <div id="test">
+          </div>
           <div class="buttons">
-            <button id="host" class="butt" type="button"><span>Host</span></button>
+            <button id="host" class="butt" type="button"><span class="test">Host</span></button>
             <button id="join" class="butt" type="button"><span>Join</span></button>
           </div>
         </div>
@@ -54,6 +58,6 @@
         <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
-  <script src="./static/main.js"></script>
+  <script src="./static/app.js"></script>
   </body>
 </html>

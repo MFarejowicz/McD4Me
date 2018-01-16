@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
 .top {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 #title {
@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .butt span {
-  cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
