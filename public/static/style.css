@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
 #wrapper {
   min-height: 100%;
 }
@@ -109,7 +114,7 @@ h1, h2, h3, h4, h5, h6, p {
   outline: 0;
 }
 
-#create-form {
+#create-form, #order-form {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
 }
@@ -124,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 500px;
 }
 
-#where, #when, #maxNum, #pass {
+#where, #when, #maxNum, #pass, #name {
   width: 300px;
   font-size: 25px;
   padding: 5px;
@@ -137,6 +142,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 #create:hover span, #submit:hover span {
   padding-right: 30px;
+}
+
+.orderHeading {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  background-color: #e2b507;
 }
 
 label {

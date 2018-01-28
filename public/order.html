@@ -30,18 +30,23 @@
         </div>
         <div class="content">
           <h3 class="prompt" id="order-prompt">Place an order</h3>
-          <p>Ordering from: __________</p>
-          <p>There are __ orders left</p>
-          <p>Orders close in __ minutes</p>
-          <form>
+          <form id="order-form">
+            <p>Ordering from: __________</p>
+            <p>There are __ orders left.</p>
+            <p>Orders close in __ minutes.</p>
             <div>
               <label for="name">Name:</label>
               <br/>
               <input type="text" id="name" name="name">
             </div>
+            <div id="menu">
+            </div>
+            <p>Your order:</p>
+            <div id="order">
+            </div>
           </form>
           <div class="single-button">
-            <button id="submit" class="butt" type="button"><span>Submit Order</span></button>
+            <button type="submit" form="order-form" id="submit" class="butt"><span>Submit Order</span></button>
           </div>
         </div>
       </div>
@@ -52,6 +57,7 @@
         <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./static/app.js"></script>
   </body>
 </html>

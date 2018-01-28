@@ -1,4 +1,4 @@
-(function() {
+$(document).ready(function(){
 
   // Initialize Firebase
   const config = {
@@ -11,14 +11,77 @@
   };
   firebase.initializeApp(config);
 
-  const orderList = document.getElementById('test');
-  var ref = firebase.database().ref();
+  // var ref = firebase.database().ref();
+  // var testRef = ref.child("test");
+  //
+  // const roomSpan = document.getElementById("roomNum");
+  // const timeSpan = document.getElementById("timeLeft");
+  // const orderList = document.getElementById("orderList");
+  //
+  // testRef.on("value", function(snap) {
+  //   console.log(snap.val());
+  //
+  //   if (roomSpan) {
+  //     roomSpan.innerText = "test";
+  //   }
+  //
+  //   if (timeSpan) {
+  //     var date = new Date(null);
+  //     date.setSeconds(snap.val().time);
+  //     var result = date.toISOString().substr(11, 8);
+  //     timeSpan.innerText = result;
+  //   }
+  //
+  //   for (var order in snap.val().orders) {
+  //     console.log(snap.val().orders[order]);
+  //   }
+  //
+  // });
 
-  ref.on('value', function(snap) {
-    console.log(snap.val());
-  });
+  var url = "./static/menus/mcd.json";
 
-}());
+  $.getJSON(url, order);
+
+  function order(data) {
+    var order = {};
+    order.items = [];
+    order.cost = 0;
+    var menuItems = data;
+    for (var key in menuItems) {
+      // console.log(key);
+      $("#menu").append("<p>"+key+"</p>");
+      // console.log(menuItems[key]);
+      if (menuItems[key].length > 0) {
+        for (var item of menuItems[key]) {
+          // console.log(item);
+          $("#menu").append("<div class='menu-item'><input id='" + item.id + "' type='checkbox'></input>" + "<label for='" + item.id + "'>$" + item.price + " - " + item.name + "</label></div>");
+          $("#" + item.id).data(item);
+        }
+      } else {
+        $("#menu").append("<div> No items here </div>");
+      }
+    }
+    $("input").click(function() {
+      // console.log(this);
+      var item = $("#" + this.id).data();
+      // console.log(item);
+      if ($('#' + this.id).is(":checked")) {
+        $("#order").append("<div id=" + this.id + " class='menu-item'><span>$" + item.price + " - " + item.name + "</span></div>");
+        order.items.push(this.id);
+        order.cost += item.price;
+        // console.log(order);
+      } else {
+        $("div#" + this.id).remove();
+        order.items = order.items.filter(item => item !== this.id);
+        order.cost -= item.price;
+        // console.log(order);
+      }
+    });
+  }
+
+
+});
+
 
 // const express = require('express')
 // const app = express()
