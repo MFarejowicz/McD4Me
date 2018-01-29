@@ -149,6 +149,10 @@ input[type=checkbox] {
   text-decoration: underline;
 }
 
+.menu-group-title {
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
 .menu-item {
   display: flex;
   align-items: center;
@@ -156,6 +160,34 @@ input[type=checkbox] {
 
 .menu-item:hover {
   background-color: #e2b507;
+}
+
+.order-item:hover {
+  background-color: #e2b507;
+}
+
+.order-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantity-div {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 50px;
+  font-size: 18px;
+  padding: 2px;
+  margin-left: 8px;
+}
+
+.instr-text {
+  resize: none;
+  width: 100%;
+  height: 50px;
 }
 
 label {

@@ -1,446 +1,506 @@
-{
-  "Extra Value Meals": [
-    {
-      "name": "Big Mac Meal",
-      "id": "bmm",
-      "price": 6.69
-    },
-    {
-      "name": "Quarter Pounder with Cheese Meal",
-      "id": "qpcm",
-      "price": 6.39
-    },
-    {
-      "name": "Quarter Pounder Meal",
-      "id": "qpm",
-      "price": 6.09
-    },
-    {
-      "name": "Double Quarter Pounder with Cheese Meal",
-      "id": "dqpcm",
-      "price": 7.49
-    },
-    {
-      "name": "Buttermilk Crispy Chicken Sandwich Meal",
-      "id": "bccsm",
-      "price": 6.99
-    },
-    {
-      "name": "Artisan Grilled Chicken Sandwich Meal",
-      "id": "agcsm",
-      "price": 6.99
-    },
-    {
-      "name": "10 Piece Chicken McNuggets Meal",
-      "id": "tpcmm",
-      "price": 6.79
-    },
-    {
-      "name": "Filet-O-Fish Meal",
-      "id": "fofm",
-      "price": 6.29
-    },
-    {
-      "name": "4pc. Buttermilk Crispy Tenders Meal",
-      "id": "fpbctm",
-      "price": 5.89
-    },
-    {
-      "name": "6pc. Buttermilk Crispy Tenders Meal",
-      "id": "spbctm",
-      "price": 7.79
-    },
-    {
-      "name": "10pc. Buttermilk Crispy Tenders Meal",
-      "id": "tpbctm",
-      "price": 11.69
-    },
-    {
-      "name": "Quarter Cheese Deluxe Meal",
-      "id": "qcdm",
-      "price": 6.49
-    }
-  ],
-  "All Day Breakfast": [
-    {
-      "name": "Egg McMuffin Meal",
-      "id": "emm",
-      "price": 4.99
-    },
-    {
-      "name": "Sausage McMuffin with Egg Meal",
-      "id": "smem",
-      "price": 4.89
-    },
-    {
-      "name": "Bacon, Egg & Cheese Biscuit Meal",
-      "id": "becbm",
-      "price": 4.99
-    },
-    {
-      "name": "Sausage Biscuit with Egg Meal",
-      "id": "sbem",
-      "price": 4.89
-    },
-    {
-      "name": "Bacon, Egg & Cheese McGriddles Meal",
-      "id": "becmm",
-      "price": 4.99
-    },
-    {
-      "name": "Sausage, Egg & Cheese McGriddles Meal",
-      "id": "secmm",
-      "price": 4.99
-    },
-    {
-      "name": "Egg McMuffin",
-      "id": "em",
-      "price": 3.59
-    },
-    {
-      "name": "Sausage McMuffin",
-      "id": "sm",
-      "price": 1.19
-    },
-    {
-      "name": "Bacon, Egg & Cheese Biscuit",
-      "id": "becb",
-      "price": 3.59
-    },
-    {
-      "name": "Sausage Biscuit with Egg",
-      "id": "sbe",
-      "price": 3.49
-    },
-    {
-      "name": "Sausage, Egg, & Cheese Biscuit",
-      "id": "secb",
-      "price": 3.79
-    },
-    {
-      "name": "Bacon, Egg & Cheese McGriddles",
-      "id": "becm",
-      "price": 3.59
-    },
-    {
-      "name": "Sausage, Egg & Cheese McGriddles",
-      "id": "secm",
-      "price": 3.59
-    },
-    {
-      "name": "Sausage McGriddles",
-      "id": "smg",
-      "price": 2.99
-    },
-    {
-      "name": "Sausage Burrito",
-      "id": "sbur",
-      "price": 1.29
-    },
-    {
-      "name": "Hash Browns",
-      "id": "hb",
-      "price": 1.00
-    },
-    {
-      "name": "3 Hotcakes",
-      "id": "th",
-      "price": 2.99
-    },
-    {
-      "name": "3 Hotcakes with Sausage",
-      "id": "ths",
-      "price": 3.49
-    },
-    {
-      "name": "Sausage McMuffin with Egg",
-      "id": "sme",
-      "price": 3.49
-    },
-    {
-      "name": "Sausage Biscuit",
-      "id": "sbis",
-      "price": 1.00
-    },
-    {
-      "name": "Egg Biscuit",
-      "id": "ebis",
-      "price": 1.29
-    },
-    {
-      "name": "2 McGriddles",
-      "id": "tm",
-      "price": 1.00
-    },
-    {
-      "name": "Oatmeal without Brown Sugar",
-      "id": "obm",
-      "price": 2.29
-    },
-    {
-      "name": "Fruit & Maple Oatmeal",
-      "id": "fmo",
-      "price": 2.29
-    },
-    {
-      "name": "Blueberry Muffin",
-      "id": "bm",
-      "price": 1.69
-    },
-    {
-      "name": "Carrot Cake Muffin",
-      "id": "ccm",
-      "price": 1.69
-    },
-    {
-      "name": "Cranberry Orange Muffin",
-      "id": "com",
-      "price": 1.69
-    }
-  ],
-  "Signiture Crafted Recipes": [
-    {
-      "name": "Signature Crafted Crispy Chicken Meal",
-      "id": "scccm",
-      "price": 6.89
-    },
-    {
-      "name": "Signature Crafted Grilled Chicken Meal",
-      "id": "scgcm",
-      "price": 6.89
-    },
-    {
-      "name": "Signature Crafted Quarter Pounder Meal",
-      "id": "scqpm",
-      "price": 6.89
-    },
-    {
-      "name": "Signature Crafted Crispy Chicken",
-      "id": "sccc",
-      "price": 4.79
-    },
-    {
-      "name": "Signature Crafted Grilled Chicken",
-      "id": "scgc",
-      "price": 4.79
-    },
-    {
-      "name": "Signature Crafted Quarter Pounder",
-      "id": "scqp",
-      "price": 4.79
-    }
-  ],
-  "Promotions & Offers": [
-
-  ],
-  "Happy Meal": [
-    {
-      "name": "4pc. Chicken McNuggets Happy Meal",
-      "id": "fpcmhm",
-      "price": 3.79
-    },
-    {
-      "name": "6pc. Chicken McNuggets Mighty Kids Meal",
-      "id": "spcmmkm",
-      "price": 4.39
-    },
-    {
-      "name": "Cheeseburger Happy Meal",
-      "id": "chm",
-      "price": 3.39
-    },
-    {
-      "name": "Hamburger Happy Meal",
-      "id": "hhm",
-      "price": 3.39
-    },
-    {
-      "name": "McDouble Mighty Kids Meal",
-      "id": "mmkm",
-      "price": 3.69
-    }
-  ],
-  "McCafe": [
-    {
-      "name": "McCafe Smoothie",
-      "id": "mcsmo",
-      "price": 2.69
-    },
-    {
-      "name": "McCafe Shake",
-      "id": "mcsha",
-      "price": 2.39
-    },
-    {
-      "name": "McCafe Frappe",
-      "id": "mcfra",
-      "price": 2.59
-    },
-    {
-      "name": "McCafe Mocha",
-      "id": "mcmoc",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Iced Mocha",
-      "id": "mcimoc",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Latte",
-      "id": "mclat",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Hot Chocolate",
-      "id": "mchcho",
-      "price": 2.09
-    },
-    {
-      "name": "McCafe Coffee",
-      "id": "mccof",
-      "price": 1.00
-    },
-    {
-      "name": "McCafe Decaf Coffee",
-      "id": "mcdcof",
-      "price": 1.00
-    },
-    {
-      "name": "McCafe Macchiato",
-      "id": "mcmac",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Cappuchino",
-      "id": "mccap",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Americano",
-      "id": "mcame",
-      "price": 2.19
-    },
-    {
-      "name": "McCafe Southern Style Lemonade",
-      "id": "mcssl",
-      "price": 1.80
-    }
-  ],
-  "Fries & Sides": [
-    {
-      "name": "Fries",
-      "id": "fries",
-      "price": 1.49
-    },
-    {
-      "name": "Apple Slices",
-      "id": "as",
-      "price": 0.50
-    },
-    {
-      "name": "Side Salad",
-      "id": "ss",
-      "price": 1.69
-    },
-    {
-      "name": "Fruit 'N Yogurt Parfait'",
-      "id": "fnyp",
-      "price": 1.00
-    }
-  ],
-  "Sweets & Treats": [
-    {
-      "name": "McFlurry",
-      "id": "mcflu",
-      "price": 2.19
-    },
-    {
-      "name": "Sundae",
-      "id": "sun",
-      "price": 1.00
-    },
-    {
-      "name": "Apple Pie",
-      "id": "ap",
-      "price": 0.69
-    },
-    {
-      "name": "Cookie",
-      "id": "coo",
-      "price": 0.59
-    },
-    {
-      "name": "Pumpkin & Creme Pie",
-      "id": "pcp",
-      "price": 0.89
-    },
-    {
-      "name": "Holiday Pie",
-      "id": "hp",
-      "price": 0.69
-    }
-  ],
-  "Beverages": [
-    {
-      "name": "Soft Drink",
-      "id": "sd",
-      "price": 1.00
-    },
-    {
-      "name": "Minute Maid Orange Juice",
-      "id": "mmoj",
-      "price": 1.89
-    },
-    {
-      "name": "Minute Maid Apple Juice Box",
-      "id": "mmajb",
-      "price": 0.99
-    },
-    {
-      "name": "1% Low Fat Milk Jug",
-      "id": "lfmj",
-      "price": 0.99
-    },
-    {
-      "name": "Fat Free Chocolate Milk Jug",
-      "id": "ffcmj",
-      "price": 0.99
-    },
-    {
-      "name": "Dasani Water",
-      "id": "dw",
-      "price": 1.49
-    },
-    {
-      "name": "Sweet Tea",
-      "id": "st",
-      "price": 1.00
-    },
-    {
-      "name": "Iced Tea",
-      "id": "it",
-      "price": 1.00
-    },
-    {
-      "name": "Hot Tea",
-      "id": "ht",
-      "price": 1.00
-    }
-  ],
-  "Salads": [
-    {
-      "name": "Southwest Salad",
-      "id": "sous",
-      "price": 4.19
-    },
-    {
-      "name": "Bacon Ranch Salad",
-      "id": "brs",
-      "price": 4.19
-    }
-  ],
-  "Individual Items": [
-
-  ]
-}
+[
+  {
+    "group": "Extra Value Meals",
+    "name": "Big Mac Meal",
+    "id": "bmm",
+    "price": 6.69
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Quarter Pounder with Cheese Meal",
+    "id": "qpcm",
+    "price": 6.39
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Quarter Pounder Meal",
+    "id": "qpm",
+    "price": 6.09
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Double Quarter Pounder with Cheese Meal",
+    "id": "dqpcm",
+    "price": 7.49
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Buttermilk Crispy Chicken Sandwich Meal",
+    "id": "bccsm",
+    "price": 6.99
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Artisan Grilled Chicken Sandwich Meal",
+    "id": "agcsm",
+    "price": 6.99
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "10 Piece Chicken McNuggets Meal",
+    "id": "tpcmm",
+    "price": 6.79
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Filet-O-Fish Meal",
+    "id": "fofm",
+    "price": 6.29
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "4pc. Buttermilk Crispy Tenders Meal",
+    "id": "fpbctm",
+    "price": 5.89
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "6pc. Buttermilk Crispy Tenders Meal",
+    "id": "spbctm",
+    "price": 7.79
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "10pc. Buttermilk Crispy Tenders Meal",
+    "id": "tpbctm",
+    "price": 11.69
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Quarter Cheese Deluxe Meal",
+    "id": "qcdm",
+    "price": 6.49
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Egg McMuffin Meal",
+    "id": "emm",
+    "price": 4.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage McMuffin with Egg Meal",
+    "id": "smem",
+    "price": 4.89
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Bacon, Egg & Cheese Biscuit Meal",
+    "id": "becbm",
+    "price": 4.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage Biscuit with Egg Meal",
+    "id": "sbem",
+    "price": 4.89
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Bacon, Egg & Cheese McGriddles Meal",
+    "id": "becmm",
+    "price": 4.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage, Egg & Cheese McGriddles Meal",
+    "id": "secmm",
+    "price": 4.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Egg McMuffin",
+    "id": "em",
+    "price": 3.59
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage McMuffin",
+    "id": "sm",
+    "price": 1.19
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Bacon, Egg & Cheese Biscuit",
+    "id": "becb",
+    "price": 3.59
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage Biscuit with Egg",
+    "id": "sbe",
+    "price": 3.49
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage, Egg, & Cheese Biscuit",
+    "id": "secb",
+    "price": 3.79
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Bacon, Egg & Cheese McGriddles",
+    "id": "becm",
+    "price": 3.59
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage, Egg & Cheese McGriddles",
+    "id": "secm",
+    "price": 3.59
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage McGriddles",
+    "id": "smg",
+    "price": 2.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage Burrito",
+    "id": "sbur",
+    "price": 1.29
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Hash Browns",
+    "id": "hb",
+    "price": 1.00
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "3 Hotcakes",
+    "id": "th",
+    "price": 2.99
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "3 Hotcakes with Sausage",
+    "id": "ths",
+    "price": 3.49
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage McMuffin with Egg",
+    "id": "sme",
+    "price": 3.49
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage Biscuit",
+    "id": "sbis",
+    "price": 1.00
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Egg Biscuit",
+    "id": "ebis",
+    "price": 1.29
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "2 McGriddles",
+    "id": "tm",
+    "price": 1.00
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Oatmeal without Brown Sugar",
+    "id": "obm",
+    "price": 2.29
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Fruit & Maple Oatmeal",
+    "id": "fmo",
+    "price": 2.29
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Blueberry Muffin",
+    "id": "bm",
+    "price": 1.69
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Carrot Cake Muffin",
+    "id": "ccm",
+    "price": 1.69
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Cranberry Orange Muffin",
+    "id": "com",
+    "price": 1.69
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Crispy Chicken Meal",
+    "id": "scccm",
+    "price": 6.89
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Grilled Chicken Meal",
+    "id": "scgcm",
+    "price": 6.89
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Quarter Pounder Meal",
+    "id": "scqpm",
+    "price": 6.89
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Crispy Chicken",
+    "id": "sccc",
+    "price": 4.79
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Grilled Chicken",
+    "id": "scgc",
+    "price": 4.79
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "Signature Crafted Quarter Pounder",
+    "id": "scqp",
+    "price": 4.79
+  },
+  {
+    "group": "Happy Meal",
+    "name": "4pc. Chicken McNuggets Happy Meal",
+    "id": "fpcmhm",
+    "price": 3.79
+  },
+  {
+    "group": "Happy Meal",
+    "name": "6pc. Chicken McNuggets Mighty Kids Meal",
+    "id": "spcmmkm",
+    "price": 4.39
+  },
+  {
+    "group": "Happy Meal",
+    "name": "Cheeseburger Happy Meal",
+    "id": "chm",
+    "price": 3.39
+  },
+  {
+    "group": "Happy Meal",
+    "name": "Hamburger Happy Meal",
+    "id": "hhm",
+    "price": 3.39
+  },
+  {
+    "group": "Happy Meal",
+    "name": "McDouble Mighty Kids Meal",
+    "id": "mmkm",
+    "price": 3.69
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Smoothie",
+    "id": "mcsmo",
+    "price": 2.69
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Shake",
+    "id": "mcsha",
+    "price": 2.39
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Frappe",
+    "id": "mcfra",
+    "price": 2.59
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Mocha",
+    "id": "mcmoc",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Iced Mocha",
+    "id": "mcimoc",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Latte",
+    "id": "mclat",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Hot Chocolate",
+    "id": "mchcho",
+    "price": 2.09
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Coffee",
+    "id": "mccof",
+    "price": 1.00
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Decaf Coffee",
+    "id": "mcdcof",
+    "price": 1.00
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Macchiato",
+    "id": "mcmac",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Cappuchino",
+    "id": "mccap",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Americano",
+    "id": "mcame",
+    "price": 2.19
+  },
+  {
+    "group": "McCafe",
+    "name": "McCafe Southern Style Lemonade",
+    "id": "mcssl",
+    "price": 1.80
+  },
+  {
+    "group": "Fries & Sides",
+    "name": "Fries",
+    "id": "fries",
+    "price": 1.49
+  },
+  {
+    "group": "Fries & Sides",
+    "name": "Apple Slices",
+    "id": "as",
+    "price": 0.50
+  },
+  {
+    "group": "Fries & Sides",
+    "name": "Side Salad",
+    "id": "ss",
+    "price": 1.69
+  },
+  {
+    "group": "Fries & Sides",
+    "name": "Fruit 'N Yogurt Parfait'",
+    "id": "fnyp",
+    "price": 1.00
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "McFlurry",
+    "id": "mcflu",
+    "price": 2.19
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Sundae",
+    "id": "sun",
+    "price": 1.00
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Apple Pie",
+    "id": "ap",
+    "price": 0.69
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Cookie",
+    "id": "coo",
+    "price": 0.59
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Pumpkin & Creme Pie",
+    "id": "pcp",
+    "price": 0.89
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Holiday Pie",
+    "id": "hp",
+    "price": 0.69
+  },
+  {
+    "group": "Beverages",
+    "name": "Soft Drink",
+    "id": "sd",
+    "price": 1.00
+  },
+  {
+    "group": "Beverages",
+    "name": "Minute Maid Orange Juice",
+    "id": "mmoj",
+    "price": 1.89
+  },
+  {
+    "group": "Beverages",
+    "name": "Minute Maid Apple Juice Box",
+    "id": "mmajb",
+    "price": 0.99
+  },
+  {
+    "group": "Beverages",
+    "name": "1% Low Fat Milk Jug",
+    "id": "lfmj",
+    "price": 0.99
+  },
+  {
+    "group": "Beverages",
+    "name": "Fat Free Chocolate Milk Jug",
+    "id": "ffcmj",
+    "price": 0.99
+  },
+  {
+    "group": "Beverages",
+    "name": "Dasani Water",
+    "id": "dw",
+    "price": 1.49
+  },
+  {
+    "group": "Beverages",
+    "name": "Sweet Tea",
+    "id": "st",
+    "price": 1.00
+  },
+  {
+    "group": "Beverages",
+    "name": "Iced Tea",
+    "id": "it",
+    "price": 1.00
+  },
+  {
+    "group": "Beverages",
+    "name": "Hot Tea",
+    "id": "ht",
+    "price": 1.00
+  },
+  {
+    "group": "Salads",
+    "name": "Southwest Salad",
+    "id": "sous",
+    "price": 4.19
+  },
+  {
+    "group": "Salads",
+    "name": "Bacon Ranch Salad",
+    "id": "brs",
+    "price": 4.19
+  }
+]
