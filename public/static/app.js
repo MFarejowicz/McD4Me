@@ -27,7 +27,7 @@ $(document).ready(function(){
     for (var item of menuItems) {
       if (!(groups.includes(item.group))) {
         groups.push(item.group);
-        $("#menu").append("<div><p data-group='" + item.group + "' class='menu-group-title'>" + item.group + "</p><div data-group='" + item.group + "' style='display: none'></div></div>");
+        $("#menu").append("<div><p data-group='" + item.group + "' class='menu-group-title'>" + item.group + " + </p><div data-group='" + item.group + "' style='display: none'></div></div>");
       }
       $("div[data-group='" + item.group + "']").append("<div class='menu-item'><input id='" + item.id + "' type='checkbox'></input><label for='" + item.id + "'>$" + item.price + " - " + item.name + "</label></div>");
       $("#" + item.id).data(item);
@@ -44,7 +44,7 @@ $(document).ready(function(){
   function takeOrder() {
     var order = {};
     order.items = [];
-    order.cost = 0;
+    order.totalCost = 0;
     $("input[type='checkbox'").click(function() {
       var el = this;
       var selector = $("#" + el.id);
@@ -53,22 +53,53 @@ $(document).ready(function(){
         $("#order").append("<div class='order-item' id='" + itemData.id + "'><div class='order-item-top'><span>$" + itemData.price + " - " + itemData.name +
           "</span><div class='quantity-div'><label for='" + itemData.id + "-amt'>Quantity: </label><input type='number' id='" +
           itemData.id + "-amt' class='quantity-input' value='1' min='1'></input></div></div><div><span>Special Instructions:</span><textarea class='instr-text'></textarea></div></div>");
-        order.items.push(itemData.id);
-        order.cost += itemData.price;
-        order.cost = round(order.cost);
+        var newItem = {};
+        newItem[itemData.id] = {name: itemData.name, cost: itemData.price, quantity: 1, instructions: ""};
+        order.items.push(newItem);
+        // order.totalCost += itemData.price;
+        // order.totalCost = round(order.totalCost);
       } else {
         $("div#" + itemData.id).remove();
         order.items = order.items.filter(item => item !== itemData.id);
-        order.cost -= itemData.price;
-        order.cost = round(order.cost);
+        // order.totalCost -= itemData.price;
+        // order.totalCost = round(order.totalCost);
       }
-      console.log(order);
+      // console.log(order);
+      $(".quantity-input").bind('keyup mouseup', function () {
+        var id = this.id;
+        id = id.replace("-amt", "");
+        var ind;
+        for (var el in order.items){
+          if (id == Object.keys(order.items[el])[0]) {
+            ind = el;
+            break;
+          }
+        }
+        var val = parseInt($(this).val());
+        if (val > 0 && val != order.items[ind][id].quantity){
+          order.items[ind][id].quantity = val;
+        }
+        console.log(order);
+      });
     });
   }
+
 
   function round(value) {
     return parseFloat(value.toFixed(2));
   }
+
+  function setTime() {
+    var d = new Date();
+    var m = d.getMinutes();
+    var h = d.getHours();
+    if(d<10){d='0'+d}
+    if(m<10){m='0'+m}
+
+    var currentTime = h+":"+m;
+    $("#when").val(currentTime);
+  }
+  setTime();
 
 });
 
@@ -112,13 +143,3 @@ $(document).ready(function(){
 // })
 //
 // app.listen(8080, () => console.log('Example app listening on port 8080!'))
-
-// var d = new Date();
-// var m = d.getMinutes();
-// var h = d.getHours();
-//
-// var currentTime = h+":"+m;
-// var timeControl = document.querySelector('input[type="time"]');
-// if (timeControl) {
-//   timeControl.value = currentTime;
-// }

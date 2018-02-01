@@ -31,22 +31,25 @@
         <div class="content">
           <h3 class="prompt" id="order-prompt">Place an order</h3>
           <form id="order-form">
-            <p>Ordering from: __________</p>
-            <p>There are __ orders left.</p>
-            <p>Orders close in __ minutes.</p>
-            <div>
-              <label for="name">Name:</label>
-              <br/>
-              <input type="text" id="name" name="name">
+            <div class="orderInfo">
+              <div>Ordering from: <span id="o-resName"></span></div>
+              <div>There are <span id="o-numLeft"></span> orders left.</div>
+              <div>Orders close in <span id="o-timeLeft"></span> minutes.</div>
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+              </div>
             </div>
+            <hr/>
             <div id="menu">
             </div>
-            <p>Your order:</p>
+            <hr/>
+            <h4 class="orderHeading">Your Order: </h4>
             <div id="order">
             </div>
           </form>
           <div class="single-button">
-            <button type="submit" form="order-form" id="submit" class="butt"><span>Submit Order</span></button>
+            <button id="submit-order" class="butt"><span>Submit Order</span></button>
           </div>
         </div>
       </div>

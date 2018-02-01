@@ -15,10 +15,23 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-input[type=checkbox] {
-  transform: scale(1.5);
-  margin-right: 15px;
+label {
+  cursor: url('./img/cursor/cursor-auto.png'), auto;
 }
+
+footer {
+  background-color: #080808;
+  color: #d0d0d0;
+  display: flex;
+  vertical-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear: both;
+}
+
+/*  COMMON ELEMENTS BELOW */
 
 #wrapper {
   min-height: 100%;
@@ -41,7 +54,7 @@ input[type=checkbox] {
 
 .content {
   width: 60%;
-  margin: 10px auto 0;
+  margin: 10px auto 10px;
 }
 
 .prompt {
@@ -49,20 +62,36 @@ input[type=checkbox] {
   text-decoration: underline;
 }
 
+.plug {
+  font-family: "Roboto", sans-serif;
+}
+
+.orderHeading {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.bot {
+  width: 90%;
+  margin: auto;
+  font-size: 14px;
+}
+
+
+
+
+/*  INDEX ELEMENTS BELOW */
+
 .description {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
-}
-
-.plug {
-  font-family: sans-serif;
 }
 
 .disclaimer {
   font-size: 16px;
 }
 
-.buttons {
+.main-options {
   margin: 50px 0;
   display: flex;
   align-items: center;
@@ -114,7 +143,11 @@ input[type=checkbox] {
   outline: 0;
 }
 
-#create-form, #order-form {
+
+
+/*  NEW ELEMENTS BELOW   */
+
+#create-form {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
 }
@@ -129,24 +162,59 @@ input[type=checkbox] {
   width: 500px;
 }
 
-#where, #when, #maxNum, #pass, #name {
+#where, #when, #maxNum, #pass {
   width: 300px;
   font-size: 25px;
   padding: 5px;
 }
 
-#create, #submit {
+#create {
   width: 400px;
   font-size: 50px;
 }
 
-#create:hover span, #submit:hover span {
+#create:hover span {
   padding-right: 30px;
 }
 
-.orderHeading {
-  font-size: 35px;
-  text-decoration: underline;
+
+
+/*  HOST ELEMENTS BELOW  */
+
+.hostInfo {
+  font-size: 30px;
+}
+
+
+
+/*  ORDER ELEMENTS BELOW */
+
+#order-form {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
+.orderInfo {
+  font-size: 30px;
+}
+
+.orderInfo div {
+  margin: 5px 0px;
+}
+
+#name {
+  width: 300px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+#menu {
+  font-size: 30px;
 }
 
 .menu-group-title {
@@ -162,14 +230,14 @@ input[type=checkbox] {
   background-color: #e2b507;
 }
 
-.order-item:hover {
-  background-color: #e2b507;
-}
-
 .order-item-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.order-item:hover {
+  background-color: #e2b507;
 }
 
 .quantity-div {
@@ -186,31 +254,21 @@ input[type=checkbox] {
 
 .instr-text {
   resize: none;
-  width: 100%;
-  height: 50px;
-}
-
-label {
-  cursor: url('./img/cursor/cursor-auto.png'), auto;
-}
-
-footer {
-  background-color: #080808;
-  color: #d0d0d0;
-  display: flex;
-  vertical-align: center;
-  width: 100%;
-  position: relative;
-  margin-top: -50px;
-  height: 50px;
-  clear: both;
-}
-
-.bot {
   width: 90%;
-  margin: auto;
-  font-size: 14px;
+  height: 50px;
+  margin: 0 5% 10px;
 }
+
+#submit-order {
+  width: 400px;
+  font-size: 50px;
+}
+
+#submit-order:hover span {
+  padding-right: 30px;
+}
+
+
 
 @media all and (max-width: 1720px){
   #float {
@@ -246,7 +304,8 @@ footer {
 }
 
 @media all and (max-width: 900px){
-  .buttons {
+  /*  INDEX */
+  .main-options {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -254,12 +313,18 @@ footer {
   #join {
     margin-top: 30px;
   }
+
+  /*  NEW  */
   #create-prompt {
     text-align: center;
   }
   #create-form {
     margin-top: 10px;
     font-size: 20px;
+  }
+  .create-button {
+    display: flex;
+    justify-content: center;
   }
   .row {
     flex-direction: column;
@@ -275,16 +340,18 @@ footer {
     font-size: 16px;
     padding: 5px;
   }
-  .single-button {
-    display:flex;
-    justify-content:space-around;
-  }
   #create {
     width: 225px;
     font-size: 30px;
   }
   #create:hover span {
     padding-right: 20px;
+  }
+
+  /*  ORDER  */
+  .single-button {
+    display:flex;
+    justify-content:space-around;
   }
 }
 
@@ -304,18 +371,50 @@ footer {
   .prompt {
     font-size: 30px;
   }
-  .description {
-    font-size: 18px;
-  }
-  .disclaimer {
-    font-size: 14px;
-  }
   .butt {
     width: 250px;
     font-size: 70px;
   }
   .butt:hover span {
     padding-right: 45px;
+  }
+
+  /*  INDEX  */
+  .description {
+    font-size: 18px;
+  }
+  .disclaimer {
+    font-size: 14px;
+  }
+
+  /*  NEW  */
+  .create-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*  HOST  */
+  .hostInfo {
+    font-size: 18px;
+  }
+
+  /*  ORDER  */
+  .orderInfo, #menu {
+    font-size: 18px;
+  }
+  #name {
+    width: 160px;
+    font-size: 18px;
+  }
+  #submit-order {
+    font-size: 25px;
+  }
+  .orderHeading {
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  input[type=checkbox] {
+    transform: scale(1.2);
   }
 }
 

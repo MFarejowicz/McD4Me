@@ -380,8 +380,9 @@
   {
     "group": "Fries & Sides",
     "name": "Fries",
-    "id": "fries",
-    "price": 1.49
+    "id": "fri",
+    "price": 1.49,
+    "options": {"Small": 0, "Medium": 0.50, "Large": 1.00}
   },
   {
     "group": "Fries & Sides",

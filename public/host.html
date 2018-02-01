@@ -29,12 +29,14 @@
           <img id="float" src="./static/img/float.png"></img>
         </div>
         <div class="content">
-          <h3 class="prompt">Room <span id="roomNum"></span></h3>
-          <p>Order form link: ___ </p>
-          <p><span>Time left: </span><span id="timeLeft"></span></p>
+          <h3 class="prompt">Room <span id="h-roomNum"></span></h3>
+          <div class="hostInfo">
+            <div>Order form link: <span id="h-roomLink"></span></div>
+            <div><span>Time left: </span><span id="h-timeLeft"></span></div>
+          </div>
           <h4 class="orderHeading">Orders</h4>
-          <ul id="orderList">
-          </ul>
+          <div id="orderList">
+          </div>
         </div>
       </div>
     </div>
@@ -44,6 +46,7 @@
         <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./static/app.js"></script>
   </body>
 </html>
