@@ -164,7 +164,7 @@
   {
     "group": "All Day Breakfast",
     "name": "Hash Browns",
-    "id": "hb",
+    "id": "hbr",
     "price": 1.00
   },
   {
@@ -218,7 +218,7 @@
   {
     "group": "All Day Breakfast",
     "name": "Blueberry Muffin",
-    "id": "bm",
+    "id": "bbm",
     "price": 1.69
   },
   {
@@ -503,5 +503,191 @@
     "name": "Bacon Ranch Salad",
     "id": "brs",
     "price": 4.19
+  },
+  {
+    "group": "Individual Items",
+    "name": "Cheeseburger",
+    "id": "cb",
+    "price": 1.00
+  },
+  {
+    "group": "Individual Items",
+    "name": "McDouble",
+    "id": "md",
+    "price": 1.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Double Cheeseburger",
+    "id": "dcb",
+    "price": 2.19
+  },
+  {
+    "group": "Individual Items",
+    "name": "Hamburger",
+    "id": "hb",
+    "price": 1.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "Big Mac",
+    "id": "bm",
+    "price": 5.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "Double Quarter Pounder with Cheese",
+    "id": "dqpc",
+    "price": 6.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "Quarter Pounder with Cheese",
+    "id": "qpc",
+    "price": 5.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "4pc. Chicken McNuggets",
+    "id": "fpcm",
+    "price": 1.69
+  },
+  {
+    "group": "Individual Items",
+    "name": "6pc. Chicken McNuggets",
+    "id": "spcm",
+    "price": 3.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "10pc. Chicken McNuggets",
+    "id": "tpcm",
+    "price": 5.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "20pc. Chicken McNuggets",
+    "id": "twpcm",
+    "price": 7.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Artisan Grilled Chicken Sandwich",
+    "id": "agcs",
+    "price": 5.79
+  },
+  {
+    "group": "Individual Items",
+    "name": "Buttermilk Crispy Chicken Sandwich",
+    "id": "bccs",
+    "price": 5.79
+  },
+  {
+    "group": "Individual Items",
+    "name": "McChicken",
+    "id": "mc",
+    "price": 1.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Ranch Snack Wrap",
+    "id": "rsw",
+    "price": 1.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Filet-O-Fish",
+    "id": "fof",
+    "price": 4.89
+  },
+  {
+    "group": "Individual Items",
+    "name": "Strawberry Go-Gurt",
+    "id": "sgg",
+    "price": 0.59
+  },
+  {
+    "group": "Individual Items",
+    "name": "Triple Cheeseburger",
+    "id": "tcb",
+    "price": 3.49
+  },
+  {
+    "group": "Individual Items",
+    "name": "Quarter Pounder Hamburger",
+    "id": "qph",
+    "price": 5.39
+  },
+  {
+    "group": "Individual Items",
+    "name": "Daily Double",
+    "id": "dd",
+    "price": 2.49
+  },
+  {
+    "group": "Individual Items",
+    "name": "Ranch Snack Wrap Crispy Chicken",
+    "id": "rswcc",
+    "price": 1.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Double Hamburger",
+    "id": "dh",
+    "price": 1.79
+  },
+  {
+    "group": "Individual Items",
+    "name": "Bacon Double Cheeseburger",
+    "id": "bdc",
+    "price": 2.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Bacon McDouble",
+    "id": "bmd",
+    "price": 2.69
+  },
+  {
+    "group": "Individual Items",
+    "name": "Classic Chicken Sandwich",
+    "id": "ccs",
+    "price": 3.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "2 Piece Buttermilk Crispy Chicken Tenders",
+    "id": "twpbcct",
+    "price": 2.00
+  },
+  {
+    "group": "Individual Items",
+    "name": "4 Piece Buttermilk Crispy Chicken Tenders",
+    "id": "fpbcct",
+    "price": 4.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "6 Piece Buttermilk Crispy Chicken Tenders",
+    "id": "spbcct",
+    "price": 6.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "10 Piece Buttermilk Crispy Chicken Tenders",
+    "id": "tepbcct",
+    "price": 10.29
+  },
+  {
+    "group": "Individual Items",
+    "name": "Mac Jr",
+    "id": "mj",
+    "price": 3.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "Grand Mac",
+    "id": "gm",
+    "price": 5.99
   }
 ]

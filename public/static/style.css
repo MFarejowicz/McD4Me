@@ -230,19 +230,32 @@ input[type=checkbox] {
   background-color: #e2b507;
 }
 
-.order-item-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.order-item {
+  border-bottom: 1px solid black;
 }
 
 .order-item:hover {
   background-color: #e2b507;
 }
 
+.order-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .quantity-div {
   display: flex;
   align-items: center;
+}
+
+.remove-item {
+  font-size: 24px;
+  padding: 0px 5px;
+}
+
+.remove-item:hover {
+  color: red;
 }
 
 .quantity-input {
@@ -257,6 +270,10 @@ input[type=checkbox] {
   width: 90%;
   height: 50px;
   margin: 0 5% 10px;
+}
+
+.order-total {
+  font-size: 30px;
 }
 
 #submit-order {
@@ -415,6 +432,12 @@ input[type=checkbox] {
   }
   input[type=checkbox] {
     transform: scale(1.2);
+  }
+  .order-subtotal, .order-taxtip {
+    font-size: 16px;
+  }
+  .order-total {
+    font-size: 18px;
   }
 }
 
