@@ -54,7 +54,7 @@ footer {
 
 .content {
   width: 60%;
-  margin: 10px auto 10px;
+  margin: 10px auto 20px;
 }
 
 .prompt {
@@ -92,7 +92,7 @@ footer {
 }
 
 .main-options {
-  margin: 50px 0;
+  margin: 25px 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -142,6 +142,51 @@ footer {
 .butt:focus {
   outline: 0;
 }
+
+.to-join {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+
+.to-join-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#join-label {
+  font-weight: bold;
+}
+
+#join-num {
+  font-size: 40px;
+  width: 100px;
+  margin: 0px 10px;
+}
+
+#join-butt {
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  font-size: 32px;
+  border: none;
+  border-radius: 12px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
+#join-butt:active {
+  transform: translateY(4px);
+}
+
+#join-butt:focus {
+  outline: 0;
+}
+
+
 
 
 
@@ -402,6 +447,15 @@ input[type=checkbox] {
   }
   .disclaimer {
     font-size: 14px;
+  }
+  .to-join {
+    font-size: 20px;
+  }
+  #join-num {
+    font-size: 30px;
+  }
+  #join-butt {
+    font-size: 24px;
   }
 
   /*  NEW  */

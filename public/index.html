@@ -8,7 +8,9 @@
 
     <title>McD4Me</title>
 
-    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js" defer></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <script type="text/javascript" src="./static/app.js" defer></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="./static/style.css" rel="stylesheet">
@@ -44,8 +46,15 @@
             </p>
           </div>
           <div class="main-options">
-            <button id="host" class="butt" type="button"><span class="test">Host</span></button>
+            <a href="new.html" ><button id="host" class="butt" type="button"><span class="test">Host</span></button></a>
             <button id="join" class="butt" type="button"><span>Join</span></button>
+          </div>
+          <div class="to-join">
+            <div class="to-join-container">
+              <label for="join-num" id="join-label">Room to join:</label>
+              <input type="number" id="join-num" name="join-num" min="1"></input>
+              <button id="join-butt">Go!</button>
+            </div>
           </div>
         </div>
       </div>
@@ -56,7 +65,5 @@
         <p class="plug">mfarejow@mit.edu</p>
       </div>
     </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="./static/app.js"></script>
   </body>
 </html>

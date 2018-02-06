@@ -154,6 +154,13 @@ $(document).ready(function(){
     return parseFloat(value.toFixed(2));
   }
 
+  function handleJoin() {
+    $("#join").click(function(){
+      $(".to-join").toggle(500);
+    });
+  }
+  handleJoin();
+
   function setTime() {
     var d = new Date();
     var m = d.getMinutes();
