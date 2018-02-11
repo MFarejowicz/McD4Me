@@ -230,6 +230,65 @@ footer {
   font-size: 30px;
 }
 
+.info-row {
+  display: flex;
+}
+
+#h-increase {
+  margin-left: 10px;
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  font-size: 18px;
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
+#h-increase:active {
+  transform: translateY(4px);
+}
+
+#h-increase:focus {
+  outline: 0;
+}
+
+.list-item {
+  font-size: 20px;
+  line-height: 26px;
+  padding: 5px 0px;
+  border-bottom: 1px solid black;
+}
+
+.list-item:hover {
+  background-color: #e2b507;
+}
+
+.person {
+  font-size: 30px;
+}
+
+.item-cluster {
+  margin-top: 4px;
+}
+
+.food-item {
+  margin-bottom: 10px;
+}
+
+.food-item-name {
+  font-size: 24px;
+}
+
+.food-item-info {
+  display: flex;
+}
+.food-item-info div {
+  flex-grow: 1;
+}
 
 
 /*  ORDER ELEMENTS BELOW */
@@ -315,6 +374,10 @@ input[type=checkbox] {
   width: 90%;
   height: 50px;
   margin: 0 5% 10px;
+}
+
+.order-subtotal, .order-taxtip {
+  font-size: 26px;
 }
 
 .order-total {
@@ -468,6 +531,16 @@ input[type=checkbox] {
   .hostInfo {
     font-size: 18px;
   }
+  .list-item {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .person {
+    font-size: 22px;
+  }
+  .food-item-name {
+    font-size: 22px;
+  }
 
   /*  ORDER  */
   .orderInfo, #menu {
@@ -488,10 +561,10 @@ input[type=checkbox] {
     transform: scale(1.2);
   }
   .order-subtotal, .order-taxtip {
-    font-size: 16px;
+    font-size: 18px;
   }
   .order-total {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 

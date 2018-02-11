@@ -11,6 +11,34 @@ $(document).ready(function(){
   };
   firebase.initializeApp(config);
 
+  var ref = firebase.database().ref();
+  var testRef = ref.child("rooms").child("test");
+  testRef.once("value").then(function(snapshot) {
+    var status = snapshot.val();
+    if (status.place == "McDonald's"){
+      var url = "./static/menus/mcd.json";
+    }
+    $.getJSON(url, doActions);
+  });
+
+  testRef.on("value", function(snapshot) {
+    var status = snapshot.val();
+    var place, numLeft, closeTime;
+    place = status.place;
+    $("#o-resName").text(place);
+    numLeft = status.numLeft;
+    $("#o-numLeft").text(numLeft);
+    closeTime = new Date(status.closeTime);
+    var now = Date.now();
+    var diff = round((closeTime - now)/1000/60);
+    $("#o-closeTime").text(diff);
+
+    $("#h-roomLink").text("mcd4me.com/order.html");
+    $("#h-numLeft").text(numLeft);
+    $("#h-timeLeft").text(diff);
+    fillHostPage(status);
+  });
+
   class Order {
     constructor() {
       this.name = "";
@@ -18,6 +46,12 @@ $(document).ready(function(){
       this.subTotal = 0;
       this.taxTip = 0;
       this.total = 0;
+    }
+    setName(val) {
+      this.name = val;
+    }
+    getName() {
+      return this.name;
     }
     getItems() {
       return this.items;
@@ -75,9 +109,36 @@ $(document).ready(function(){
     }
   }
 
-  var url = "./static/menus/mcd.json";
-
-  $.getJSON(url, doActions);
+  function fillHostPage(status) {
+    $("#orderList").children().remove();
+    var orders = status.orders;
+    var index = 0, subTotal = 0, taxTip = 0, total = 0;
+    for (var person in orders){
+      var order = orders[person];
+      $("#orderList").append("<div class='list-item'><p class='person'>" + order.name + "</p><div class='item-cluster' id='order"+index+"'></div></div>");
+      for (var item of order.items){
+        $("#order" + index).append("<div class='food-item'><div class='food-item-name'>" + item.name + "</div><div class='food-item-info'><div class='food-item-cost'>$" + item.itemCost + "</div><div class='food-item-amt'> Quantity: " + item.quantity + "</div></div><div> Special Instructions: " + (item.instructions == "" ? "None" : item.instructions) + "</div></div>");
+      }
+      $("#order" + index).append("<div>Total after tax and delivery: $" + order.total + "</div>");
+      subTotal += order.subTotal;
+      taxTip += order.taxTip;
+      total += order.total;
+      index ++;
+    }
+    $("#h-subtotal").text(round(subTotal));
+    $("#h-taxtip").text(round(taxTip));
+    $("#h-total").text(round(total));
+  }
+  function increaseOrderLimit() {
+    $("#h-increase").click(function() {
+      testRef.once("value").then(function(snapshot) {
+        var status = snapshot.val();
+        var numLeft = status.numLeft;
+        testRef.update({numLeft: numLeft + 1});
+      });
+    })
+  }
+  increaseOrderLimit();
 
   function doActions(data) {
     makeMenu(data);
@@ -107,6 +168,10 @@ $(document).ready(function(){
 
   function takeOrder() {
     var order = new Order();
+    $("#name").off().bind('keyup mouseup', function () {
+      var val = $(this).val();
+      order.setName(val);
+    });
     $("input[type='checkbox'").click(function() {
       var el = this;
       var selector = $("#" + el.id);
@@ -140,13 +205,20 @@ $(document).ready(function(){
         updateCosts(order);
       });
     });
+    $("#submit-order").click(function() {
+      var name = order.getName();
+      if (name != "") {
+        var nameRef = firebase.database().ref("rooms/test/orders/" + name);
+        nameRef.set(order);
+      }
+    });
   }
 
   function updateCosts(order) {
     var costs = order.getCosts();
-    $("#subtotal").text("$" + costs.subTotal);
-    $("#taxtip").text("$" + costs.taxTip);
-    $("#total").text("$" + costs.total);
+    $("#o-subtotal").text(costs.subTotal);
+    $("#o-taxtip").text(costs.taxTip);
+    $("#o-total").text(costs.total);
   }
 
 
@@ -174,44 +246,3 @@ $(document).ready(function(){
   setTime();
 
 });
-
-// var ref = firebase.database().ref();
-// var testRef = ref.child("test");
-//
-// const roomSpan = document.getElementById("roomNum");
-// const timeSpan = document.getElementById("timeLeft");
-// const orderList = document.getElementById("orderList");
-//
-// testRef.on("value", function(snap) {
-//   console.log(snap.val());
-//
-//   if (roomSpan) {
-//     roomSpan.innerText = "test";
-//   }
-//
-//   if (timeSpan) {
-//     var date = new Date(null);
-//     date.setSeconds(snap.val().time);
-//     var result = date.toISOString().substr(11, 8);
-//     timeSpan.innerText = result;
-//   }
-//
-//   for (var order in snap.val().orders) {
-//     console.log(snap.val().orders[order]);
-//   }
-//
-// });
-
-
-// const express = require('express')
-// const app = express()
-//
-// app.use(express.static('templates'))
-// app.use('/static', express.static('static'))
-//
-// // 404
-// app.get('*', function(req, res) {
-//   res.send('oops 404')
-// })
-//
-// app.listen(8080, () => console.log('Example app listening on port 8080!'))

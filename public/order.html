@@ -37,9 +37,9 @@
             <div class="orderInfo">
               <div>Ordering from: <span id="o-resName"></span></div>
               <div>There are <span id="o-numLeft"></span> orders left.</div>
-              <div>Orders close in <span id="o-timeLeft"></span> minutes.</div>
+              <div>Orders close in <span id="o-closeTime"></span> minutes.</div>
               <div>
-                <label for="name">Name:</label>
+                <label for="name">Name (Venmo):</label>
                 <input type="text" id="name" name="name">
               </div>
             </div>
@@ -50,13 +50,12 @@
             <h4 class="orderHeading">Your Order: </h4>
             <div id="order">
             </div>
-            <p class="order-subtotal">Order subtotal: <span id="subtotal">$0</span></p>
-            <p class="order-taxtip">Order tax/tip/delivery: <span id="taxtip">$0</span></p>
-            <p class="order-total">Order total: <span id="total">$0</span></p>
-
+            <p class="order-subtotal">Order subtotal: $<span id="o-subtotal">0</span></p>
+            <p class="order-taxtip">Order tax/tip/delivery: $<span id="o-taxtip">0</span></p>
+            <p class="order-total">Order total: $<span id="o-total">0</span></p>
           </form>
           <div class="single-button">
-            <button id="submit-order" class="butt"><span>Submit Order</span></button>
+            <button id="submit-order" class="butt"><span><a href="confirm.html">Submit Order</a></span></button>
           </div>
         </div>
       </div>
