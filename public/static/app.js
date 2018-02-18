@@ -10,34 +10,39 @@ $(document).ready(function(){
     messagingSenderId: "988385113266"
   };
   firebase.initializeApp(config);
-
   var ref = firebase.database().ref();
-  var testRef = ref.child("rooms").child("test");
-  testRef.once("value").then(function(snapshot) {
-    var status = snapshot.val();
-    if (status.place == "McDonald's"){
-      var url = "./static/menus/mcd.json";
-    }
-    $.getJSON(url, doActions);
-  });
 
-  testRef.on("value", function(snapshot) {
-    var status = snapshot.val();
-    var place, numLeft, closeTime;
-    place = status.place;
-    $("#o-resName").text(place);
-    numLeft = status.numLeft;
-    $("#o-numLeft").text(numLeft);
-    closeTime = new Date(status.closeTime);
-    var now = Date.now();
-    var diff = round((closeTime - now)/1000/60);
-    $("#o-closeTime").text(diff);
+  var room = getParameterByName("room");
+  if (room){
+    $("#h-roomLink").text("mcd4me.com/order.html?room=" + room);
+    var roomRef = ref.child("rooms").child(room);
+    roomRef.once("value").then(function(snapshot) {
+      var status = snapshot.val();
+      if (status.place == "McDonald's"){
+        var url = "./static/menus/mcd.json";
+      }
+      $.getJSON(url, doActions);
+    });
 
-    $("#h-roomLink").text("mcd4me.com/order.html");
-    $("#h-numLeft").text(numLeft);
-    $("#h-timeLeft").text(diff);
-    fillHostPage(status);
-  });
+    roomRef.on("value", function(snapshot) {
+      var status = snapshot.val();
+      var place, numLeft, closeTime;
+      place = status.place;
+      $("#o-resName").text(place);
+      numLeft = status.numLeft;
+      $("#o-numLeft").text(numLeft);
+      closeTime = new Date(status.closeTime);
+      var now = Date.now();
+      var diff = round((closeTime - now)/1000/60);
+      $("#o-closeTime").text(diff);
+
+      $("#h-numLeft").text(numLeft);
+      $("#h-timeLeft").text(diff);
+      fillHostPage(status);
+    });
+  }
+
+
 
   class Order {
     constructor() {
@@ -129,12 +134,13 @@ $(document).ready(function(){
     $("#h-taxtip").text(round(taxTip));
     $("#h-total").text(round(total));
   }
+
   function increaseOrderLimit() {
     $("#h-increase").click(function() {
-      testRef.once("value").then(function(snapshot) {
+      roomRef.once("value").then(function(snapshot) {
         var status = snapshot.val();
         var numLeft = status.numLeft;
-        testRef.update({numLeft: numLeft + 1});
+        roomRef.update({numLeft: numLeft + 1});
       });
     })
   }
@@ -208,8 +214,9 @@ $(document).ready(function(){
     $("#submit-order").click(function() {
       var name = order.getName();
       if (name != "") {
-        var nameRef = firebase.database().ref("rooms/test/orders/" + name);
+        var nameRef = firebase.database().ref("rooms/" + room + "/orders/" + name);
         nameRef.set(order);
+        $(location).attr('href', 'confirm.html');
       }
     });
   }
@@ -233,16 +240,62 @@ $(document).ready(function(){
   }
   handleJoin();
 
+  function createRoom() {
+    $("#create").click(function() {
+      var place = $("#where").val();
+      var time = $("#when").val();
+      time = makeTimeString(time);
+      var num = parseInt($("#maxNum").val());
+      var rooms = ref.child("rooms");
+      var newRef = rooms.push({
+        closeTime: time,
+        numLeft: num,
+        place: place
+      });
+      var newKey = newRef.key;
+      $(location).attr('href', 'host.html/?room=' + newKey);
+    })
+    // rooms.once("value").then(function(snapshot) {
+    //   var status = snapshot.val();
+    //   var prevRooms = [];
+    //   Object.keys(status).forEach(function(key) {
+    //     prevRooms.push(parseInt(key));
+    //   });
+    //   var prev = Math.max(...prevRooms);
+    //
+    // });
+  }
+  createRoom();
+
   function setTime() {
     var d = new Date();
     var m = d.getMinutes();
     var h = d.getHours();
-    if(d<10){d='0'+d}
+    if(h<10){h='0'+h}
     if(m<10){m='0'+m}
 
     var currentTime = h+":"+m;
     $("#when").val(currentTime);
   }
   setTime();
+
+  function makeTimeString(time) {
+    var h = parseInt(time.substring(0,2));
+    var m = parseInt(time.substring(3));
+    var s = 0
+    var d = new Date();
+    d.setHours(h, m, s);
+    return d.toString();
+  }
+
+  function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
 
 });

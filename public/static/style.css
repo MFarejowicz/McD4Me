@@ -31,6 +31,12 @@ footer {
   clear: both;
 }
 
+a {
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+  color: inherit;
+  text-decoration: none;
+}
+
 /*  COMMON ELEMENTS BELOW */
 
 #wrapper {
