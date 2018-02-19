@@ -12,38 +12,6 @@ $(document).ready(function(){
   firebase.initializeApp(config);
   var ref = firebase.database().ref();
 
-  var room = getParameterByName("room");
-  if (room){
-    $("#h-roomLink").text("mcd4me.com/order.html?room=" + room);
-    var roomRef = ref.child("rooms").child(room);
-    roomRef.once("value").then(function(snapshot) {
-      var status = snapshot.val();
-      if (status.place == "McDonald's"){
-        var url = "./static/menus/mcd.json";
-      }
-      $.getJSON(url, doActions);
-    });
-
-    roomRef.on("value", function(snapshot) {
-      var status = snapshot.val();
-      var place, numLeft, closeTime;
-      place = status.place;
-      $("#o-resName").text(place);
-      numLeft = status.numLeft;
-      $("#o-numLeft").text(numLeft);
-      closeTime = new Date(status.closeTime);
-      var now = Date.now();
-      var diff = round((closeTime - now)/1000/60);
-      $("#o-closeTime").text(diff);
-
-      $("#h-numLeft").text(numLeft);
-      $("#h-timeLeft").text(diff);
-      fillHostPage(status);
-    });
-  }
-
-
-
   class Order {
     constructor() {
       this.name = "";
@@ -112,6 +80,34 @@ $(document).ready(function(){
       this.taxTip = round(0.15 * this.subTotal);
       this.total = round(this.subTotal + this.taxTip);
     }
+  }
+
+  var room = getParameterByName("room");
+  if (room){
+    $("#h-roomLink").text("mcd4me.firebaseapp.com/order.html?room=" + room);
+    var roomRef = ref.child("rooms").child(room);
+
+    roomRef.on("value", function(snapshot) {
+      var status = snapshot.val();
+      $("#o-resName").text(status.place);
+      $("#o-numLeft").text(status.numLeft);
+      var closeTime = new Date(status.closeTime);
+      var now = Date.now();
+      var diff = round((closeTime - now)/1000/60);
+      $("#o-closeTime").text(diff);
+
+      $("#h-numLeft").text(status.numLeft);
+      $("#h-timeLeft").text(diff);
+      fillHostPage(status);
+    });
+
+    roomRef.once("value").then(function(snapshot) {
+      var status = snapshot.val();
+      if (status.place == "McDonald's"){
+        var url = "./static/menus/mcd.json";
+      }
+      $.getJSON(url, doActions);
+    });
   }
 
   function fillHostPage(status) {
@@ -213,11 +209,31 @@ $(document).ready(function(){
     });
     $("#submit-order").click(function() {
       var name = order.getName();
-      if (name != "") {
-        var nameRef = firebase.database().ref("rooms/" + room + "/orders/" + name);
-        nameRef.set(order);
-        $(location).attr('href', 'confirm.html');
-      }
+      var roomRef = ref.child("rooms/" + room);
+      var ordersRef = roomRef.child("orders");
+      ordersRef.once("value").then(function(snapshot) {
+        var status = snapshot.val();
+        var prevNames = [];
+        Object.keys(status).forEach(function(key) {
+          prevNames.push(key);
+        });
+        roomRef.once("value").then(function(snapshot) {
+          var stat = snapshot.val();
+          var ordersLeft = stat.numLeft;
+          if (name == "") {
+            alert("Enter a name please");
+          } else if (prevNames.includes(name)){
+            alert("This name is already taken");
+          } else if (ordersLeft <= 0) {
+            alert("No orders left");
+          } else {
+            var nameRef = ordersRef.child(name);
+            nameRef.set(order);
+            roomRef.update({numLeft: ordersLeft - 1});
+            $(location).attr('href', 'confirm.html');
+          }
+        });
+      });
     });
   }
 
@@ -226,11 +242,6 @@ $(document).ready(function(){
     $("#o-subtotal").text(costs.subTotal);
     $("#o-taxtip").text(costs.taxTip);
     $("#o-total").text(costs.total);
-  }
-
-
-  function round(value) {
-    return parseFloat(value.toFixed(2));
   }
 
   function handleJoin() {
@@ -255,17 +266,32 @@ $(document).ready(function(){
       var newKey = newRef.key;
       $(location).attr('href', 'host.html/?room=' + newKey);
     })
-    // rooms.once("value").then(function(snapshot) {
-    //   var status = snapshot.val();
-    //   var prevRooms = [];
-    //   Object.keys(status).forEach(function(key) {
-    //     prevRooms.push(parseInt(key));
-    //   });
-    //   var prev = Math.max(...prevRooms);
-    //
-    // });
   }
   createRoom();
+
+  function joinRoom() {
+    $("#join-butt").click(function() {
+      var roomToJoin = $("#join-text").val();
+      var rooms = ref.child("rooms");
+      rooms.once("value").then(function(snapshot) {
+        var status = snapshot.val();
+        var prevRooms = [];
+        Object.keys(status).forEach(function(key) {
+          prevRooms.push(key);
+        });
+        if (prevRooms.includes(roomToJoin)) {
+          $(location).attr('href', 'order.html/?room=' + roomToJoin);
+        } else {
+          alert("This room does not exist");
+        }
+      });
+    })
+  }
+  joinRoom();
+
+  function round(value) {
+    return parseFloat(value.toFixed(2));
+  }
 
   function setTime() {
     var d = new Date();

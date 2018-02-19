@@ -165,9 +165,9 @@ a {
   font-weight: bold;
 }
 
-#join-num {
+#join-text {
   font-size: 40px;
-  width: 100px;
+  width: 200px;
   margin: 0px 10px;
 }
 
@@ -520,7 +520,7 @@ input[type=checkbox] {
   .to-join {
     font-size: 20px;
   }
-  #join-num {
+  #join-text {
     font-size: 30px;
   }
   #join-butt {
