@@ -84,7 +84,7 @@ $(document).ready(function(){
 
   var room = getParameterByName("room");
   if (room){
-    $("#h-roomLink").text("mcd4me.firebaseapp.com/order.html?room=" + room);
+    $("#h-roomLink").text("https://mcd4me-94dda.firebaseapp.com/order.html?room=" + room);
     var roomRef = ref.child("rooms").child(room);
 
     roomRef.on("value", function(snapshot) {
@@ -214,9 +214,11 @@ $(document).ready(function(){
       ordersRef.once("value").then(function(snapshot) {
         var status = snapshot.val();
         var prevNames = [];
-        Object.keys(status).forEach(function(key) {
-          prevNames.push(key);
-        });
+        if (status) {
+          Object.keys(status).forEach(function(key) {
+            prevNames.push(key);
+          });
+        }
         roomRef.once("value").then(function(snapshot) {
           var stat = snapshot.val();
           var ordersLeft = stat.numLeft;
@@ -264,7 +266,7 @@ $(document).ready(function(){
         place: place
       });
       var newKey = newRef.key;
-      $(location).attr('href', 'host.html/?room=' + newKey);
+      $(location).attr('href', 'host.html?room=' + newKey);
     })
   }
   createRoom();
@@ -280,7 +282,7 @@ $(document).ready(function(){
           prevRooms.push(key);
         });
         if (prevRooms.includes(roomToJoin)) {
-          $(location).attr('href', 'order.html/?room=' + roomToJoin);
+          $(location).attr('href', 'order.html?room=' + roomToJoin);
         } else {
           alert("This room does not exist");
         }
