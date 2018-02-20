@@ -2,12 +2,12 @@ $(document).ready(function(){
 
   // Initialize Firebase
   const config = {
-    apiKey: "AIzaSyCWNhabtGA9a9Zu-1FovZ39u9Y7Cl-C2BM",
-    authDomain: "mcd4me-94dda.firebaseapp.com",
-    databaseURL: "https://mcd4me-94dda.firebaseio.com",
-    projectId: "mcd4me-94dda",
-    storageBucket: "mcd4me-94dda.appspot.com",
-    messagingSenderId: "988385113266"
+    apiKey: "AIzaSyB3fxucYLqnzLwt62LII_oRb-WGl8cXPg0",
+    authDomain: "mcd4-me.firebaseapp.com",
+    databaseURL: "https://mcd4-me.firebaseio.com",
+    projectId: "mcd4-me",
+    storageBucket: "",
+    messagingSenderId: "250979556000"
   };
   firebase.initializeApp(config);
   var ref = firebase.database().ref();
@@ -84,7 +84,7 @@ $(document).ready(function(){
 
   var room = getParameterByName("room");
   if (room){
-    $("#h-roomLink").text("https://mcd4me-94dda.firebaseapp.com/order.html?room=" + room);
+    $("#h-roomLink").text("https://mcd4-me.firebaseapp.com/order.html?room=" + room);
     var roomRef = ref.child("rooms").child(room);
 
     roomRef.on("value", function(snapshot) {
