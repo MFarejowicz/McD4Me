@@ -84,7 +84,8 @@ $(document).ready(function(){
 
   var room = getParameterByName("room");
   if (room){
-    $("#h-roomLink").text("https://mcd4-me.firebaseapp.com/order.html?room=" + room);
+    var roomLink = "https://mcd4-me.firebaseapp.com/order.html?room=" + room;
+    $("#h-roomLink").html('<a href="' + roomLink + '">' + roomLink + '</a>');
     var roomRef = ref.child("rooms").child(room);
 
     roomRef.on("value", function(snapshot) {
