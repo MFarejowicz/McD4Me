@@ -83,7 +83,10 @@ a {
   font-size: 14px;
 }
 
-
+.confirmed {
+  font-size: 80px;
+  text-align: center;
+}
 
 
 /*  INDEX ELEMENTS BELOW */
@@ -509,6 +512,9 @@ input[type=checkbox] {
   .butt:hover span {
     padding-right: 45px;
   }
+  .confirmed {
+    font-size: 30px;
+  }
 
   /*  INDEX  */
   .description {
@@ -518,10 +524,14 @@ input[type=checkbox] {
     font-size: 14px;
   }
   .to-join {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  #join-label {
+    text-align: center;
   }
   #join-text {
-    font-size: 30px;
+    font-size: 22px;
+    width: 150px;
   }
   #join-butt {
     font-size: 24px;
