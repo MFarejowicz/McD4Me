@@ -239,11 +239,11 @@ a {
   font-size: 30px;
 }
 
-.info-row {
-  display: flex;
+#h-roomLink, #h-numLeft, #h-timeLeft {
+  font-weight: bold;
 }
 
-#h-increase {
+#h-increaseNum {
   margin-left: 10px;
   background-color: #000000;
   font-family: "Neue Haas Unica Bold", sans-serif;
@@ -253,15 +253,37 @@ a {
   text-align: center;
   text-decoration: none;
   width: 50px;
-  font-size: 18px;
+  font-size: 24px;
   cursor: url('./img/cursor/cursor-pointer.png'), auto;
 }
 
-#h-increase:active {
+#h-increaseNum:active {
   transform: translateY(4px);
 }
 
-#h-increase:focus {
+#h-increaseNum:focus {
+  outline: 0;
+}
+
+#h-increaseTime {
+  margin-left: 10px;
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  font-size: 24px;
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
+#h-increaseTime:active {
+  transform: translateY(4px);
+}
+
+#h-increaseTime:focus {
   outline: 0;
 }
 
@@ -278,6 +300,7 @@ a {
 
 .person {
   font-size: 30px;
+  margin-bottom: 6px;
 }
 
 .item-cluster {
@@ -546,6 +569,12 @@ input[type=checkbox] {
   /*  HOST  */
   .hostInfo {
     font-size: 18px;
+  }
+  #h-increase {
+    font-size: 16px;
+  }
+  #h-increaseTime {
+    font-size: 16px;
   }
   .list-item {
     font-size: 18px;
