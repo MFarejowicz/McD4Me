@@ -53,8 +53,7 @@ $(document).ready(() => {
     rooms.once('value')
       .then((snapshot) => {
         let existingRooms = Object.keys(snapshot.val());
-        let filteredRooms = existingRooms.map(parseInt).filter(isNumber);
-
+        let filteredRooms = existingRooms.map((el) => parseInt(el, 10)).filter(isNumber);
         let nextRoomKey = Math.max(...filteredRooms) + 1;
         let nextRoom = {};
         nextRoom[nextRoomKey] = {

@@ -10,9 +10,9 @@
 
     <script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-    <script type="text/javascript" src="./order.js" defer></script>
+    <script type="text/javascript" src="./script/order.js" defer></script>
 
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="./static/style.css" rel="stylesheet">
   </head>
   <body>
@@ -35,11 +35,11 @@
           <h3 class="prompt" id="order-prompt">Place an order</h3>
           <form id="order-form">
             <div class="orderInfo">
-              <div>Ordering from: <span id="o-resName"></span></div>
+              <div>Ordering from: <span id="o-resName"></span>.</div>
               <div>There are <span id="o-numLeft"></span> orders left.</div>
-              <div>Orders close in <span id="o-closeTime"></span> minutes.</div>
+              <div>Orders close in: <span id="o-closeTime"></span></div>
               <div>
-                <label for="name">Name (Venmo):</label>
+                <label for="name">Name (or Venmo):</label>
                 <input type="text" id="name" name="name">
               </div>
             </div>

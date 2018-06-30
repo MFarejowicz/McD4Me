@@ -343,6 +343,10 @@ input[type=checkbox] {
   margin: 5px 0px;
 }
 
+#o-resName, #o-numLeft, #o-closeTime {
+  font-weight: bold;
+}
+
 #name {
   width: 300px;
   font-size: 25px;

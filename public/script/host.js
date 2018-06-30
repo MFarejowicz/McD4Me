@@ -104,7 +104,7 @@ $(document).ready(() => {
       let diff = round((closeTime - now) / 1000 / 60);
 
       $('#h-numLeft').text(status.numLeft);
-      $('#h-timeLeft').text(diff >= 0 ? `${diff} minutes` : 'Order closed!');
+      $('#h-timeLeft').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
       fillHostPage(status);
     });
   }
@@ -126,9 +126,9 @@ $(document).ready(() => {
 
     roomRef.once('value').then((snapshot) => {
       let status = snapshot.val();
-      let closeTime = status.closeTime;
-      console.log(closeTime);
-      // roomRef.update({ numLeft: numLeft + 1 });
+      let closeTime = new Date(status.closeTime);
+      let newCloseTime = new Date(closeTime.getTime() + 1 * 60000);
+      roomRef.update({ closeTime: newCloseTime.toString() });
     });
   });
 });

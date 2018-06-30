@@ -16,8 +16,9 @@ $(document).ready(() => {
     $('.to-join').toggle(500);
   });
 
-  // Handle entering a room after typing in the room code and hitting the join button
-  $('#join-butt').click(() => {
+  // Handle entering a room after typing in the room code and
+  // either hitting the join button or pressing enter
+  function handleJoin() {
     let roomToJoin = $('#join-text').val();
     let existingRooms = ref.child('rooms');
     existingRooms.once('value')
@@ -29,5 +30,18 @@ $(document).ready(() => {
           alert('This room does not exist');
         }
       });
+  }
+
+  // Bind joining to button click
+  $('#join-butt').click(() => {
+    handleJoin();
+  });
+
+  // Bind joining to pressing enter
+  $(document).keypress((key) => {
+    if ($('.to-join').css('display') === 'block' && key.keyCode === 13) {
+      key.preventDefault();
+      handleJoin();
+    }
   });
 });
