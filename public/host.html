@@ -33,17 +33,27 @@
         </div>
         <div class="content">
           <h3 class="prompt">Room <span id="h-roomNum"></span></h3>
-          <div class="hostInfo">
-            <div>Order form link: <br/><span id="h-roomLink"></span></div>
-            <div>There are <span id="h-numLeft"></span> orders left.<button id="h-increaseNum"> + 1 </button></div>
-            <div>Time left: <span id="h-timeLeft"></span><button id="h-increaseTime"> + 1 </button></div>
+          <div id="pass-container">
+            <p>This room has a password!</p>
+            <div class="pass-prompt">
+              <label for="pass-text" id="pass-label">Enter password:</label>
+              <input id="pass-text" name="pass-text">
+              <button id="pass-butt">View</button>
+            </div>
           </div>
-          <h4 class="orderHeading">Orders</h4>
-          <div id="orderList">
+          <div id="interior">
+            <div class="hostInfo">
+              <div>Order form link: <br/><span id="h-roomLink"></span></div>
+              <div>There are <span id="h-numLeft"></span> orders left.<button id="h-increaseNum"> + 1 </button></div>
+              <div>Time left: <span id="h-timeLeft"></span><button id="h-increaseTime"> + 1 </button></div>
+            </div>
+            <h4 class="orderHeading">Orders</h4>
+            <div id="orderList">
+            </div>
+            <p class="order-subtotal">Order subtotal: $<span id="h-subtotal">0</span></p>
+            <p class="order-taxtip">Order tax/tip/delivery: $<span id="h-taxtip">0</span></p>
+            <p class="order-total">Order total: $<span id="h-total">0</span></p>
           </div>
-          <p class="order-subtotal">Order subtotal: $<span id="h-subtotal">0</span></p>
-          <p class="order-taxtip">Order tax/tip/delivery: $<span id="h-taxtip">0</span></p>
-          <p class="order-total">Order total: $<span id="h-total">0</span></p>
         </div>
       </div>
     </div>

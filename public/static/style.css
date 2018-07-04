@@ -197,8 +197,6 @@ a {
 
 
 
-
-
 /*  NEW ELEMENTS BELOW   */
 
 #create-form {
@@ -218,8 +216,14 @@ a {
 
 #where, #when, #maxNum, #pass {
   width: 300px;
+  font-family: "Neue Haas Unica Regular", sans-serif;
   font-size: 25px;
   padding: 5px;
+}
+
+#where {
+  border-radius: 0;
+  -webkit-appearance: none;
 }
 
 #create {
@@ -234,6 +238,38 @@ a {
 
 
 /*  HOST ELEMENTS BELOW  */
+
+#pass-container {
+  font-size: 40px;
+}
+
+#pass-text {
+  font-size: 40px;
+  width: 300px;
+}
+
+#pass-butt {
+  background-color: #000000;
+  font-family: "Neue Haas Unica Bold", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 35px;
+  cursor: url('./img/cursor/cursor-pointer.png'), auto;
+}
+
+#pass-butt:active {
+  transform: translateY(4px);
+}
+
+#pass-butt:focus {
+  outline: 0;
+}
+
+#interior {
+  display: none;
+}
 
 .hostInfo {
   font-size: 30px;
@@ -509,6 +545,20 @@ input[type=checkbox] {
     padding-right: 20px;
   }
 
+  /*  HOST  */
+  #pass-container {
+    font-size: 30px;
+  }
+
+  #pass-text {
+    font-size: 30px;
+    width: 200px;
+  }
+
+  #pass-butt {
+    font-size: 25px;
+  }
+
   /*  ORDER  */
   .single-button {
     display:flex;
@@ -571,6 +621,19 @@ input[type=checkbox] {
   }
 
   /*  HOST  */
+  #pass-container {
+    font-size: 20px;
+  }
+
+  #pass-text {
+    font-size: 20px;
+    width: 160px;
+  }
+
+  #pass-butt {
+    font-size: 18px;
+  }
+
   .hostInfo {
     font-size: 18px;
   }

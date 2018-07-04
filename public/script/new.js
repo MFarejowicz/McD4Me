@@ -43,7 +43,7 @@ $(document).ready(() => {
 
   // Creates a new room in the database, and redirects to the host page
   // corresponding to that room
-  $('#create').click(() => {
+  function handleCreate() {
     let place = $('#where').val();
     let time = $('#when').val();
     time = makeTimeString(time);
@@ -63,7 +63,24 @@ $(document).ready(() => {
           password: pass,
         }
         rooms.update(nextRoom);
-        $(location).attr('href', `host.html?room=${nextRoomKey}`);
+        if (pass === '') {
+          $(location).attr('href', `host.html?room=${nextRoomKey}`);
+        } else {
+          $(location).attr('href', `host.html?room=${nextRoomKey}&pass=${pass}`);
+        }
       });
+  }
+
+  // Bind creating a room to button click
+  $('#create').click(() => {
+    handleCreate();
+  });
+
+  // Bind creating a room to pressing enter
+  $(document).keypress((key) => {
+    if (key.keyCode === 13) {
+      key.preventDefault();
+      handleCreate();
+    }
   });
 });

@@ -36,7 +36,7 @@ $(document).ready(() => {
         <div class="item-cluster" id="order${index}">
         </div>
       </div>`
-    )
+    );
   }
 
   // This makes a div that hold all of the information for one item in a
@@ -49,16 +49,16 @@ $(document).ready(() => {
           <div class="food-item-cost">$${cost}</div>
           <div class="food-item-amt">Quantity: ${quantity}</div>
         </div>
-        <div> Special Instructions: ${instructions == "" ? "None" : instructions}</div>
+        <div> Special Instructions: ${instructions === "" ? "None" : instructions}</div>
       </div>`
-    )
+    );
   }
 
   // This makes a div that has the total cost for a person's order
   function makeOrderTotal(total) {
     return (
       `<div>Total after tax and delivery: $${total}</div>`
-    )
+    );
   }
 
   // The below takes the snapshot of the database and uses it to fill out
@@ -68,11 +68,11 @@ $(document).ready(() => {
 
     let orders = status.orders;
     let index = 0, subTotal = 0, taxTip = 0, total = 0;
-    for (let person in orders){
+    for (let person in orders) {
       let order = orders[person];
 
       $('#orderList').append(makeOrderGroup(order.name, index));
-      for (var item of order.items){
+      for (var item of order.items) {
         $(`#order${index}`).append(makeOrderItem(item.name, item.itemCost, item.quantity, item.instructions));
       }
       $(`#order${index}`).append(makeOrderTotal(order.total));
@@ -97,6 +97,24 @@ $(document).ready(() => {
     $('#h-roomLink').html(`<a href="${roomLink}">${roomLink}</a>`);
     let roomRef = ref.child('rooms').child(room);
 
+    roomRef.once('value').then((snapshot) => {
+      let status = snapshot.val();
+      let password = status.password;
+
+      if (password === '') {
+        $('#pass-container').toggle();
+        $('#interior').toggle();
+      } else {
+        const urlPass = getParameterByName('pass');
+        if (urlPass) {
+          if (urlPass === password) {
+            $('#pass-container').toggle();
+            $('#interior').toggle();
+          }
+        }
+      }
+    });
+
     roomRef.on('value', (snapshot) => {
       let status = snapshot.val();
       let closeTime = new Date(status.closeTime);
@@ -108,6 +126,38 @@ $(document).ready(() => {
       fillHostPage(status);
     });
   }
+
+  // Handle displaying the content after entering the password and
+  // either hitting the join button or pressing enter
+  function handlePass() {
+    let roomRef = ref.child('rooms').child(room);
+    let pass = $('#pass-text').val();
+    if (pass !== '') {
+      roomRef.once('value').then((snapshot) => {
+        let status = snapshot.val();
+        let expected = status.password;
+        if (pass === expected) {
+          $('#pass-container').toggle(500);
+          $('#interior').toggle(500);
+        } else {
+          alert('Wrong password!');
+        }
+      });
+    }
+  }
+
+  // Bind entering password to button click
+  $('#pass-butt').click(() => {
+    handlePass();
+  });
+
+  // Bind entering password to pressing enter
+  $(document).keypress((key) => {
+    if ($('#pass-container').css('display') === 'block' && key.keyCode === 13) {
+      key.preventDefault();
+      handlePass();
+    }
+  });
 
   // The below increases the max amount orders
   $('#h-increaseNum').click(() => {
