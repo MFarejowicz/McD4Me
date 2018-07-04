@@ -163,10 +163,12 @@ $(document).ready(() => {
     handlePass();
   });
 
+  // Bind closing the modal to clicking the 'X' in the modal
   $('.close-modal').click(() => {
     $('#modal').css('display', 'none');
   });
 
+  // Bind closing the modal to clicking outside the modal
   $(window).click((evt) => {
     if (evt.target === $('#modal')[0]) {
       $('#modal').css('display', 'none');
@@ -210,7 +212,7 @@ $(document).ready(() => {
     roomRef.once('value').then((snapshot) => {
       let status = snapshot.val();
       let closeTime = new Date(status.closeTime);
-      let now = new Date(Date.now());
+      let now = new Date();
       let diff = closeTime - now;
 
       let newCloseTime = (diff > 0

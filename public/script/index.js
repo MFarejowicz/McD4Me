@@ -46,10 +46,12 @@ $(document).ready(() => {
     }
   });
 
+  // Bind closing the modal to clicking the 'X' in the modal
   $('.close-modal').click(() => {
     $('#modal').css('display', 'none');
   });
 
+  // Bind closing the modal to clicking outside the modal
   $(window).click((evt) => {
     if (evt.target === $('#modal')[0]) {
       $('#modal').css('display', 'none');

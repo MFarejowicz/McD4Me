@@ -105,17 +105,39 @@ $(document).ready(() => {
     takeOrder();
   }
 
+  // Make the html for groups and titles for menu items
+  function makeMenuGroup(group) {
+    return (
+      `<div>
+        <p data-group="${group}" class="menu-group-title">${group} +</p>
+        <div data-group="${group}" style="display: none">
+        </div>
+      </div>`
+    );
+  }
+
+  // Make the html for a single menu item
+  function makeMenuItem(id, price, name) {
+    return (
+      `<div class="menu-item">
+        <input id="${id}" type="checkbox"></input>
+        <label for="${id}">$${price} - ${name}</label>
+      </div>`
+    );
+  }
+
   // Takes the json menu and makes it into text and buttons on the order page
   function makeMenu(data){
     let menuItems = data;
     let groups = [];
+
     for (let item of menuItems) {
       if (!(groups.includes(item.group))) {
         groups.push(item.group);
-        $('#menu').append("<div><p data-group='" + item.group + "' class='menu-group-title'>" + item.group + " + </p><div data-group='" + item.group + "' style='display: none'></div></div>");
+        $('#menu').append(makeMenuGroup(item.group));
       }
-      $('div[data-group="' + item.group + '"]').append("<div class='menu-item'><input id='" + item.id + "' type='checkbox'></input><label for='" + item.id + "'>$" + item.price + " - " + item.name + "</label></div>");
-      $('#' + item.id).data(item);
+      $(`div[data-group="${item.group}"]`).append(makeMenuItem(item.id, item.price, item.name));
+      $(`#${item.id}`).data(item);
     }
   }
 
@@ -123,8 +145,29 @@ $(document).ready(() => {
   function handleToggle() {
     $('p[data-group]').click(function() {
       let group = $(this).attr('data-group');
-      $('div[data-group="' + group + '"]').toggle(500);
+      $(`div[data-group="${group}"]`).toggle(500);
     });
+  }
+
+  function makeOrderItem(id, name, price) {
+    return (
+      `<div class="order-item" id="${id}">
+        <div class="order-item-top">
+          <span>$${price} - ${name}</span>
+          <div class="remove-item" data-rem="${id}">
+            <span>X</span>
+          </div>
+        </div>
+        <div class="quantity-div">
+          <label for="${id}-amt">Quantity: </label>
+          <input type="number" id="${id}-amt" data-amt="${id}" class="quantity-input" value="1" min="1"></input>
+        </div>
+        <div>
+          <span>Special Instructions:</span>
+          <textarea data-instr="${id}" class="instr-text"></textarea>
+        </div>
+      </div>`
+    );
   }
 
   // Handles everything related to taking the order once the menu has been loaded,
@@ -132,56 +175,62 @@ $(document).ready(() => {
   // and descriptions, and calculates costs
   function takeOrder() {
     var order = new Order();
+
     $('#name').off().bind('keyup mouseup', function () {
-      var val = $(this).val();
+      let val = $(this).val();
       order.setName(val);
     });
-    $('input[type="checkbox"').click(function() {
-      var el = this;
-      var selector = $('#' + el.id);
-      var itemData = selector.data();
+
+    $('input[type="checkbox"]').click(function() {
+      let el = this;
+      let selector = $(`#${el.id}`);
+      let itemData = selector.data();
+
       if (selector.is(':checked')) {
-        $('#order').append("<div class='order-item' id='" + itemData.id + "'><div class='order-item-top'><span>$" + itemData.price + " - " + itemData.name +
-          "</span><div class='remove-item' data-rem='" + itemData.id + "'><span>X</span></div></div><div class='quantity-div'><label for='" + itemData.id + "-amt'>Quantity: </label><input type='number' id='" +
-          itemData.id + "-amt' data-amt='" + itemData.id + "' class='quantity-input' value='1' min='1'></input></div><div><span>Special Instructions:</span><textarea data-instr='" + itemData.id + "' class='instr-text'></textarea></div></div>");
+        $('#order').append(makeOrderItem(itemData.id, itemData.name, itemData.price));
         order.addItem(itemData.id, itemData.name, itemData.price, 1, '');
       } else {
-        $('div#' + itemData.id).remove();
+        $(`div#${itemData.id}`).remove();
         order.removeItem(itemData.id);
       }
       updateCosts(order);
+
       $('.quantity-input').off().bind('keyup mouseup', function () {
-        var elID = $(this).attr('data-amt');
-        var amt = parseInt($(this).val());
+        let elID = $(this).attr('data-amt');
+        let amt = parseInt($(this).val());
         order.changeQuantity(elID, amt);
         updateCosts(order);
       });
+
       $('.instr-text').off().bind('keyup mouseup', function () {
-        var elID = $(this).attr('data-instr');
-        var instructions = $(this).val();
+        let elID = $(this).attr('data-instr');
+        let instructions = $(this).val();
         order.changeInstructions(elID, instructions);
       });
+
       $('.remove-item').off().click(function() {
-        var elID = $(this).attr('data-rem');
-        $('div#' + elID).remove();
-        $('#' + elID).prop('checked', false);
+        let elID = $(this).attr('data-rem');
+        $(`div#${elID}`).remove();
+        $(`#${elID}`).prop('checked', false);
         order.removeItem(elID);
         updateCosts(order);
       });
     });
+
     $('#submit-order').click(function() {
-      var name = order.getName();
-      var roomRef = ref.child('rooms/' + room);
-      var ordersRef = roomRef.child('orders');
-      ordersRef.once('value').then(function(snapshot) {
-        var status = snapshot.val();
-        var prevNames = [];
+      let name = order.getName();
+      let roomRef = ref.child('rooms/' + room);
+      let ordersRef = roomRef.child('orders');
+
+      ordersRef.once('value').then((snapshot) => {
+        let status = snapshot.val();
+        let prevNames = [];
         if (status) {
           prevNames = Object.keys(status);
         }
-        roomRef.once('value').then(function(snapshot) {
-          var stat = snapshot.val();
-          var ordersLeft = stat.numLeft;
+        roomRef.once('value').then((snapshot) => {
+          let stat = snapshot.val();
+          let ordersLeft = stat.numLeft;
           if (name == '') {
             alert('Enter a name please');
           } else if (prevNames.includes(name)){
@@ -189,7 +238,7 @@ $(document).ready(() => {
           } else if (ordersLeft <= 0) {
             alert('No orders left');
           } else {
-            var nameRef = ordersRef.child(name);
+            let nameRef = ordersRef.child(name);
             nameRef.set(order);
             roomRef.update({numLeft: ordersLeft - 1});
             $(location).attr('href', 'confirm.html');
@@ -218,17 +267,28 @@ $(document).ready(() => {
       $('#o-resName').text(status.place);
       $('#o-numLeft').text(status.numLeft);
       let closeTime = new Date(status.closeTime);
-      let now = Date.now();
+      let now = new Date();
       let diff = round((closeTime - now)/1000/60);
       $('#o-closeTime').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
-    });
 
-    roomRef.once('value').then((snapshot) => {
-      let status = snapshot.val();
-      if (status.place === 'McDonald\'s'){
-        let url = './static/menus/mcd.json';
-        $.getJSON(url, doActions);
+      if (diff > 0) { // Only show menu if time left
+        $('#o-interior').css('display', 'block');
+        $('#o-nameField').css('display', 'block');
+        $('#submit-order').css('display', 'block');
+        roomRef.once('value').then((snapshot) => {
+          let status = snapshot.val();
+          if (status.place === 'McDonald\'s'){
+            let url = './static/menus/mcd.json';
+            $.getJSON(url, doActions);
+          }
+        });
       }
     });
   }
+
+  $(document).keypress((key) => {
+    if (key.keyCode === 13) {
+      key.preventDefault();
+    }
+  });
 });
