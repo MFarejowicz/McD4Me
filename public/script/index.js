@@ -21,13 +21,14 @@ $(document).ready(() => {
   function handleJoin() {
     let roomToJoin = $('#join-text').val();
     let existingRooms = ref.child('rooms');
+
     existingRooms.once('value')
       .then((snapshot) => {
         let status = snapshot.val();
         if (status.hasOwnProperty(roomToJoin)) {
           $(location).attr('href', `order.html?room=${roomToJoin}`);
         } else {
-          alert('This room does not exist');
+          $('#modal').css('display', 'block');
         }
       });
   }
@@ -42,6 +43,16 @@ $(document).ready(() => {
     if ($('.to-join').css('display') === 'block' && key.keyCode === 13) {
       key.preventDefault();
       handleJoin();
+    }
+  });
+
+  $('.close-modal').click(() => {
+    $('#modal').css('display', 'none');
+  });
+
+  $(window).click((evt) => {
+    if (evt.target === $('#modal')[0]) {
+      $('#modal').css('display', 'none');
     }
   });
 });

@@ -22,9 +22,14 @@ $(document).ready(() => {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
 
-  // Used to round values
+  // Used to round values, returns a number
   function round(value) {
     return parseFloat(value.toFixed(2));
+  }
+
+  // Used to round values, returns a string
+  function showTwo(value) {
+    return value.toFixed(2);
   }
 
   // This makes a div that will eventually hold all of the items in a
@@ -45,11 +50,9 @@ $(document).ready(() => {
     return (
       `<div class="food-item">
         <div class="food-item-name">${name}</div>
-        <div class="food-item-info">
-          <div class="food-item-cost">$${cost}</div>
-          <div class="food-item-amt">Quantity: ${quantity}</div>
-        </div>
-        <div> Special Instructions: ${instructions === "" ? "None" : instructions}</div>
+        <div class="food-item-cost">Price: $${cost}</div>
+        <div class="food-item-amt">Quantity: ${quantity}</div>
+        <div class="food-item-instr"> Special Instructions: ${instructions === "" ? "None" : instructions}</div>
       </div>`
     );
   }
@@ -87,6 +90,23 @@ $(document).ready(() => {
     $('#h-total').text(round(total));
   }
 
+  // This function starts the listener on order changes to know when to
+  // refill the host's page with orders
+  function activateFill() {
+    let roomRef = ref.child('rooms').child(room);
+
+    roomRef.on('value', (snapshot) => {
+      let status = snapshot.val();
+      let closeTime = new Date(status.closeTime);
+      let now = Date.now();
+      let diff = showTwo((closeTime - now) / 1000 / 60);
+
+      $('#h-numLeft').text(status.numLeft);
+      $('#h-timeLeft').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
+      fillHostPage(status);
+    });
+  }
+
   // The below occurs on load and whenever orders are updated, it gets
   // a snapshot of the database, updates fields at the top, and triggers
   // the function that fills content
@@ -104,26 +124,17 @@ $(document).ready(() => {
       if (password === '') {
         $('#pass-container').toggle();
         $('#interior').toggle();
+        activateFill();
       } else {
         const urlPass = getParameterByName('pass');
         if (urlPass) {
           if (urlPass === password) {
             $('#pass-container').toggle();
             $('#interior').toggle();
+            activateFill();
           }
         }
       }
-    });
-
-    roomRef.on('value', (snapshot) => {
-      let status = snapshot.val();
-      let closeTime = new Date(status.closeTime);
-      let now = Date.now();
-      let diff = round((closeTime - now) / 1000 / 60);
-
-      $('#h-numLeft').text(status.numLeft);
-      $('#h-timeLeft').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
-      fillHostPage(status);
     });
   }
 
@@ -139,8 +150,9 @@ $(document).ready(() => {
         if (pass === expected) {
           $('#pass-container').toggle(500);
           $('#interior').toggle(500);
+          activateFill();
         } else {
-          alert('Wrong password!');
+          $('#modal').css('display', 'block');
         }
       });
     }
@@ -151,9 +163,30 @@ $(document).ready(() => {
     handlePass();
   });
 
-  // Bind entering password to pressing enter
+  $('.close-modal').click(() => {
+    $('#modal').css('display', 'none');
+  });
+
+  $(window).click((evt) => {
+    if (evt.target === $('#modal')[0]) {
+      $('#modal').css('display', 'none');
+    }
+  });
+
+  // Bind entering password or removing modal to pressing enter
   $(document).keypress((key) => {
-    if ($('#pass-container').css('display') === 'block' && key.keyCode === 13) {
+    if (
+      $('#pass-container').css('display') === 'block' &&
+      $('#modal').css('display') === 'block' &&
+      key.keyCode === 13
+    ) {
+      key.preventDefault();
+      $('#modal').css('display', 'none');
+    } else if (
+      $('#pass-container').css('display') === 'block' &&
+      $('#modal').css('display') === 'none' &&
+      key.keyCode === 13
+    ) {
       key.preventDefault();
       handlePass();
     }
@@ -177,7 +210,13 @@ $(document).ready(() => {
     roomRef.once('value').then((snapshot) => {
       let status = snapshot.val();
       let closeTime = new Date(status.closeTime);
-      let newCloseTime = new Date(closeTime.getTime() + 1 * 60000);
+      let now = new Date(Date.now());
+      let diff = closeTime - now;
+
+      let newCloseTime = (diff > 0
+        ? new Date(closeTime.getTime() + 1 * 60000)
+        : new Date(now.getTime() + 1 * 60000)
+      );
       roomRef.update({ closeTime: newCloseTime.toString() });
     });
   });
