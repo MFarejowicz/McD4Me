@@ -13,25 +13,25 @@ $(document).ready(() => {
 
   // Sets a default for the time orders close
   function setTime() {
-    let currentDate = new Date(); // Default end is current time + 15 minutes
-    let defaultEndDate = new Date(currentDate.getTime() + 15 * 60000);
+    const currentDate = new Date(); // Default end is current time + 15 minutes
+    const defaultEndDate = new Date(currentDate.getTime() + 15 * 60000);
     let m = defaultEndDate.getMinutes();
     let h = defaultEndDate.getHours();
     if (h < 10) { h = `0${h}`; }
     if (m < 10) { m = `0${m}`; }
 
-    let defaultEndTime = `${h}:${m}`;
+    const defaultEndTime = `${h}:${m}`;
     $('#when').val(defaultEndTime);
   }
   setTime();
 
   // Grabs the string from the orders-close input and makes it a usable time string
   function makeTimeString(time) {
-    let h = parseInt(time.substring(0,2), 10);
-    let m = parseInt(time.substring(3), 10);
-    let s = 0;
+    const h = parseInt(time.substring(0, 2), 10);
+    const m = parseInt(time.substring(3), 10);
+    const s = 0;
 
-    let userEndDate = new Date();
+    const userEndDate = new Date();
     userEndDate.setHours(h, m, s);
     return userEndDate.toString();
   }

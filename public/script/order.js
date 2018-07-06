@@ -11,77 +11,6 @@ $(document).ready(() => {
   firebase.initializeApp(config);
   const ref = firebase.database().ref();
 
-  // A class to keep track of a user's order
-  class Order {
-    constructor() {
-      this.name = '';
-      this.items = [];
-      this.subTotal = 0;
-      this.taxTip = 0;
-      this.total = 0;
-    }
-    setName(val) {
-      this.name = val;
-    }
-    getName() {
-      return this.name;
-    }
-    getItems() {
-      return this.items;
-    }
-    getCosts() {
-      return {subTotal: this.subTotal, taxTip: this.taxTip, total: this.total};
-    }
-    addItem(id, name, price, quantity, instructions) {
-      var newItem = {}
-      newItem.id = id;
-      newItem.name = name;
-      newItem.price = price;
-      newItem.quantity = quantity;
-      newItem.itemCost = price * quantity;
-      newItem.instructions = instructions;
-      this.items.push(newItem)
-      this.calculateCosts();
-    }
-    removeItem(id) {
-      this.items = this.items.filter(item => item.id != id);
-      this.calculateCosts();
-    }
-    changeQuantity(id, quantity) {
-      var index = 0;
-      for (var i = 0; i < this.items.length; i++) {
-        if (this.items[i].id == id) {
-          index = i;
-          break;
-        }
-      }
-      if (quantity > 0 && quantity != this.items[index].quantity) {
-        this.items[index].quantity = quantity;
-        this.items[index].itemCost = this.items[index].price * this.items[index].quantity
-        this.calculateCosts();
-      }
-    }
-    changeInstructions(id, instructions) {
-      var index = 0;
-      for (var i = 0; i < this.items.length; i++) {
-        if (this.items[i].id == id) {
-          index = i;
-          break;
-        }
-      }
-      this.items[index].instructions = instructions;
-    }
-    calculateCosts() {
-      var subTotal = 0;
-      for (var item of this.items) {
-        subTotal += item.price * item.quantity;
-      }
-      this.subTotal = round(subTotal);
-      this.taxTip = round(0.15 * this.subTotal);
-      this.total = round(this.subTotal + this.taxTip);
-    }
-  }
-
   // Used to round values
   function round(value) {
     return parseFloat(value.toFixed(2));
@@ -98,11 +27,84 @@ $(document).ready(() => {
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
 
-  // For readability
-  function doActions(data) {
-    makeMenu(data);
-    handleToggle();
-    takeOrder();
+  // A class to keep track of a user's order
+  class Order {
+    constructor() {
+      this.name = '';
+      this.items = [];
+      this.subTotal = 0;
+      this.taxTip = 0;
+      this.total = 0;
+    }
+
+    setName(val) {
+      this.name = val;
+    }
+
+    getName() {
+      return this.name;
+    }
+
+    getItems() {
+      return this.items;
+    }
+
+    getCosts() {
+      return { subTotal: this.subTotal, taxTip: this.taxTip, total: this.total };
+    }
+
+    addItem(id, name, price, quantity, instructions) {
+      let newItem = {};
+      newItem.id = id;
+      newItem.name = name;
+      newItem.price = price;
+      newItem.quantity = quantity;
+      newItem.itemCost = price * quantity;
+      newItem.instructions = instructions;
+      this.items.push(newItem);
+      this.calculateCosts();
+    }
+
+    removeItem(id) {
+      this.items = this.items.filter(item => item.id !== id);
+      this.calculateCosts();
+    }
+
+    changeQuantity(id, quantity) {
+      let index = 0;
+      for (let i = 0; i < this.items.length; i += 1) {
+        if (this.items[i].id === id) {
+          index = i;
+          break;
+        }
+      }
+      if (quantity > 0 && quantity !== this.items[index].quantity) {
+        this.items[index].quantity = quantity;
+        this.items[index].itemCost = this.items[index].price * this.items[index].quantity;
+        this.calculateCosts();
+      }
+    }
+
+    changeInstructions(id, instructions) {
+      let index = 0;
+      for (let i = 0; i < this.items.length; i += 1) {
+        if (this.items[i].id === id) {
+          index = i;
+          break;
+        }
+      }
+      this.items[index].instructions = instructions;
+    }
+
+    calculateCosts() {
+      let subTotal = 0;
+      for (let item of this.items) {
+        subTotal += item.price * item.quantity;
+      }
+      this.subTotal = round(subTotal);
+      this.taxTip = round(0.15 * this.subTotal);
+      this.total = round(this.subTotal + this.taxTip);
+    }
   }
 
   // Make the html for groups and titles for menu items
@@ -250,34 +252,41 @@ $(document).ready(() => {
 
   // Given costs, just updates the elements at the bottom of the order page
   function updateCosts(order) {
-    let costs = order.getCosts();
+    const costs = order.getCosts();
     $('#o-subtotal').text(costs.subTotal);
     $('#o-taxtip').text(costs.taxTip);
     $('#o-total').text(costs.total);
   }
 
+  // For readability
+  function doActions(data) {
+    makeMenu(data);
+    handleToggle();
+    takeOrder();
+  }
+
   // The below happens on page load to fill out fields near the top, and then
   // also loads the menu and makes it interactive
   const room = getParameterByName('room');
-  if (room){
-    let roomRef = ref.child('rooms').child(room);
+  if (room) {
+    const roomRef = ref.child('rooms').child(room);
 
     roomRef.on('value', (snapshot) => {
-      let status = snapshot.val();
+      const status = snapshot.val();
       $('#o-resName').text(status.place);
       $('#o-numLeft').text(status.numLeft);
       let closeTime = new Date(status.closeTime);
       let now = new Date();
-      let diff = round((closeTime - now)/1000/60);
+      let diff = round((closeTime - now) / 1000 / 60);
       $('#o-closeTime').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
 
       if (diff > 0) { // Only show menu if time left
         $('#o-interior').css('display', 'block');
         $('#o-nameField').css('display', 'block');
         $('#submit-order').css('display', 'block');
-        roomRef.once('value').then((snapshot) => {
-          let status = snapshot.val();
-          if (status.place === 'McDonald\'s'){
+        roomRef.once('value').then((snap) => {
+          let status = snap.val();
+          if (status.place === 'McDonald\'s') {
             let url = './static/menus/mcd.json';
             $.getJSON(url, doActions);
           }

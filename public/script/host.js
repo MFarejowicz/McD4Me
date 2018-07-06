@@ -22,11 +22,6 @@ $(document).ready(() => {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
 
-  // Used to round values, returns a number
-  function round(value) {
-    return parseFloat(value.toFixed(2));
-  }
-
   // Used to round values, returns a string
   function showTwo(value) {
     return value.toFixed(2);
@@ -50,7 +45,7 @@ $(document).ready(() => {
     return (
       `<div class="food-item">
         <div class="food-item-name">${name}</div>
-        <div class="food-item-cost">Price: $${cost}</div>
+        <div class="food-item-cost">Price: $${showTwo(cost)}</div>
         <div class="food-item-amt">Quantity: ${quantity}</div>
         <div class="food-item-instr"> Special Instructions: ${instructions === "" ? "None" : instructions}</div>
       </div>`
@@ -60,7 +55,7 @@ $(document).ready(() => {
   // This makes a div that has the total cost for a person's order
   function makeOrderTotal(total) {
     return (
-      `<div>Total after tax and delivery: $${total}</div>`
+      `<div>Total after tax and delivery: $${showTwo(total)}</div>`
     );
   }
 
@@ -75,7 +70,7 @@ $(document).ready(() => {
       let order = orders[person];
 
       $('#orderList').append(makeOrderGroup(order.name, index));
-      for (var item of order.items) {
+      for (let item of order.items) {
         $(`#order${index}`).append(makeOrderItem(item.name, item.itemCost, item.quantity, item.instructions));
       }
       $(`#order${index}`).append(makeOrderTotal(order.total));
@@ -83,11 +78,11 @@ $(document).ready(() => {
       subTotal += order.subTotal;
       taxTip += order.taxTip;
       total += order.total;
-      index ++;
+      index += 1;
     }
-    $('#h-subtotal').text(round(subTotal));
-    $('#h-taxtip').text(round(taxTip));
-    $('#h-total').text(round(total));
+    $('#h-subtotal').text(showTwo(subTotal));
+    $('#h-taxtip').text(showTwo(taxTip));
+    $('#h-total').text(showTwo(total));
   }
 
   // This function starts the listener on order changes to know when to
@@ -177,20 +172,13 @@ $(document).ready(() => {
 
   // Bind entering password or removing modal to pressing enter
   $(document).keypress((key) => {
-    if (
-      $('#pass-container').css('display') === 'block' &&
-      $('#modal').css('display') === 'block' &&
-      key.keyCode === 13
-    ) {
+    if ($('#pass-container').css('display') === 'block' && key.keyCode === 13) {
       key.preventDefault();
-      $('#modal').css('display', 'none');
-    } else if (
-      $('#pass-container').css('display') === 'block' &&
-      $('#modal').css('display') === 'none' &&
-      key.keyCode === 13
-    ) {
-      key.preventDefault();
-      handlePass();
+      if ($('#modal').css('display') === 'block') {
+        $('#modal').css('display', 'none');
+      } else if ($('#modal').css('display') === 'none') {
+        handlePass();
+      }
     }
   });
 

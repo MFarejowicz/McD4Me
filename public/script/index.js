@@ -19,18 +19,20 @@ $(document).ready(() => {
   // Handle entering a room after typing in the room code and
   // either hitting the join button or pressing enter
   function handleJoin() {
-    let roomToJoin = $('#join-text').val();
-    let existingRooms = ref.child('rooms');
+    const roomToJoin = $('#join-text').val();
+    const existingRooms = ref.child('rooms');
 
-    existingRooms.once('value')
-      .then((snapshot) => {
-        let status = snapshot.val();
-        if (status.hasOwnProperty(roomToJoin)) {
-          $(location).attr('href', `order.html?room=${roomToJoin}`);
-        } else {
-          $('#modal').css('display', 'block');
-        }
-      });
+    if (roomToJoin !== '') {
+      existingRooms.once('value')
+        .then((snapshot) => {
+          const status = snapshot.val();
+          if (status.hasOwnProperty(roomToJoin)) {
+            $(location).attr('href', `order.html?room=${roomToJoin}`);
+          } else {
+            $('#modal').css('display', 'block');
+          }
+        });
+    }
   }
 
   // Bind joining to button click
@@ -42,7 +44,11 @@ $(document).ready(() => {
   $(document).keypress((key) => {
     if ($('.to-join').css('display') === 'block' && key.keyCode === 13) {
       key.preventDefault();
-      handleJoin();
+      if ($('#modal').css('display') === 'block') {
+        $('#modal').css('display', 'none');
+      } else if ($('#modal').css('display') === 'none') {
+        handleJoin();
+      }
     }
   });
 
