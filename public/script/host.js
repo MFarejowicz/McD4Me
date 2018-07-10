@@ -88,10 +88,10 @@ $(document).ready(() => {
   // This function starts the listener on order changes to know when to
   // refill the host's page with orders
   function activateFill() {
-    let roomRef = ref.child('rooms').child(room);
+    const roomRef = ref.child('rooms').child(room);
 
     roomRef.on('value', (snapshot) => {
-      let status = snapshot.val();
+      const status = snapshot.val();
       let closeTime = new Date(status.closeTime);
       let now = Date.now();
       let diff = showTwo((closeTime - now) / 1000 / 60);
@@ -108,13 +108,13 @@ $(document).ready(() => {
   const room = getParameterByName('room');
   if (room) {
     $('#h-roomNum').text(room);
-    let roomLink = `https://mcd4-me.firebaseapp.com/order.html?room=${room}`;
+    const roomLink = `https://mcd4-me.firebaseapp.com/order.html?room=${room}`;
     $('#h-roomLink').html(`<a href="${roomLink}">${roomLink}</a>`);
-    let roomRef = ref.child('rooms').child(room);
+    const roomRef = ref.child('rooms').child(room);
 
     roomRef.once('value').then((snapshot) => {
-      let status = snapshot.val();
-      let password = status.password;
+      const status = snapshot.val();
+      const password = status.password;
 
       if (password === '') {
         $('#pass-container').toggle();
@@ -136,12 +136,12 @@ $(document).ready(() => {
   // Handle displaying the content after entering the password and
   // either hitting the join button or pressing enter
   function handlePass() {
-    let roomRef = ref.child('rooms').child(room);
+    const roomRef = ref.child('rooms').child(room);
     let pass = $('#pass-text').val();
     if (pass !== '') {
       roomRef.once('value').then((snapshot) => {
-        let status = snapshot.val();
-        let expected = status.password;
+        const status = snapshot.val();
+        const expected = status.password;
         if (pass === expected) {
           $('#pass-container').toggle(500);
           $('#interior').toggle(500);
@@ -184,21 +184,21 @@ $(document).ready(() => {
 
   // The below increases the max amount orders
   $('#h-increaseNum').click(() => {
-    let roomRef = ref.child('rooms').child(room);
+    const roomRef = ref.child('rooms').child(room);
 
     roomRef.once('value').then((snapshot) => {
-      let status = snapshot.val();
-      let numLeft = status.numLeft;
+      const status = snapshot.val();
+      const numLeft = status.numLeft;
       roomRef.update({ numLeft: numLeft + 1 });
     });
   });
 
   // The below increases the time limit for orders
   $('#h-increaseTime').click(() => {
-    let roomRef = ref.child('rooms').child(room);
+    const roomRef = ref.child('rooms').child(room);
 
     roomRef.once('value').then((snapshot) => {
-      let status = snapshot.val();
+      const status = snapshot.val();
       let closeTime = new Date(status.closeTime);
       let now = new Date();
       let diff = closeTime - now;

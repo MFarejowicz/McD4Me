@@ -16,15 +16,20 @@ $(document).ready(() => {
     return parseFloat(value.toFixed(2));
   }
 
+  // Used to round values, returns a string
+  function showTwo(value) {
+    return value.toFixed(2);
+  }
+
   // Used to get the room ID from the url
   function getParameterByName(name, url) {
-      if (!url) url = window.location.href;
-      name = name.replace(/[\[\]]/g, '\\$&');
-      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-          results = regex.exec(url);
-      if (!results) return null;
-      if (!results[2]) return '';
-      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
 
   // A class to keep track of a user's order
@@ -129,7 +134,7 @@ $(document).ready(() => {
   }
 
   // Takes the json menu and makes it into text and buttons on the order page
-  function makeMenu(data){
+  function makeMenu(data) {
     let menuItems = data;
     let groups = [];
 
@@ -230,8 +235,8 @@ $(document).ready(() => {
         if (status) {
           prevNames = Object.keys(status);
         }
-        roomRef.once('value').then((snapshot) => {
-          let stat = snapshot.val();
+        roomRef.once('value').then((snap) => {
+          let stat = snap.val();
           let ordersLeft = stat.numLeft;
           if (name == '') {
             alert('Enter a name please');
@@ -253,9 +258,9 @@ $(document).ready(() => {
   // Given costs, just updates the elements at the bottom of the order page
   function updateCosts(order) {
     const costs = order.getCosts();
-    $('#o-subtotal').text(costs.subTotal);
-    $('#o-taxtip').text(costs.taxTip);
-    $('#o-total').text(costs.total);
+    $('#o-subtotal').text(showTwo(costs.subTotal));
+    $('#o-taxtip').text(showTwo(costs.taxTip));
+    $('#o-total').text(showTwo(costs.total));
   }
 
   // For readability
@@ -274,21 +279,22 @@ $(document).ready(() => {
     roomRef.on('value', (snapshot) => {
       const status = snapshot.val();
       $('#o-resName').text(status.place);
-      $('#o-numLeft').text(status.numLeft);
+      let numLeft = status.numLeft;
+      $('#o-numLeft').text(numLeft > 0 ? numLeft : 'no');
       let closeTime = new Date(status.closeTime);
       let now = new Date();
       let diff = round((closeTime - now) / 1000 / 60);
       $('#o-closeTime').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
 
-      if (diff > 0) { // Only show menu if time left
+      if (numLeft > 0 && diff > 0) { // Only show menu if orders and time left
         $('#o-interior').css('display', 'block');
         $('#o-nameField').css('display', 'block');
         $('#submit-order').css('display', 'block');
         roomRef.once('value').then((snap) => {
-          let status = snap.val();
-          if (status.place === 'McDonald\'s') {
-            let url = './static/menus/mcd.json';
-            $.getJSON(url, doActions);
+          const stat = snap.val();
+          if (stat.place === 'McDonald\'s') {
+            const menuUrl = './static/menus/mcd.json';
+            $.getJSON(menuUrl, doActions);
           }
         });
       }
