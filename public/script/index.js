@@ -19,9 +19,9 @@ $(document).ready(() => {
   // Handle entering a room after typing in the room code and
   // either hitting the join button or pressing enter
   function handleJoin() {
-    const roomToJoin = $('#join-text').val();
-    const existingRooms = ref.child('rooms');
+    let roomToJoin = $('#join-text').val();
 
+    const existingRooms = ref.child('rooms');
     if (roomToJoin !== '') {
       existingRooms.once('value')
         .then((snapshot) => {

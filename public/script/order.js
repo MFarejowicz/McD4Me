@@ -124,7 +124,7 @@ $(document).ready(() => {
   }
 
   // Make the html for a single menu item
-  function makeMenuItem(id, price, name) {
+  function makeMenuItem(id, name, price) {
     return (
       `<div class="menu-item">
         <input id="${id}" type="checkbox"></input>
@@ -143,7 +143,7 @@ $(document).ready(() => {
         groups.push(item.group);
         $('#menu').append(makeMenuGroup(item.group));
       }
-      $(`div[data-group="${item.group}"]`).append(makeMenuItem(item.id, item.price, item.name));
+      $(`div[data-group="${item.group}"]`).append(makeMenuItem(item.id, item.name, showTwo(item.price)));
       $(`#${item.id}`).data(item);
     }
   }
@@ -194,7 +194,7 @@ $(document).ready(() => {
       let itemData = selector.data();
 
       if (selector.is(':checked')) {
-        $('#order').append(makeOrderItem(itemData.id, itemData.name, itemData.price));
+        $('#order').append(makeOrderItem(itemData.id, itemData.name, showTwo(itemData.price)));
         order.addItem(itemData.id, itemData.name, itemData.price, 1, '');
       } else {
         $(`div#${itemData.id}`).remove();

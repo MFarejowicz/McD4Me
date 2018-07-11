@@ -337,7 +337,11 @@ a {
   font-weight: bold;
 }
 
-#h-increaseNum, #h-increaseTime {
+.beforeButt {
+  display: none;
+}
+
+.h-increaseButton {
   margin-left: 10px;
   background-color: #000000;
   font-family: "Neue Haas Unica Bold", sans-serif;
@@ -351,11 +355,16 @@ a {
   cursor: url('./img/cursor/cursor-pointer.png'), auto;
 }
 
-#h-increaseNum:active, #h-increaseTime:active {
+#h-increaseTimeByTen {
+  margin-left: 3px;
+  width: 70px;
+}
+
+.h-increaseButton:active {
   transform: translateY(4px);
 }
 
-#h-increaseNum:focus, #h-increaseTime:focus {
+.h-increaseButton:focus {
   outline: 0;
 }
 
@@ -681,13 +690,10 @@ input[type=checkbox] {
   .hostInfo {
     font-size: 18px;
   }
-  #h-increase {
-    font-size: 16px;
+  .beforeButt {
+    display: block;
   }
-  #h-increaseNum {
-    font-size: 16px;
-  }
-  #h-increaseTime {
+  .h-increaseButton {
     font-size: 16px;
   }
   .list-item {

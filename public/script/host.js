@@ -121,9 +121,9 @@ $(document).ready(() => {
         $('#interior').toggle();
         activateFill();
       } else {
-        const urlPass = getParameterByName('pass');
-        if (urlPass) {
-          if (urlPass === password) {
+        const localStoragePass = localStorage.getItem(`pass${room}`);
+        if (localStoragePass) {
+          if (localStoragePass === password) {
             $('#pass-container').toggle();
             $('#interior').toggle();
             activateFill();
@@ -188,7 +188,7 @@ $(document).ready(() => {
 
     roomRef.once('value').then((snapshot) => {
       const status = snapshot.val();
-      const numLeft = status.numLeft;
+      let numLeft = status.numLeft;
       roomRef.update({ numLeft: numLeft + 1 });
     });
   });
@@ -206,6 +206,24 @@ $(document).ready(() => {
       let newCloseTime = (diff > 0
         ? new Date(closeTime.getTime() + 1 * 60000)
         : new Date(now.getTime() + 1 * 60000)
+      );
+      roomRef.update({ closeTime: newCloseTime.toString() });
+    });
+  });
+
+  // The below increases the time limit for orders by ten
+  $('#h-increaseTimeByTen').click(() => {
+    const roomRef = ref.child('rooms').child(room);
+
+    roomRef.once('value').then((snapshot) => {
+      const status = snapshot.val();
+      let closeTime = new Date(status.closeTime);
+      let now = new Date();
+      let diff = closeTime - now;
+
+      let newCloseTime = (diff > 0
+        ? new Date(closeTime.getTime() + 10 * 60000)
+        : new Date(now.getTime() + 10 * 60000)
       );
       roomRef.update({ closeTime: newCloseTime.toString() });
     });

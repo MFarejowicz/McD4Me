@@ -31,7 +31,7 @@ $(document).ready(() => {
     const m = parseInt(time.substring(3), 10);
     const s = 0;
 
-    const userEndDate = new Date();
+    let userEndDate = new Date();
     userEndDate.setHours(h, m, s);
     return userEndDate.toString();
   }
@@ -49,7 +49,8 @@ $(document).ready(() => {
     time = makeTimeString(time);
     let num = parseInt($('#maxNum').val(), 10);
     let pass = $('#pass').val();
-    let rooms = ref.child('rooms');
+
+    const rooms = ref.child('rooms');
     rooms.once('value')
       .then((snapshot) => {
         let existingRooms = Object.keys(snapshot.val());
@@ -63,11 +64,10 @@ $(document).ready(() => {
           password: pass,
         }
         rooms.update(nextRoom);
-        if (pass === '') {
-          $(location).attr('href', `host.html?room=${nextRoomKey}`);
-        } else {
-          $(location).attr('href', `host.html?room=${nextRoomKey}&pass=${pass}`);
+        if (pass !== '') {
+          localStorage.setItem(`pass${nextRoomKey}`, pass);
         }
+        $(location).attr('href', `host.html?room=${nextRoomKey}`);
       });
   }
 
