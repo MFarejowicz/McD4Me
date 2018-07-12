@@ -3,637 +3,172 @@
     "group": "Extra Value Meals",
     "name": "Big Mac Meal",
     "id": "bmm",
-    "price": 6.69,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "price": 7.99
   },
   {
     "group": "Extra Value Meals",
     "name": "Quarter Pounder with Cheese Meal",
     "id": "qpcm",
-    "price": 6.39,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
-  },
-  {
-    "group": "Extra Value Meals",
-    "name": "Quarter Pounder Meal",
-    "id": "qpm",
-    "price": 6.09,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "price": 7.99
   },
   {
     "group": "Extra Value Meals",
     "name": "Double Quarter Pounder with Cheese Meal",
     "id": "dqpcm",
-    "price": 7.49,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "price": 8.79
   },
   {
     "group": "Extra Value Meals",
-    "name": "Buttermilk Crispy Chicken Sandwich Meal",
-    "id": "bccsm",
-    "price": 6.99,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "Two Cheeseburger Meal",
+    "id": "tcm",
+    "price": 5.39
   },
   {
     "group": "Extra Value Meals",
-    "name": "Artisan Grilled Chicken Sandwich Meal",
-    "id": "agcsm",
-    "price": 6.99,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "Crispy Buttermilk Chicken Sandwich Meal",
+    "id": "cbcsm",
+    "price": 7.99
+  },
+  {
+    "group": "Extra Value Meals",
+    "name": "Grilled Artisan Chicken Sandwich Meal",
+    "id": "gacsm",
+    "price": 7.19
   },
   {
     "group": "Extra Value Meals",
     "name": "10 Piece Chicken McNuggets Meal",
     "id": "tpcmm",
-    "price": 6.79,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 7.79
   },
   {
     "group": "Extra Value Meals",
     "name": "Filet-O-Fish Meal",
     "id": "fofm",
-    "price": 6.29,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "price": 7.19
   },
   {
     "group": "Extra Value Meals",
     "name": "4pc. Buttermilk Crispy Tenders Meal",
     "id": "fpbctm",
-    "price": 5.89,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.77
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 6.99
   },
   {
     "group": "Extra Value Meals",
     "name": "6pc. Buttermilk Crispy Tenders Meal",
     "id": "spbctm",
-    "price": 7.79,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.82
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 8.99
   },
   {
     "group": "Extra Value Meals",
     "name": "10pc. Buttermilk Crispy Tenders Meal",
     "id": "tpbctm",
-    "price": 11.69,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.27
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 14.29
   },
   {
     "group": "Extra Value Meals",
-    "name": "Quarter Cheese Deluxe Meal",
-    "id": "qcdm",
-    "price": 6.49,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "Bacon McDouble Meal",
+    "id": "bmdm",
+    "price": 5.22
   },
+
+
+
   {
     "group": "All Day Breakfast",
     "name": "Egg McMuffin Meal",
     "id": "emm",
-    "price": 4.99,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin with Egg Meal",
     "id": "smem",
-    "price": 4.89,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.29
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese Biscuit Meal",
     "id": "becbm",
-    "price": 4.99,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit with Egg Meal",
     "id": "sbem",
-    "price": 4.89,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.79
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Sausage Biscuit Meal",
+    "id": "sbm",
+    "price": 3.30
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese McGriddles Meal",
     "id": "becmm",
-    "price": 4.99,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage, Egg & Cheese McGriddles Meal",
     "id": "secmm",
-    "price": 4.99,
-    "options": {
-      "drink": {
-        "Small Minute Maid Orange Juice": 0.89,
-        "Medium Minute Maid Orange Juice": 1.19,
-        "Large Minute Maid Orange Juice": 1.29,
-        "Small Coffee": 0.49,
-        "Medium Coffee": 0.89,
-        "Large Coffee": 1.29,
-        "Small Decaf Coffee": 0.49,
-        "Medium Decaf Coffee": 0.89,
-        "Large Decaf Coffee": 1.29,
-        "Coke": 0.69,
-        "Diet Coke": 0.69,
-        "Sprite": 0.69,
-        "Fanta Orange": 0.69,
-        "Sweet Iced Tea": 1.09,
-        "Unsweet Iced Tea": 1.09,
-        "Dr. Pepper": 0.69,
-        "Dasani Bottled Water": 0.89
-      }
-    }
+    "price": 5.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Egg McMuffin",
     "id": "em",
-    "price": 3.59
+    "price": 3.99
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin",
     "id": "sm",
-    "price": 1.19
+    "price": 1.00
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese Biscuit",
     "id": "becb",
-    "price": 3.59
+    "price": 4.09
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit with Egg",
     "id": "sbe",
-    "price": 3.49
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Sausage, Egg, & Cheese Biscuit",
-    "id": "secb",
-    "price": 3.79
+    "price": 4.09
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese McGriddles",
     "id": "becm",
-    "price": 3.59
+    "price": 4.69
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage, Egg & Cheese McGriddles",
     "id": "secm",
-    "price": 3.59
+    "price": 4.69
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McGriddles",
     "id": "smg",
-    "price": 2.99
+    "price": 3.49
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Burrito",
     "id": "sbur",
-    "price": 1.29
+    "price": 1.79
+  },
+  {
+    "group": "All Day Breakfast",
+    "name": "Two Sausage Burrito Meal",
+    "id": "tsbm",
+    "price": 3.79
   },
   {
     "group": "All Day Breakfast",
@@ -643,21 +178,27 @@
   },
   {
     "group": "All Day Breakfast",
+    "name": "Biscuit",
+    "id": "bc",
+    "price": 1.00
+  },
+  {
+    "group": "All Day Breakfast",
     "name": "3 Hotcakes",
     "id": "th",
-    "price": 2.99
+    "price": 3.09
   },
   {
     "group": "All Day Breakfast",
     "name": "3 Hotcakes with Sausage",
     "id": "ths",
-    "price": 3.49
+    "price": 4.09
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin with Egg",
     "id": "sme",
-    "price": 3.49
+    "price": 4.19
   },
   {
     "group": "All Day Breakfast",
@@ -667,646 +208,309 @@
   },
   {
     "group": "All Day Breakfast",
-    "name": "Egg Biscuit",
-    "id": "ebis",
-    "price": 1.29
+    "name": "Oatmeal",
+    "id": "om",
+    "price": 2.39
   },
+
+
+
   {
-    "group": "All Day Breakfast",
-    "name": "2 McGriddles",
-    "id": "tm",
-    "price": 1.00
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Oatmeal without Brown Sugar",
-    "id": "obm",
-    "price": 2.29
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Fruit & Maple Oatmeal",
-    "id": "fmo",
-    "price": 2.29
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Blueberry Muffin",
-    "id": "bbm",
-    "price": 1.69
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Carrot Cake Muffin",
-    "id": "ccm",
-    "price": 1.69
-  },
-  {
-    "group": "All Day Breakfast",
-    "name": "Cranberry Orange Muffin",
-    "id": "com",
-    "price": 1.69
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Double Bacon Smokehouse Quarter",
+    "id": "scrdbsq",
+    "price": 6.59
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Crispy Chicken Meal",
-    "id": "scccm",
-    "price": 6.89,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "SCR Double Bacon Smokehouse Quarter Meal",
+    "id": "scrdbsqm",
+    "price": 8.89
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Grilled Chicken Meal",
-    "id": "scgcm",
-    "price": 6.89,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "SCR Bacon Smokehouse Artisan Quarter",
+    "id": "scrbsaq",
+    "price": 5.79
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Quarter Pounder Meal",
-    "id": "scqpm",
-    "price": 6.89,
-    "options": {
-      "size": {
-        "Medium": 0,
-        "Large": 0.60
-      },
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      },
-      "side": {
-        "fries": 0,
-        "side salad": 0
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0,
-        "Sweet Tea": 0.20,
-        "Iced Tea": 0.20,
-        "Dasani Bottled Water": 0.89,
-        "McCafe Chocolate Shake": 2.29,
-        "McCafe Vanilla Shake": 2.29,
-        "McCafe Strawberry Shake": 2.29
-      }
-    }
+    "name": "SCR Bacon Smokehouse Artisan Quarter Meal",
+    "id": "scrbsaqm",
+    "price": 8.09
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Crispy Chicken",
-    "id": "sccc",
-    "price": 4.79,
-    "options": {
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      }
-    }
+    "name": "SCR Bacon Smokehouse Artisan Crispy Chicken",
+    "id": "scrbsacc",
+    "price": 5.79
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Grilled Chicken",
-    "id": "scgc",
-    "price": 4.79,
-    "options": {
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      }
-    }
+    "name": "SCR Bacon Smokehouse Artisan Crispy Chicken Meal",
+    "id": "scrbsaccm",
+    "price": 8.09
   },
   {
     "group": "Signature Crafted Recipes",
-    "name": "Signature Crafted Quarter Pounder",
-    "id": "scqp",
-    "price": 4.79,
-    "options": {
-      "flavor": {
-        "Pico Guacamole": 0,
-        "Sweet BBQ with Bacon": 0,
-        "Buffalo Bacon": 0
-      },
-      "bun": {
-        "Artisan": 0,
-        "Sesame": 0
-      }
-    }
+    "name": "SCR Bacon Smokehouse Artisan Grilled Chicken",
+    "id": "scrbsaccm",
+    "price": 5.79
   },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Bacon Smokehouse Artisan Grilled Chicken Meal",
+    "id": "scrbsaccm",
+    "price": 8.09
+  },
+
+
+
   {
     "group": "Happy Meal",
     "name": "4pc. Chicken McNuggets Happy Meal",
     "id": "fpcmhm",
-    "price": 3.79,
-    "options": {
-      "side": {
-        "Apple Slices": 0,
-        "Yoplait Go-GURT": 0
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      },
-      "drink": {
-        "Minute Maid Apple Juice Box": 0,
-        "Fat Free Chocolate Milk Jug": 0,
-        "1% Low Fat Milk Jug": 0,
-        "Water": 0
-      }
-    }
+    "price": 4.09
   },
   {
     "group": "Happy Meal",
     "name": "6pc. Chicken McNuggets Mighty Kids Meal",
     "id": "spcmmkm",
-    "price": 4.39,
-    "options": {
-      "side": {
-        "Apple Slices": 0,
-        "Yoplait Go-GURT": 0
-      },
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      },
-      "drink": {
-        "Minute Maid Apple Juice Box": 0,
-        "Fat Free Chocolate Milk Jug": 0,
-        "1% Low Fat Milk Jug": 0,
-        "Water": 0
-      }
-    }
-  },
-  {
-    "group": "Happy Meal",
-    "name": "Cheeseburger Happy Meal",
-    "id": "chm",
-    "price": 3.39,
-    "options": {
-      "side": {
-        "Apple Slices": 0,
-        "Yoplait Go-GURT": 0
-      },
-      "drink": {
-        "Minute Maid Apple Juice Box": 0,
-        "Fat Free Chocolate Milk Jug": 0,
-        "1% Low Fat Milk Jug": 0,
-        "Water": 0
-      }
-    }
+    "price": 4.09
   },
   {
     "group": "Happy Meal",
     "name": "Hamburger Happy Meal",
     "id": "hhm",
-    "price": 3.39,
-    "options": {
-      "side": {
-        "Apple Slices": 0,
-        "Yoplait Go-GURT": 0
-      },
-      "drink": {
-        "Minute Maid Apple Juice Box": 0,
-        "Fat Free Chocolate Milk Jug": 0,
-        "1% Low Fat Milk Jug": 0,
-        "Water": 0
-      }
-    }
+    "price": 3.19
   },
   {
     "group": "Happy Meal",
-    "name": "McDouble Mighty Kids Meal",
-    "id": "mmkm",
-    "price": 3.69,
-    "options": {
-      "side": {
-        "Apple Slices": 0,
-        "Yoplait Go-GURT": 0
-      },
-      "drink": {
-        "Minute Maid Apple Juice Box": 0,
-        "Fat Free Chocolate Milk Jug": 0,
-        "1% Low Fat Milk Jug": 0,
-        "Water": 0
-      }
-    }
+    "name": "Cheeseburger Happy Meal",
+    "id": "chm",
+    "price": 3.39
+  },
+
+
+
+  {
+    "group": "McCafe",
+    "name": "Cold Brew Frozen Coffee",
+    "id": "cbfc",
+    "price": 2.79
   },
   {
     "group": "McCafe",
-    "name": "McCafe Smoothie",
-    "id": "mcsmo",
-    "price": 2.69,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.50,
-        "Large": 0.90
-      },
-      "flavor": {
-        "Strawberry Banana": 0,
-        "Mango-Pineapple": 0
-      }
-    }
+    "name": "Cold Brew Frappe",
+    "id": "cbf",
+    "price": 2.99
   },
   {
     "group": "McCafe",
-    "name": "McCafe Shake",
-    "id": "mcsha",
-    "price": 2.39,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.90
-      },
-      "flavor": {
-        "Chocolate": 0,
-        "Strawberry": 0,
-        "Vanilla": 0
-      }
-    }
+    "name": "Strawberry Banana Smoothie",
+    "id": "sbsmoothie",
+    "price": 2.00
   },
   {
     "group": "McCafe",
-    "name": "McCafe Frappe",
-    "id": "mcfra",
-    "price": 2.59,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.50,
-        "Large": 0.70
-      },
-      "flavor": {
-        "Mocha": 0,
-        "Caramel": 0,
-        "Oreo": 0
-      }
-    }
+    "name": "Mango Pineapple Smoothie",
+    "id": "mpsmoothie",
+    "price": 2.00
   },
   {
     "group": "McCafe",
-    "name": "McCafe Mocha",
-    "id": "mcmoc",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.50
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Peppermint": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Mocha Frappe",
+    "id": "mfrappe",
+    "price": 2.00
   },
   {
     "group": "McCafe",
-    "name": "McCafe Iced Mocha",
-    "id": "mcimoc",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.50
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Peppermint": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Caramel Frappe",
+    "id": "cfrappe",
+    "price": 2.99
   },
   {
     "group": "McCafe",
-    "name": "McCafe Latte",
-    "id": "mclat",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.50
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Hazelnut": 0,
-        "French Vanilla": 0,
-        "Sugar-Free Vanilla": 0,
-        "Pumpkin": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Mocha",
+    "id": "mocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Iced Latte",
-    "id": "mcilat",
-    "price": 2.59,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.50
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Hazelnut": 0,
-        "French Vanilla": 0,
-        "Sugar-Free Vanilla": 0,
-        "Pumpkin": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Non-Fat Mocha",
+    "id": "nfmocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Hot Chocolate",
-    "id": "mchcho",
-    "price": 2.09,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.50
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Peppermint": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Caramel Mocha",
+    "id": "cmocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Coffee",
-    "id": "mccof",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.40,
-        "Large": 0.80
-      }
-    }
+    "name": "Non-Fat Caramel Mocha",
+    "id": "nfcmocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Decaf Coffee",
-    "id": "mcdcof",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.40,
-        "Large": 0.80
-      }
-    }
+    "name": "Iced Mocha",
+    "id": "imocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Iced Coffee",
-    "id": "mcicof",
-    "price": 2.79,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0,
-        "Large": 0.50
-      },
-      "flavor": {
-        "none": 0,
-        "Caramel": 0,
-        "hazelnut": 0,
-        "Sugar-Free Vanilla": 0
-      }
-    }
+    "name": "Iced Non-Fat Mocha",
+    "id": "infmocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Macchiato",
-    "id": "mcmac",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.40,
-        "Large": 0.60
-      },
-      "flavor": {
-        "None": 0,
-        "Caramel": 0,
-        "Iced Caramel": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Iced Non-Fat Caramel Mocha",
+    "id": "infcmocha",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Cappuchino",
-    "id": "mccap",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.40,
-        "Large": 0.60
-      },
-      "flavor": {
-        "None": 0,
-        "Vanilla": 0,
-        "Sugar-Free Vanilla": 0,
-        "Hazelnut": 0,
-        "Caramel": 0
-      },
-      "milk": {
-        "Nonfat Milk": 0,
-        "Whole Milk": 0
-      }
-    }
+    "name": "Latte",
+    "id": "latte",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Americano",
-    "id": "mcame",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0,
-        "Large": 0.40
-      }
-    }
+    "name": "Non-Fat Latte",
+    "id": "nflatte",
+    "price": 1.89
   },
   {
     "group": "McCafe",
-    "name": "McCafe Southern Style Lemonade",
-    "id": "mcssl",
-    "price": 1.80,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.50,
-        "Large": 0.90
-      }
-    }
+    "name": "Caramel Latte",
+    "id": "clatte",
+    "price": 1.89
   },
+  {
+    "group": "McCafe",
+    "name": "French Vanilla Latte",
+    "id": "fvlatte",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Non-Fat French Vanilla Latte",
+    "id": "nffvlatte",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Latte",
+    "id": "ilatte",
+    "price": 1.59
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Caramel Latte",
+    "id": "iclatte",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Vanilla Latte",
+    "id": "ivlatte",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Non-Fat Vanilla Latte",
+    "id": "infvlatte",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Cappuccino",
+    "id": "cappu",
+    "price": 2.29
+  },
+  {
+    "group": "McCafe",
+    "name": "Non-Fat Cappuccino",
+    "id": "nfcappu",
+    "price": 2.29
+  },
+  {
+    "group": "McCafe",
+    "name": "Vanilla Cappuccino",
+    "id": "vcappu",
+    "price": 2.29
+  },
+  {
+    "group": "McCafe",
+    "name": "Non-Fat Vanilla Cappuccino",
+    "id": "nfvcappu",
+    "price": 2.29
+  },
+  {
+    "group": "McCafe",
+    "name": "Coffee",
+    "id": "coffee",
+    "price": 1.00
+  },
+  {
+    "group": "McCafe",
+    "name": "Decaf Coffee",
+    "id": "dcoffee",
+    "price": 1.00
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Coffee",
+    "id": "icoffee",
+    "price": 1.29
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Caramel Coffee",
+    "id": "iccoffee",
+    "price": 1.59
+  },
+  {
+    "group": "McCafe",
+    "name": "Iced Vanilla Coffee",
+    "id": "ivcoffee",
+    "price": 1.59
+  },
+  {
+    "group": "McCafe",
+    "name": "Premium Hot Chocolate",
+    "id": "hotchoc",
+    "price": 1.89
+  },
+  {
+    "group": "McCafe",
+    "name": "Non-Fat Premium Hot Chocolate",
+    "id": "nfhotchoc",
+    "price": 1.89
+  },
+
+
+
   {
     "group": "Fries & Sides",
     "name": "Fries",
     "id": "fri",
-    "price": 1.49,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.80,
-        "Large": 1.10
-      }
-    }
+    "price": 1.00
   },
   {
     "group": "Fries & Sides",
     "name": "Apple Slices",
     "id": "as",
-    "price": 0.50
+    "price": 0.59
   },
   {
     "group": "Fries & Sides",
     "name": "Side Salad",
     "id": "ss",
-    "price": 1.69,
-    "options": {
-      "sauce": {
-        "Ranch": 0,
-        "Southwest": 0,
-        "Low Fat Family Recipe Italian": 0,
-        "Low Fat Balsamic Vinaigrette": 0
-      }
-    }
+    "price": 1.39
   },
   {
     "group": "Fries & Sides",
@@ -1315,206 +519,191 @@
     "price": 1.00
   },
   {
+    "group": "Fries & Sides",
+    "name": "Strawberry Go-Gurt",
+    "id": "sgg",
+    "price": 0.59
+  },
+
+
+
+  {
     "group": "Sweets & Treats",
-    "name": "McFlurry",
-    "id": "mcflu",
-    "price": 2.19,
-    "options": {
-      "size": {
-        "Snack": 0,
-        "Regular": 1.00
-      },
-      "mixin": {
-        "M&M": 0,
-        "Oreo": 0,
-        "Rolo": 0
-      }
-    }
+    "name": "M&M McFlurry",
+    "id": "mmmf",
+    "price": 2.09
   },
   {
     "group": "Sweets & Treats",
-    "name": "Sundae",
-    "id": "sun",
-    "price": 1.00,
-    "options": {
-      "flavor": {
-        "Plain": 0,
-        "Caramel": 0.50,
-        "Hot Fudge": 0.50
-      }
-    }
+    "name": "Oreo McFlurry",
+    "id": "omf",
+    "price": 2.09
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Chocolate Shake",
+    "id": "cshake",
+    "price": 2.00
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Strawberry Shake",
+    "id": "sshake",
+    "price": 2.00
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Vanilla Shake",
+    "id": "vshake",
+    "price": 2.00
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Caramel Sundae",
+    "id": "csun",
+    "price": 1.49
+  },
+  {
+    "group": "Sweets & Treats",
+    "name": "Hot Fudge Sundae",
+    "id": "hfsun",
+    "price": 1.69
   },
   {
     "group": "Sweets & Treats",
     "name": "Apple Pie",
     "id": "ap",
-    "price": 0.69
+    "price": 0.79
   },
   {
     "group": "Sweets & Treats",
-    "name": "Cookie",
-    "id": "coo",
-    "price": 0.59,
-    "options": {
-      "size": {
-        "One": 0,
-        "Two": 0.60,
-        "Three": 0.90,
-        "Thirteen": 4.30
-      }
-    }
+    "name": "Two Cookies",
+    "id": "tcoo",
+    "price": 1.00
   },
   {
     "group": "Sweets & Treats",
-    "name": "Pumpkin & Creme Pie",
-    "id": "pcp",
-    "price": 0.89
+    "name": "Thirteen Cookie Tote",
+    "id": "tctote",
+    "price": 4.99
   },
+
+
+
   {
-    "group": "Sweets & Treats",
-    "name": "Holiday Pie",
-    "id": "hp",
-    "price": 0.69
+    "group": "Beverages",
+    "name": "Coke",
+    "id": "coke",
+    "price": 1.49
   },
   {
     "group": "Beverages",
-    "name": "Soft Drink",
-    "id": "sd",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.20,
-        "Large": 0.40
-      },
-      "drink": {
-        "Coca-Cola": 0,
-        "Diet Coke": 0,
-        "Sprite": 0,
-        "Dr. Pepper": 0,
-        "Orange Fanta": 0,
-        "Strawberry Fanta": 0,
-        "Minute Maid Lemonade": 0,
-        "Barqs": 0
-      }
-    }
+    "name": "Diet Coke",
+    "id": "dcoke",
+    "price": 1.49
   },
   {
     "group": "Beverages",
-    "name": "Minute Maid Orange Juice",
-    "id": "mmoj",
-    "price": 1.89,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.20,
-        "Large": 0.40
-      }
-    }
+    "name": "Sprite",
+    "id": "sprite",
+    "price": 1.49
   },
   {
     "group": "Beverages",
-    "name": "Minute Maid Apple Juice Box",
-    "id": "mmajb",
-    "price": 0.99
+    "name": "Fanta",
+    "id": "fanta",
+    "price": 1.49
   },
   {
     "group": "Beverages",
-    "name": "1% Low Fat Milk Jug",
-    "id": "lfmj",
-    "price": 0.99
+    "name": "Dr Pepper",
+    "id": "dpepper",
+    "price": 1.49
   },
   {
     "group": "Beverages",
-    "name": "Fat Free Chocolate Milk Jug",
-    "id": "ffcmj",
-    "price": 0.99
+    "name": "Apple Juice Box",
+    "id": "ajb",
+    "price": 1.19
+  },
+  {
+    "group": "Beverages",
+    "name": "1% Milk",
+    "id": "opmilk",
+    "price": 1.19
+  },
+  {
+    "group": "Beverages",
+    "name": "Chocolate Milk",
+    "id": "chmilk",
+    "price": 1.19
   },
   {
     "group": "Beverages",
     "name": "Dasani Water",
     "id": "dw",
-    "price": 1.49
+    "price": 1.89
   },
   {
     "group": "Beverages",
-    "name": "Sweet Tea",
+    "name": "Sweet Iced Tea",
     "id": "st",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0,
-        "Large": 0
-      }
-    }
+    "price": 1.29
   },
   {
     "group": "Beverages",
-    "name": "Iced Tea",
+    "name": "Unsweetened Ice Tea",
     "id": "it",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0,
-        "Large": 0
-      }
-    }
+    "price": 1.00
   },
   {
     "group": "Beverages",
     "name": "Hot Tea",
     "id": "ht",
-    "price": 1.00,
-    "options": {
-      "size": {
-        "Small": 0,
-        "Medium": 0.30,
-        "Large": 0.60
-      }
-    }
+    "price": 1.00
   },
+
+
+
   {
     "group": "Salads",
     "name": "Southwest Salad",
     "id": "sous",
-    "price": 4.19,
-    "options": {
-      "type": {
-        "Normal": 0,
-        "Crispy Chicken": 1.30,
-        "Grilled Chicken": 1.30
-      },
-      "sauce": {
-        "None": 0,
-        "Ranch": 0,
-        "Low Fat Balsamic Vinaigrette": 0,
-        "Low Fat Italian": 0,
-        "Southwest": 0
-      }
-    }
+    "price": 3.99
+  },
+  {
+    "group": "Salads",
+    "name": "Grilled Chicken Southwest Salad",
+    "id": "gcsous",
+    "price": 5.49
+  },
+  {
+    "group": "Salads",
+    "name": "Crispy Chicken Southwest Salad",
+    "id": "ccsous",
+    "price": 5.29
   },
   {
     "group": "Salads",
     "name": "Bacon Ranch Salad",
     "id": "brs",
-    "price": 4.19,
-    "options": {
-      "type": {
-        "Normal": 0,
-        "Crispy Chicken": 1.30,
-        "Grilled Chicken": 1.30
-      },
-      "sauce": {
-        "None": 0,
-        "Ranch": 0,
-        "Low Fat Balsamic Vinaigrette": 0,
-        "Low Fat Italian": 0,
-        "Southwest": 0
-      }
-    }
+    "price": 3.89
   },
+  {
+    "group": "Salads",
+    "name": "Grilled Chicken Bacon Ranch Salad",
+    "id": "gcbrs",
+    "price": 5.29
+  },
+  {
+    "group": "Salads",
+    "name": "Crispy Chicken Bacon Ranch Salad",
+    "id": "ccbrs",
+    "price": 5.29
+  },
+
+
+
   {
     "group": "Individual Items",
     "name": "Cheeseburger",
@@ -1529,124 +718,86 @@
   },
   {
     "group": "Individual Items",
-    "name": "Double Cheeseburger",
-    "id": "dcb",
-    "price": 2.19
-  },
-  {
-    "group": "Individual Items",
     "name": "Hamburger",
     "id": "hb",
     "price": 1.29
   },
   {
     "group": "Individual Items",
+    "name": "Double Cheeseburger",
+    "id": "dcb",
+    "price": 2.69
+  },
+  {
+    "group": "Individual Items",
+    "name": "Triple Cheeseburger",
+    "id": "tcb",
+    "price": 3.49
+  },
+  {
+    "group": "Individual Items",
     "name": "Big Mac",
     "id": "bm",
-    "price": 5.29
+    "price": 5.79
   },
   {
     "group": "Individual Items",
     "name": "Double Quarter Pounder with Cheese",
     "id": "dqpc",
-    "price": 6.29
+    "price": 6.69
   },
   {
     "group": "Individual Items",
     "name": "Quarter Pounder with Cheese",
     "id": "qpc",
-    "price": 5.29
-  },
-  {
-    "group": "Individual Items",
-    "name": "4pc. Chicken McNuggets",
-    "id": "fpcm",
-    "price": 1.69,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
-  },
-  {
-    "group": "Individual Items",
-    "name": "6pc. Chicken McNuggets",
-    "id": "spcm",
-    "price": 3.29,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 5.69
   },
   {
     "group": "Individual Items",
     "name": "10pc. Chicken McNuggets",
     "id": "tpcm",
-    "price": 5.29,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 5.29
   },
   {
     "group": "Individual Items",
     "name": "20pc. Chicken McNuggets",
     "id": "twpcm",
-    "price": 7.99,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 7.99
+  },
+  {
+    "group": "Individual Items",
+    "name": "40pc. Chicken McNuggets",
+    "id": "fopcm",
+    "price": 10.99
   },
   {
     "group": "Individual Items",
     "name": "Artisan Grilled Chicken Sandwich",
     "id": "agcs",
-    "price": 5.79
+    "price": 5.99
   },
   {
     "group": "Individual Items",
     "name": "Buttermilk Crispy Chicken Sandwich",
     "id": "bccs",
-    "price": 5.79
+    "price": 5.99
   },
   {
     "group": "Individual Items",
     "name": "McChicken",
     "id": "mc",
+    "price": 2.49
+  },
+  {
+    "group": "Individual Items",
+    "name": "Ranch Grilled Chicken Snack Wrap",
+    "id": "rgcsw",
     "price": 1.99
   },
   {
     "group": "Individual Items",
-    "name": "Ranch Snack Wrap",
-    "id": "rsw",
+    "name": "Ranch Crispy Chicken Snack Wrap",
+    "id": "rccsw",
     "price": 1.99
   },
   {
@@ -1657,136 +808,38 @@
   },
   {
     "group": "Individual Items",
-    "name": "Strawberry Go-Gurt",
-    "id": "sgg",
-    "price": 0.59
-  },
-  {
-    "group": "Individual Items",
-    "name": "Triple Cheeseburger",
-    "id": "tcb",
-    "price": 3.49
-  },
-  {
-    "group": "Individual Items",
-    "name": "Quarter Pounder Hamburger",
-    "id": "qph",
-    "price": 5.39
-  },
-  {
-    "group": "Individual Items",
-    "name": "Daily Double",
-    "id": "dd",
-    "price": 2.49
-  },
-  {
-    "group": "Individual Items",
-    "name": "Ranch Snack Wrap Crispy Chicken",
-    "id": "rswcc",
-    "price": 1.99
-  },
-  {
-    "group": "Individual Items",
-    "name": "Double Hamburger",
-    "id": "dh",
-    "price": 1.79
-  },
-  {
-    "group": "Individual Items",
-    "name": "Bacon Double Cheeseburger",
-    "id": "bdc",
-    "price": 2.99
-  },
-  {
-    "group": "Individual Items",
     "name": "Bacon McDouble",
     "id": "bmd",
-    "price": 2.69
+    "price": 3.09
   },
   {
     "group": "Individual Items",
     "name": "Classic Chicken Sandwich",
     "id": "ccs",
-    "price": 3.99
+    "price": 4.39
   },
   {
     "group": "Individual Items",
     "name": "2 Piece Buttermilk Crispy Chicken Tenders",
     "id": "twpbcct",
-    "price": 2.00,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 2.00
   },
   {
     "group": "Individual Items",
     "name": "4 Piece Buttermilk Crispy Chicken Tenders",
     "id": "fpbcct",
-    "price": 4.29,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 5.29
   },
   {
     "group": "Individual Items",
     "name": "6 Piece Buttermilk Crispy Chicken Tenders",
     "id": "spbcct",
-    "price": 6.29,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
+    "price": 6.59
   },
   {
     "group": "Individual Items",
     "name": "10 Piece Buttermilk Crispy Chicken Tenders",
     "id": "tepbcct",
-    "price": 10.29,
-    "options": {
-      "sauce": {
-        "Sweet and Sour": 0,
-        "Spicy Buffalo": 0,
-        "Tangy Barbecue": 0,
-        "Hot Mustard": 0,
-        "Creamy Ranch": 0,
-        "Honey Mustard": 0,
-        "Signature Sauce": 0
-      }
-    }
-  },
-  {
-    "group": "Individual Items",
-    "name": "Mac Jr",
-    "id": "mj",
-    "price": 3.99
-  },
-  {
-    "group": "Individual Items",
-    "name": "Grand Mac",
-    "id": "gm",
-    "price": 5.99
+    "price": 11.29
   }
 ]

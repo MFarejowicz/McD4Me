@@ -107,7 +107,7 @@ $(document).ready(() => {
         subTotal += item.price * item.quantity;
       }
       this.subTotal = round(subTotal);
-      this.taxTip = round(0.15 * this.subTotal);
+      this.taxTip = round(0.11 * this.subTotal);
       this.total = round(this.subTotal + this.taxTip);
     }
   }
