@@ -487,11 +487,20 @@ input[type=checkbox] {
   margin-left: 8px;
 }
 
+.instr {
+  width: 90%;
+  margin: 0 5% 10px;
+}
+
 .instr-text {
   resize: none;
-  width: 90%;
+  width: 100%;
   height: 50px;
-  margin: 0 5% 10px;
+  margin-bottom: 2px;
+}
+
+.suggested {
+  font-size: 16px;
 }
 
 .order-subtotal, .order-taxtip {
@@ -500,6 +509,10 @@ input[type=checkbox] {
 
 .order-total {
   font-size: 30px;
+}
+
+.note {
+  font-size: 16px;
 }
 
 #submit-order {
@@ -721,6 +734,12 @@ input[type=checkbox] {
   .orderHeading {
     font-size: 25px;
     text-decoration: underline;
+  }
+  .suggested {
+    font-size: 12px;
+  }
+  .note {
+    font-size: 12px;
   }
   input[type=checkbox] {
     transform: scale(1.2);

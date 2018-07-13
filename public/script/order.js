@@ -156,7 +156,7 @@ $(document).ready(() => {
     });
   }
 
-  function makeOrderItem(id, name, price) {
+  function makeOrderItem(id, name, price, suggested) {
     return (
       `<div class="order-item" id="${id}">
         <div class="order-item-top">
@@ -171,7 +171,10 @@ $(document).ready(() => {
         </div>
         <div>
           <span>Special Instructions:</span>
-          <textarea data-instr="${id}" class="instr-text"></textarea>
+          <div class="instr">
+            <textarea data-instr="${id}" class="instr-text" placeholder="For item additions, deletions, and/or additional info."></textarea>
+            ${suggested ? `<div class="suggested">Suggested things to include: ${suggested}</div>` : ''}
+          </div>
         </div>
       </div>`
     );
@@ -188,13 +191,13 @@ $(document).ready(() => {
       order.setName(val);
     });
 
-    $('input[type="checkbox"]').click(function() {
+    $('input[type="checkbox"]').click(function () {
       let el = this;
       let selector = $(`#${el.id}`);
       let itemData = selector.data();
 
       if (selector.is(':checked')) {
-        $('#order').append(makeOrderItem(itemData.id, itemData.name, showTwo(itemData.price)));
+        $('#order').append(makeOrderItem(itemData.id, itemData.name, showTwo(itemData.price), itemData.suggested));
         order.addItem(itemData.id, itemData.name, itemData.price, 1, '');
       } else {
         $(`div#${itemData.id}`).remove();

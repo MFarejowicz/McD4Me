@@ -3,7 +3,8 @@
     "group": "Extra Value Meals",
     "name": "Big Mac Meal",
     "id": "bmm",
-    "price": 7.99
+    "price": 7.99,
+    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
   },
   {
     "group": "Extra Value Meals",
