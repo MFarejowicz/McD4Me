@@ -402,6 +402,7 @@ a {
 #order-form {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 input[type=checkbox] {
@@ -512,6 +513,7 @@ input[type=checkbox] {
 }
 
 .note {
+  display: none;
   font-size: 16px;
 }
 
@@ -519,6 +521,7 @@ input[type=checkbox] {
   display: none;
   width: 400px;
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 #submit-order:hover span {

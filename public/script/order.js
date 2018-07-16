@@ -195,6 +195,7 @@ $(document).ready(() => {
       let el = this;
       let selector = $(`#${el.id}`);
       let itemData = selector.data();
+      // console.log(itemData);
 
       if (selector.is(':checked')) {
         $('#order').append(makeOrderItem(itemData.id, itemData.name, showTwo(itemData.price), itemData.suggested));
@@ -241,17 +242,25 @@ $(document).ready(() => {
         roomRef.once('value').then((snap) => {
           let stat = snap.val();
           let ordersLeft = stat.numLeft;
-          if (name == '') {
-            alert('Enter a name please');
-          } else if (prevNames.includes(name)){
-            alert('This name is already taken');
-          } else if (ordersLeft <= 0) {
-            alert('No orders left');
+          if (order.items.length == 0){
+            $('#o-modal-text').text('This order has no items!');
+            $('#modal').css('display', 'block');
           } else {
-            let nameRef = ordersRef.child(name);
-            nameRef.set(order);
-            roomRef.update({numLeft: ordersLeft - 1});
-            $(location).attr('href', 'confirm.html');
+            if (name == '') {
+              $('#o-modal-text').text('Enter a name please!');
+              $('#modal').css('display', 'block');
+            } else if (prevNames.includes(name)){
+              $('#o-modal-text').text('This name is already taken!');
+              $('#modal').css('display', 'block');
+            } else if (ordersLeft <= 0) {
+              $('#o-modal-text').text('No orders left!');
+              $('#modal').css('display', 'block');
+            } else {
+              let nameRef = ordersRef.child(name);
+              nameRef.set(order);
+              roomRef.update({numLeft: ordersLeft - 1});
+              $(location).attr('href', 'confirm.html');
+            }
           }
         });
       });
@@ -293,6 +302,7 @@ $(document).ready(() => {
         $('#o-interior').css('display', 'block');
         $('#o-nameField').css('display', 'block');
         $('#submit-order').css('display', 'block');
+        $('.note').css('display', 'inline');
         roomRef.once('value').then((snap) => {
           const stat = snap.val();
           if (stat.place === 'McDonald\'s') {
@@ -304,9 +314,24 @@ $(document).ready(() => {
     });
   }
 
+  // Bind closing the modal to clicking the 'X' in the modal
+  $('.close-modal').click(() => {
+    $('#modal').css('display', 'none');
+  });
+
+  // Bind closing the modal to clicking outside the modal
+  $(window).click((evt) => {
+    if (evt.target === $('#modal')[0]) {
+      $('#modal').css('display', 'none');
+    }
+  });
+
   $(document).keypress((key) => {
     if (key.keyCode === 13) {
       key.preventDefault();
+      if ($('#modal').css('display') === 'block') {
+        $('#modal').css('display', 'none');
+      }
     }
   });
 });
