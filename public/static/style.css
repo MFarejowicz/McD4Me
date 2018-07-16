@@ -432,6 +432,12 @@ input[type=checkbox] {
   padding: 5px;
 }
 
+.sorry {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 #o-interior {
   display: none;
 }
@@ -730,6 +736,9 @@ input[type=checkbox] {
   #name {
     width: 160px;
     font-size: 18px;
+  }
+  .sorry {
+    font-size: 20px;
   }
   #submit-order {
     font-size: 25px;
