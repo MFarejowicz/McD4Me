@@ -303,6 +303,7 @@ $(document).ready(() => {
         $('#o-nameField').css('display', 'block');
         $('#submit-order').css('display', 'block');
         $('.note').css('display', 'inline');
+        $('.sorry').css('display', 'none');
         roomRef.once('value').then((snap) => {
           const stat = snap.val();
           if (stat.place === 'McDonald\'s') {

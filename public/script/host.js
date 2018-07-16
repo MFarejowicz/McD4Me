@@ -92,11 +92,12 @@ $(document).ready(() => {
 
     roomRef.on('value', (snapshot) => {
       const status = snapshot.val();
+      let numLeft = status.numLeft;
       let closeTime = new Date(status.closeTime);
       let now = Date.now();
       let diff = showTwo((closeTime - now) / 1000 / 60);
 
-      $('#h-numLeft').text(status.numLeft);
+      $('#h-numLeft').text(numLeft > 0 ? numLeft : 'no');
       $('#h-timeLeft').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
       fillHostPage(status);
     });
