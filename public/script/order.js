@@ -309,6 +309,9 @@ $(document).ready(() => {
           if (stat.place === 'McDonald\'s') {
             const menuUrl = './static/menus/mcd.json';
             $.getJSON(menuUrl, doActions);
+          } else if (stat.place === 'Beantown') {
+            const menuUrl = './static/menus/beantown.json';
+            $.getJSON(menuUrl, doActions);
           }
         });
       }
