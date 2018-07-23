@@ -665,35 +665,35 @@
     "name": "Coke",
     "id": "coke",
     "price": 1.49,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Diet Coke",
     "id": "dcoke",
     "price": 1.49,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Sprite",
     "id": "sprite",
     "price": 1.49,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Fanta",
     "id": "fanta",
     "price": 1.49,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Dr Pepper",
     "id": "dpepper",
     "price": 1.49,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",

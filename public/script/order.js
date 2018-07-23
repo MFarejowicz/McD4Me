@@ -195,7 +195,6 @@ $(document).ready(() => {
       let el = this;
       let selector = $(`#${el.id}`);
       let itemData = selector.data();
-      // console.log(itemData);
 
       if (selector.is(':checked')) {
         $('#order').append(makeOrderItem(itemData.id, itemData.name, showTwo(itemData.price), itemData.suggested));
@@ -246,7 +245,7 @@ $(document).ready(() => {
             $('#o-modal-text').text('This order has no items!');
             $('#modal').css('display', 'block');
           } else {
-            if (name == '') {
+            if (!name) {
               $('#o-modal-text').text('Enter a name please!');
               $('#modal').css('display', 'block');
             } else if (prevNames.includes(name)){
@@ -311,6 +310,9 @@ $(document).ready(() => {
             $.getJSON(menuUrl, doActions);
           } else if (stat.place === 'Beantown') {
             const menuUrl = './static/menus/beantown.json';
+            $.getJSON(menuUrl, doActions);
+          } else if (stat.place === 'Dumpling Palace') {
+            const menuUrl = './static/menus/dp.json';
             $.getJSON(menuUrl, doActions);
           }
         });

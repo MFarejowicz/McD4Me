@@ -117,7 +117,7 @@ $(document).ready(() => {
       const status = snapshot.val();
       const password = status.password;
 
-      if (password === '') {
+      if (!password) {
         $('#pass-container').toggle();
         $('#interior').toggle();
         activateFill();
@@ -139,7 +139,7 @@ $(document).ready(() => {
   function handlePass() {
     const roomRef = ref.child('rooms').child(room);
     let pass = $('#pass-text').val();
-    if (pass !== '') {
+    if (pass) {
       roomRef.once('value').then((snapshot) => {
         const status = snapshot.val();
         const expected = status.password;

@@ -64,7 +64,7 @@ $(document).ready(() => {
           password: pass,
         }
         rooms.update(nextRoom);
-        if (pass !== '') {
+        if (pass) {
           localStorage.setItem(`pass${nextRoomKey}`, pass);
         }
         $(location).attr('href', `host.html?room=${nextRoomKey}`);

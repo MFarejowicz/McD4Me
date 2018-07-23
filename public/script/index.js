@@ -22,7 +22,7 @@ $(document).ready(() => {
     let roomToJoin = $('#join-text').val();
 
     const existingRooms = ref.child('rooms');
-    if (roomToJoin !== '') {
+    if (roomToJoin) {
       existingRooms.once('value')
         .then((snapshot) => {
           const status = snapshot.val();

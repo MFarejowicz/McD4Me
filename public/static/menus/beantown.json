@@ -406,21 +406,21 @@
     "name": "Mexican Soda",
     "id": "msoda",
     "price": 2.50,
-    "suggested": "Choice of Soda; etc."
+    "suggested": "Choice of Soda"
   },
   {
     "group": "Drinks",
     "name": "Canned Soda",
     "id": "csoda",
     "price": 1.50,
-    "suggested": "Choice of Soda; etc."
+    "suggested": "Choice of Soda"
   },
   {
     "group": "Drinks",
     "name": "20 Ounce Soda",
     "id": "tsoda",
     "price": 2.00,
-    "suggested": "Choice of Soda; etc."
+    "suggested": "Choice of Soda"
   },
   {
     "group": "Drinks",
