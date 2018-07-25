@@ -19,112 +19,112 @@
     "name": "Beantown Tacos",
     "id": "btt",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Beantown Tacos Plate",
     "id": "bttp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Flautas",
     "id": "flaut",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Flautas Plate",
     "id": "flautp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Enchiladas",
     "id": "ench",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Enchiladas Plate",
     "id": "enchp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Chile Relleno",
     "id": "cr",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Chile Relleno Plate",
     "id": "crp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Huarache",
     "id": "huar",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Huarache Plate",
     "id": "huarp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Tostada",
     "id": "tost",
     "price": 8.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Tostada Plate",
     "id": "tostp",
     "price": 10.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Torta",
     "id": "tort",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Torta Plate",
     "id": "tortp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Pozole",
     "id": "pozol",
     "price": 7.99,
-    "suggested": "Spice level (None, Mild, Hot); etc."
+    "suggested": "Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Authentic",
     "name": "Pozole Plate",
     "id": "pozolp",
     "price": 9.49,
-    "suggested": "Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
 
 
@@ -134,168 +134,168 @@
     "name": "10\" Burrito",
     "id": "tib",
     "price": 8.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "10\" Burrito Plate",
     "id": "tibp",
     "price": 10.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "12\" Super Burrito",
     "id": "twib",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "12\" Super Burrito Plate",
     "id": "twibp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Chimichanga",
     "id": "chim",
     "price": 10.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Chimichanga Plate",
     "id": "chimp",
     "price": 12.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Tex Mex Tacos",
     "id": "tmt",
     "price": 8.99,
-    "suggested": "Choice of Filling; Taco Style (Soft, Hard); Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Taco Style (Soft, Hard);Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Tex Mex Tacos Plate",
     "id": "tmtp",
     "price": 10.49,
-    "suggested": "Choice of Filling; Taco Style (Soft, Hard); Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Taco Style (Soft, Hard);Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Quesadilla with Cheese and Salsa",
     "id": "quescs",
     "price": 8.99,
-    "suggested": "Spice level (None, Mild, Hot); etc."
+    "suggested": "Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Quesadilla with Cheese and Salsa Plate",
     "id": "quescsp",
     "price": 10.49,
-    "suggested": "Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Quesadilla",
     "id": "ques",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Quesadilla Plate",
     "id": "quesp",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Nachos",
     "id": "nacho",
     "price": 8.99,
-    "suggested": "Spice level (None, Mild, Hot); etc."
+    "suggested": "Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Nachos Plate",
     "id": "nachop",
     "price": 10.49,
-    "suggested": "Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Beantown Nachos",
     "id": "btnacho",
     "price": 9.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Beantown Nachos Plate",
     "id": "btnachop",
     "price": 11.49,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Veggie Fajitas",
     "id": "vf",
     "price": 8.99,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Veggie Fajitas Plate",
     "id": "vfp",
     "price": 10.49,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Chicken Fajitas",
     "id": "cf",
     "price": 9.99,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Chicken Fajitas Plate",
     "id": "cfp",
     "price": 11.49,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Steak Fajitas",
     "id": "stf",
     "price": 10.99,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Steak Fajitas Plate",
     "id": "stfp",
     "price": 12.49,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Shrimp Fajitas",
     "id": "shf",
     "price": 11.99,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Tex Mex",
     "name": "Shrimp Fajitas Plate",
     "id": "shfp",
     "price": 13.49,
-    "suggested": "Choice of Tortilla (Flour, Corn); Spice level (None, Mild, Hot); Choice of Beans (Black, Refried, Pinto); etc."
+    "suggested": "Choice of tortilla (Flour, Corn);Spice level (None, Mild, Hot);Choice of beans (Black, Refried, Pinto);Other requests"
   },
 
 
@@ -389,14 +389,14 @@
     "name": "Single Beantown Taco",
     "id": "sbtt",
     "price": 3.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
   {
     "group": "Side Orders",
     "name": "Single Tex Mex Taco",
     "id": "stmt",
     "price": 2.99,
-    "suggested": "Choice of Filling; Spice level (None, Mild, Hot); etc."
+    "suggested": "Choice of filling;Spice level (None, Mild, Hot);Other requests"
   },
 
 
@@ -406,21 +406,21 @@
     "name": "Mexican Soda",
     "id": "msoda",
     "price": 2.50,
-    "suggested": "Choice of Soda"
+    "suggested": "Choice of soda"
   },
   {
     "group": "Drinks",
     "name": "Canned Soda",
     "id": "csoda",
     "price": 1.50,
-    "suggested": "Choice of Soda"
+    "suggested": "Choice of soda"
   },
   {
     "group": "Drinks",
     "name": "20 Ounce Soda",
     "id": "tsoda",
     "price": 2.00,
-    "suggested": "Choice of Soda"
+    "suggested": "Choice of soda"
   },
   {
     "group": "Drinks",

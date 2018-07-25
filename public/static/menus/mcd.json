@@ -4,84 +4,84 @@
     "name": "Big Mac Meal",
     "id": "bmm",
     "price": 7.99,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Quarter Pounder with Cheese Meal",
     "id": "qpcm",
     "price": 7.99,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Double Quarter Pounder with Cheese Meal",
     "id": "dqpcm",
     "price": 8.79,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Two Cheeseburger Meal",
     "id": "tcm",
     "price": 5.39,
-    "suggested": "Size (Medium, Large); Side (Fries, Hash Brown); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Hash Brown);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Crispy Buttermilk Chicken Sandwich Meal",
     "id": "cbcsm",
     "price": 7.99,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Grilled Artisan Chicken Sandwich Meal",
     "id": "gacsm",
     "price": 7.19,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "10 Piece Chicken McNuggets Meal",
     "id": "tpcmm",
     "price": 7.79,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Sauce choice; Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Filet-O-Fish Meal",
     "id": "fofm",
     "price": 7.19,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "4pc. Buttermilk Crispy Tenders Meal",
     "id": "fpbctm",
     "price": 6.99,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Sauce choice; Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "6pc. Buttermilk Crispy Tenders Meal",
     "id": "spbctm",
     "price": 8.99,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Sauce choice; Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "10pc. Buttermilk Crispy Tenders Meal",
     "id": "tpbctm",
     "price": 14.29,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Sauce choice; Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Bacon McDouble Meal",
     "id": "bmdm",
     "price": 5.22,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
 
 
@@ -91,49 +91,49 @@
     "name": "Egg McMuffin Meal",
     "id": "emm",
     "price": 5.79,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin with Egg Meal",
     "id": "smem",
     "price": 5.29,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese Biscuit Meal",
     "id": "becbm",
     "price": 5.79,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit with Egg Meal",
     "id": "sbem",
     "price": 5.79,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit Meal",
     "id": "sbm",
     "price": 3.30,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese McGriddle Meal",
     "id": "becmm",
     "price": 5.79,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage, Egg & Cheese McGriddle Meal",
     "id": "secmm",
     "price": 5.79,
-    "suggested": "Drink choice; etc."
+    "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
@@ -194,14 +194,14 @@
     "name": "Sausage Burrito",
     "id": "sbur",
     "price": 1.79,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Two Sausage Burrito Meal",
     "id": "tsbm",
     "price": 3.79,
-    "suggested": "Sauce choice; Drink choice; etc."
+    "suggested": "Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
@@ -247,7 +247,7 @@
     "name": "SCR Double Bacon Smokehouse Quarter Meal",
     "id": "scrdbsqm",
     "price": 8.89,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Signature Crafted Recipes",
@@ -260,7 +260,7 @@
     "name": "SCR Bacon Smokehouse Artisan Quarter Meal",
     "id": "scrbsaqm",
     "price": 8.09,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad, Hash Brown); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
 
   },
   {
@@ -274,7 +274,7 @@
     "name": "SCR Bacon Smokehouse Artisan Crispy Chicken Meal",
     "id": "scrbsaccm",
     "price": 8.09,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad, Hash Brown); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
   },
   {
     "group": "Signature Crafted Recipes",
@@ -287,7 +287,7 @@
     "name": "SCR Bacon Smokehouse Artisan Grilled Chicken Meal",
     "id": "scrbsagcm",
     "price": 8.09,
-    "suggested": "Size (Medium, Large); Side (Fries, Salad, Hash Brown); Drink choice; etc."
+    "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
   },
 
 
@@ -297,28 +297,28 @@
     "name": "4pc. Chicken McNuggets Happy Meal",
     "id": "fpcmhm",
     "price": 4.09,
-    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries); Drink choice; etc."
+    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "6pc. Chicken McNuggets Mighty Kids Meal",
     "id": "spcmmkm",
     "price": 4.09,
-    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries); Drink choice; etc."
+    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "Hamburger Happy Meal",
     "id": "hhm",
     "price": 3.19,
-    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries); Drink choice; etc."
+    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "Cheeseburger Happy Meal",
     "id": "chm",
     "price": 3.39,
-    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries); Drink choice; etc."
+    "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
 
 
@@ -328,231 +328,231 @@
     "name": "Cold Brew Frozen Coffee",
     "id": "cbfc",
     "price": 2.79,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Cold Brew Frappe",
     "id": "cbf",
     "price": 2.99,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Strawberry Banana Smoothie",
     "id": "sbsmoothie",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Mango Pineapple Smoothie",
     "id": "mpsmoothie",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Mocha Frappe",
     "id": "mfrappe",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Caramel Frappe",
     "id": "cfrappe",
     "price": 2.99,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Mocha",
     "id": "mocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Mocha",
     "id": "nfmocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Caramel Mocha",
     "id": "cmocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Caramel Mocha",
     "id": "nfcmocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Mocha",
     "id": "imocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Mocha",
     "id": "infmocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Caramel Mocha",
     "id": "infcmocha",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Latte",
     "id": "latte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Latte",
     "id": "nflatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Caramel Latte",
     "id": "clatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "French Vanilla Latte",
     "id": "fvlatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat French Vanilla Latte",
     "id": "nffvlatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Latte",
     "id": "ilatte",
     "price": 1.59,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Caramel Latte",
     "id": "iclatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Vanilla Latte",
     "id": "ivlatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Vanilla Latte",
     "id": "infvlatte",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Cappuccino",
     "id": "cappu",
     "price": 2.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Cappuccino",
     "id": "nfcappu",
     "price": 2.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Vanilla Cappuccino",
     "id": "vcappu",
     "price": 2.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Vanilla Cappuccino",
     "id": "nfvcappu",
     "price": 2.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Coffee",
     "id": "coffee",
     "price": 1.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Decaf Coffee",
     "id": "dcoffee",
     "price": 1.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Coffee",
     "id": "icoffee",
     "price": 1.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Caramel Coffee",
     "id": "iccoffee",
     "price": 1.59,
-    "suggested": "Size (Medium, Large); etc."
+    "suggested": "Size (Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Vanilla Coffee",
     "id": "ivcoffee",
     "price": 1.59,
-    "suggested": "Size (Medium, Large); etc."
+    "suggested": "Size (Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Premium Hot Chocolate",
     "id": "hotchoc",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Premium Hot Chocolate",
     "id": "nfhotchoc",
     "price": 1.89,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
 
 
@@ -562,7 +562,7 @@
     "name": "Fries",
     "id": "fri",
     "price": 1.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Fries & Sides",
@@ -575,7 +575,7 @@
     "name": "Side Salad",
     "id": "ss",
     "price": 1.39,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Fries & Sides",
@@ -597,35 +597,35 @@
     "name": "M&M McFlurry",
     "id": "mmmf",
     "price": 2.09,
-    "suggested": "Size (Snack, Regular); etc."
+    "suggested": "Size (Snack, Regular);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Oreo McFlurry",
     "id": "omf",
     "price": 2.09,
-    "suggested": "Size (Snack, Regular); etc."
+    "suggested": "Size (Snack, Regular);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Chocolate Shake",
     "id": "cshake",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Strawberry Shake",
     "id": "sshake",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Vanilla Shake",
     "id": "vshake",
     "price": 2.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
@@ -724,21 +724,21 @@
     "name": "Sweet Iced Tea",
     "id": "st",
     "price": 1.29,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Beverages",
     "name": "Unsweetened Ice Tea",
     "id": "it",
     "price": 1.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Beverages",
     "name": "Hot Tea",
     "id": "ht",
     "price": 1.00,
-    "suggested": "Size (Small, Medium, Large); etc."
+    "suggested": "Size (Small, Medium, Large);Other requests"
   },
 
 
@@ -748,42 +748,42 @@
     "name": "Southwest Salad",
     "id": "sous",
     "price": 3.99,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Grilled Chicken Southwest Salad",
     "id": "gcsous",
     "price": 5.49,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Crispy Chicken Southwest Salad",
     "id": "ccsous",
     "price": 5.29,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Bacon Ranch Salad",
     "id": "brs",
     "price": 3.89,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Grilled Chicken Bacon Ranch Salad",
     "id": "gcbrs",
     "price": 5.29,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Crispy Chicken Bacon Ranch Salad",
     "id": "ccbrs",
     "price": 5.29,
-    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None); etc."
+    "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
 
 
@@ -841,21 +841,21 @@
     "name": "10pc. Chicken McNuggets",
     "id": "tpcm",
     "price": 5.29,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "20pc. Chicken McNuggets",
     "id": "twpcm",
     "price": 7.99,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "40pc. Chicken McNuggets",
     "id": "fopcm",
     "price": 10.99,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
@@ -910,27 +910,27 @@
     "name": "2 Piece Buttermilk Crispy Chicken Tenders",
     "id": "twpbcct",
     "price": 2.00,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "4 Piece Buttermilk Crispy Chicken Tenders",
     "id": "fpbcct",
     "price": 5.29,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "6 Piece Buttermilk Crispy Chicken Tenders",
     "id": "spbcct",
     "price": 6.59,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "10 Piece Buttermilk Crispy Chicken Tenders",
     "id": "tepbcct",
     "price": 11.29,
-    "suggested": "Sauce choice; etc."
+    "suggested": "Sauce choice;Other requests"
   }
 ]

@@ -1,0 +1,586 @@
+[
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Black Tea",
+    "id":"KunFuBlaTea",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Green Tea",
+    "id":"KunFuGreTea",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Oolong Tea",
+    "id":"KunFuOolTea",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Honey Tea",
+    "id":"KunFuHonTea",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Winter Melon Tea",
+    "id":"WinMelTea",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Pomelo Tea",
+    "id":"KunFuPomTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Honey Black Tea",
+    "id":"KunFuHonBlaTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Kung Fu Honey Green Tea",
+    "id":"KunFuHonGreTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Honey Oolong Tea",
+    "id":"HonOolTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Longan Jujube Date Tea",
+    "id":"LonJujDatTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Classic",
+    "name":"Winter Melon Green Tea",
+    "id":"WinMelGreTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Punch",
+    "name":"Honey Lemonade",
+    "id":"HonLem",
+    "price":3.85,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Lemon Black Tea",
+    "id":"LemBlaTea",
+    "price":3.85,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Lemon Green Tea",
+    "id":"LemGreTea",
+    "price":3.85,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Mango Green Tea",
+    "id":"ManGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Peach Oolong Tea",
+    "id":"PeaOolTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Orange Green Tea",
+    "id":"OraGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Veryberry Green Tea ",
+    "id":"VerGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Grapefruit Green Tea",
+    "id":"GraGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Sunshine Pineapple Tea",
+    "id":"SunPinTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Passion Fruit Green Tea",
+    "id":"PasFruGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Strawberry Lemonade Green Tea",
+    "id":"StrLemGreTea",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Punch",
+    "name":"Lychee Punch",
+    "id":"LycPun",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Milk Strike",
+    "name":"Chai Milk",
+    "id":"ChaMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Strike",
+    "name":"Mathca Milk",
+    "id":"MatMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Strike",
+    "name":"Ginger Milk",
+    "id":"GinMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Strike",
+    "name":"Winter Melon Milk",
+    "id":"WinMelMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Wow Milk",
+    "name":"Oreo Wow Milk",
+    "id":"OreWowMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Wow Milk",
+    "name":"Red Bean Wow Milk",
+    "id":"RedBeaWowMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Wow Milk",
+    "name":"Mung Bean Wow Milk",
+    "id":"MunBeaWowMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Wow Milk",
+    "name":"Herbal Jelly Wow Milk",
+    "id":"HerJelWowMil",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Kung Fu Milk Tea",
+    "id":"KunFuMilTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"KF Milk Green Tea ",
+    "id":"KFMilGreTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"KF Oolong Milk Tea",
+    "id":"KFOolMilTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Coffee Milk Tea ",
+    "id":"CofMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Taro Milk Tea",
+    "id":"TarMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Taro Milk Green Tea",
+    "id":"TarMilGreTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Coconut Milk Tea",
+    "id":"CocMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Honey Milk Tea",
+    "id":"HonMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Honey Milk Green Tea",
+    "id":"HonMilGreTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Honey Oolong Milk Tea",
+    "id":"HonOolMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Almond Milk Tea",
+    "id":"AlmMilTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Milk Tea",
+    "name":"Winter Melon Milk Green Tea",
+    "id":"WinMelMilGreTea",
+    "price":4.68,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Yogurt",
+    "name":"Yogurt Green Tea",
+    "id":"YogGreTea",
+    "price":4.13,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Yogurt",
+    "name":"Yogurt Lemonade",
+    "id":"YogLem",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Yogurt",
+    "name":"Yogurt Orange Juice",
+    "id":"YogOraJui",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Yogurt",
+    "name":"Yogurt Grapefruit Juice",
+    "id":"YogGraJui",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Espresso",
+    "name":"Signature Coffee",
+    "id":"SigCof",
+    "price":3.58,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None, Warm);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Espresso",
+    "name":"Latte",
+    "id":"Lat",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None, Warm);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Espresso",
+    "name":"Mocha",
+    "id":"Moc",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None, Warm);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Espresso",
+    "name":"Cappuccino",
+    "id":"Cap",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None, Warm);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Espresso",
+    "name":"Caramel Macchiato ",
+    "id":"CarMac",
+    "price":4.13,
+    "suggested": "Size (Medium, Large, Hot);Ice level (Regular, Less, None, Warm);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Milk Cap",
+    "name":"Black Tea Cap",
+    "id":"BlaTeaCap",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+
+  },
+  {
+    "group":"Milk Cap",
+    "name":"Green Tea Cap",
+    "id":"GreTeaCap",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+  },
+  {
+    "group":"Milk Cap",
+    "name":"Oolong Tea Cap",
+    "id":"OolTeaCap",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+  },
+  {
+    "group":"Milk Cap",
+    "name":"Honey Tea Cap",
+    "id":"HonTeaCap",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+  },
+  {
+    "group":"Milk Cap",
+    "name":"Winter Melon Tea Cap",
+    "id":"WinMelTeaCap",
+    "price":4.4,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+  },
+  {
+    "group":"Milk Cap",
+    "name":"Milk Green Tea Cap",
+    "id":"MilGreTeaCap",
+    "price":5.23,
+    "suggested": "Size (Medium, Large);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Slush",
+    "name":"Pina Colada Slush",
+    "id":"PinColSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Passion Fruit Slush",
+    "id":"PasFruSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Matcha Red Bean Slush",
+    "id":"MatRedBeaSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Strawberry Milk Slush",
+    "id":"StrMilSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Coffee Slush",
+    "id":"CofSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Italian Mocha Slush",
+    "id":"ItaMocSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Caramel Macchiato Slush",
+    "id":"CarMacSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Taro Slush",
+    "id":"TarSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Red Bean Slush",
+    "id":"RedBeaSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Mung Bean Slush",
+    "id":"MunBeaSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Mango Slush",
+    "id":"ManSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Mango Snow Slush",
+    "id":"ManSnoSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Pineapple Slush",
+    "id":"PinSlu",
+    "price":4.68,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Caribbean Breeze Slush",
+    "id":"CarBreSlu",
+    "price":5.78,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+  {
+    "group":"Kung Fu Slush",
+    "name":"Creme de Banana Slush",
+    "id":"CredeBanSlu",
+    "price":5.78,
+    "suggested": "Size (Medium, Large);Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Kung Fu Special",
+    "name":"Brown Sugar Ginger",
+    "id":"BroSugGin",
+    "price":5.5,
+    "suggested": "Ice level (Regular, Less, None);Sugar level (Extra, Regular, Less, Half, Little, Zero);Toppings (Bubbles, Mini Bubz, Oreo, Nata Jelly, Red Bean, Mung Bean, Herbal Jelly, Pudding, Mango Jelly, Aloe Jelly, Fig Jelly, Coffee Popping Bubble, Mango Popping Bubble, Grape Popping Bubble, Milk Cup)"
+  },
+
+
+
+  {
+    "group":"Macaron or Cheesecake",
+    "name":"Macaron",
+    "id":"Mac",
+    "price":2.75,
+    "suggested": "Flavor (Caramel Crunch, Coconut, Dark Chocolate, Matcha Green Tea, Pistachio, Rose Lychee, Vanilla)"
+  },
+  {
+    "group":"Macaron or Cheesecake",
+    "name":"Pack of 6 Macaron",
+    "id":"Pacof6Mac",
+    "price":15.4,
+    "suggested": "Flavors (Caramel Crunch, Coconut, Dark Chocolate, Matcha Green Tea, Pistachio, Rose Lychee, Vanilla)"
+  },
+  {
+    "group":"Macaron or Cheesecake",
+    "name":"Pack of 12 Macaron",
+    "id":"Pacof12Mac",
+    "price":29.7,
+    "suggested": "Flavors (Caramel Crunch, Coconut, Dark Chocolate, Matcha Green Tea, Pistachio, Rose Lychee, Vanilla)"
+  },
+  {
+    "group":"Macaron or Cheesecake",
+    "name":"Cheesecake",
+    "id":"Che",
+    "price":3.58,
+    "suggested": "Size (Single Slice, Whole Cake);Jam Flavor (Strawberry, Lychee, Peach, Mango, Very Berry)"
+  },
+  {
+    "group":"Macaron or Cheesecake",
+    "name":"Oreo Mouse Cake",
+    "id":"OreMouCak",
+    "price":3.58,
+    "suggested": "Size (Single Slice, Whole Cake)"
+  }
+]

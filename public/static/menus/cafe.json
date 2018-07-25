@@ -1,0 +1,993 @@
+[
+  {
+    "group":"Beverages",
+    "name":"20 oz. Soda",
+    "id":"TweozSod",
+    "price":1.87,
+    "suggested":"Soda choice (Coke, Coke Zero, Diet Coke, Caffeine Free Diet Coke, Sprite, Mellow Yellow, Dr. Pepper, Fanta)"
+  },
+  {
+    "group":"Beverages",
+    "name":"2 Liter Soda",
+    "id":"TwoLitSod",
+    "price":2.99,
+    "suggested":"Soda choice (Coke, Diet Coke, Sprite, Fanta)"
+  },
+  {
+    "group":"Beverages",
+    "name":"Monster",
+    "id":"Mon",
+    "price":2.75
+  },
+  {
+    "group":"Beverages",
+    "name":"Lo Carb Monster",
+    "id":"LoCarMon",
+    "price":2.75
+  },
+  {
+    "group":"Beverages",
+    "name":"Nestea",
+    "id":"Nes",
+    "price":1.87
+  },
+  {
+    "group":"Beverages",
+    "name":"Diet Nestea",
+    "id":"DieNes",
+    "price":1.87
+  },
+  {
+    "group":"Beverages",
+    "name":"Honest Tea",
+    "id":"HonTea",
+    "price":2.5
+  },
+  {
+    "group":"Beverages",
+    "name":"Honest Ade",
+    "id":"HonAde",
+    "price":2.5
+  },
+  {
+    "group":"Beverages",
+    "name":"Vitamin Water",
+    "id":"VitWat",
+    "price":2.5,
+    "Suggested":"Flavor choice"
+  },
+  {
+    "group":"Beverages",
+    "name":"Dasani Water",
+    "id":"DasWat",
+    "price":1.75
+  },
+
+
+
+  {
+    "group":"Frappes",
+    "name":"Vanilla Frappe",
+    "id":"VanFra",
+    "price":7.5
+  },
+  {
+    "group":"Frappes",
+    "name":"Chocolate Frappe",
+    "id":"ChoFra",
+    "price":7.5
+  },
+  {
+    "group":"Frappes",
+    "name":"Sugar-Free Frappe",
+    "id":"SugFra",
+    "price":7.5
+  },
+  {
+    "group":"Frappes",
+    "name":"Tofo Based Frappe",
+    "id":"TofBasFra",
+    "price":7.5
+  },
+
+
+
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Berry Blast Smoothie",
+    "id":"TweFouozBerBlaSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Strawberry Banana Cabana Smoothie",
+    "id":"TweFouozStrBanCabSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Tropical Smoothie",
+    "id":"TweFouozTroSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Mango Passion Smoothie",
+    "id":"TweFouozManPasSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. High Protein Smoothie",
+    "id":"TweFouozHigProSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. High Fiber Smoothie",
+    "id":"TweFouozHigFibSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Frozen Tofu Smoothie",
+    "id":"TweFouozFroTofSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Oreo Smoothie",
+    "id":"TweFouozOreSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Green Tea Smoothie",
+    "id":"TweFouozGreTeaSmo",
+    "price":7.5
+  },
+  {
+    "group":"Smoothies",
+    "name":"24 oz. Caramel Cookie Dough Smoothie",
+    "id":"TweFouozCarCooDouSmo",
+    "price":7.5
+  },
+
+
+
+  {
+    "group":"Soups and Combos",
+    "name":"Lemon Chicken Rice Soup",
+    "id":"LemChiRicSou",
+    "price":6.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Italian Wedding Soup",
+    "id":"ItaWedSou",
+    "price":6.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Chicken Noodle Soup",
+    "id":"ChiNooSou",
+    "price":6.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Minestrone Soup",
+    "id":"MinSou",
+    "price":6.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Hearty Lentil Soup",
+    "id":"HeaLenSou",
+    "price":6.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"New England Clam Chowder",
+    "id":"NewEngClaCho",
+    "price":7.25
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Soup & Half Sandwich Combo",
+    "id":"SouHalSanCom",
+    "price":10.99,
+    "suggested":"Soup choice (Lemon Chicken Rice, Italian Wedding, Chicken Noodle, Minestrone, Hearty Lentil, New England Clam Chowder);Sandwich choice (Ham & Cheese, Smoked Turkey, Roast Beef, Egg Salad, White Tuna Salad, Chicken Salad, B.L.T, Fresh Mozzarella+Tomato+Basil, Proscuitto, Smoked Salmon, Grilled Chicken, Meatball Parmesan, Eggplant Parmesan, Italian Sub, Turkey+Fresh Apple, Roast Beets, Chicken Parmesan);Other requests"
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Soup & Garden Salad Combo",
+    "id":"SouGarSalCom",
+    "price":10.99,
+    "suggested":"Soup choice (Lemon Chicken Rice, Italian Wedding, Chicken Noodle, Minestrone, Hearty Lentil, New England Clam Chowder);Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Other requests"
+  },
+  {
+    "group":"Soups and Combos",
+    "name":"Garden Salad & Half Sandwich Combo",
+    "id":"GarSalHalSanCom",
+    "price":10.99,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Sandwich choice (Ham & Cheese, Smoked Turkey, Roast Beef, Egg Salad, White Tuna Salad, Chicken Salad, B.L.T, Fresh Mozzarella+Tomato+Basil, Proscuitto, Smoked Salmon, Grilled Chicken, Meatball Parmesan, Eggplant Parmesan, Italian Sub, Turkey+Fresh Apple, Roast Beets, Chicken Parmesan);Other requests"
+  },
+
+
+
+  {
+    "group":"Salads",
+    "name":"Garden Salad",
+    "id":"GarSal",
+    "price":7.99,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Fresh Mozzarella & Roasted Peppers Salad",
+    "id":"FreMozRoaPepSal",
+    "price":9.99,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Sun-Dried Tomatoes & Goat Cheese Salad",
+    "id":"SunTomGoaCheSal",
+    "price":9.99,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Spinach Salad",
+    "id":"SpiSal",
+    "price":9.99,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Greek Salad",
+    "id":"GreSal",
+    "price":8.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Caesar Salad",
+    "id":"CaeSal",
+    "price":6.95,
+    "suggested":"Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Caesar Salad with Chicken",
+    "id":"CaeSalwitChi",
+    "price":9.95,
+    "suggested":"Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Hearts of Palm Salad",
+    "id":"HeaofPalSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Roasted Beets Salad",
+    "id":"RoaBeeSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"472's Fav Salad",
+    "id":"FSTFavSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Oriental Chicken Kale Salad",
+    "id":"OriChiKalSal",
+    "price":10.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Mandarin & Walnut Salad",
+    "id":"ManWalSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Grilled Chicken Cobb Salad",
+    "id":"GriChiCobSal",
+    "price":10.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Caprese Salad",
+    "id":"CapSal",
+    "price":8.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Asian Chicken Salad",
+    "id":"AsiChiSal",
+    "price":10.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Strawberry Salad",
+    "id":"StrSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+  {
+    "group":"Salads",
+    "name":"Tropical Salad",
+    "id":"TroSal",
+    "price":9.95,
+    "suggested":"Dressing choice (Ranch, Honey Dijon, Russian, Caesar, Greek, Poppyseed, Balsamic Vinaigrette, Fat Free Honey Dijon, Raspberry Vinaigrette, Light Italian, Blue Cheese, Spicy Peanut);Optional add-in (Grilled Chicken, Tuna Salad, Chicken Salad, Buffalo Chicken);Roll-up style (Yes, No);Other requests"
+  },
+
+
+
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Veggie Roll-Up",
+    "id":"VegRol",
+    "price":7.95
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Greek Roll-Up",
+    "id":"GreRol",
+    "price":8.45
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Spicy Chicken Roll-Up",
+    "id":"SpiChiRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Falafel & Hummus Roll-Up",
+    "id":"FalHumRol",
+    "price":9.25
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Chicken Kabob Roll-Up",
+    "id":"ChiKabRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Grilled Chicken Roll-Up",
+    "id":"GriChiRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Grilled Chicken Caesar Roll-Up",
+    "id":"GriChiCaeRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Veggie Delight Roll-Up",
+    "id":"VegDelRol",
+    "price":8.95
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Avocado & Brie Roll-Up",
+    "id":"AvoBriRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Chicken Teriyaki Roll-Up",
+    "id":"ChiTerRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Eggplant Pita Roll-Up",
+    "id":"EggPitRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Grilled Chicken & Avocado Roll-Up",
+    "id":"GriChiAvoRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Smoked Turkey Roll-Up",
+    "id":"SmoTurRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Grilled Chicken & Eggplant Roll-Up",
+    "id":"GriChiEggRol",
+    "price":9.5
+  },
+  {
+    "group":"Pita Roll-Ups",
+    "name":"Hawaiian BBQ Chicken Roll-Up",
+    "id":"HawBBQChiRol",
+    "price":9.5
+  },
+
+
+
+  {
+    "group":"Sandwiches",
+    "name":"Ham & Cheese Sandwich",
+    "id":"HamCheSan",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Smoked Turkey Sandwich",
+    "id":"SmoTurSan",
+    "price":9.5,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Avocado (Yes, No);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Roast Beef Sandwich",
+    "id":"RoaBeeSan",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Egg Salad Sandwich",
+    "id":"EggSalSan",
+    "price":8.5,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"White Tuna Salad Sandwich",
+    "id":"WhiTunSalSan",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Chicken Salad Sandwich",
+    "id":"ChiSalSan",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"B.L.T. Sandwich",
+    "id":"BLTSan",
+    "price":8.5,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Fresh Mozzarella, Tomatoes & Basil Sandwich",
+    "id":"FreMozTomBasSan",
+    "price":8.5,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Prosciutto Sandwich",
+    "id":"ProSan",
+    "price":9.99,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Smoked Salmon Sandwich",
+    "id":"SmoSalSan",
+    "price":9.99,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Grilled Chicken Sandwich",
+    "id":"GriChiSan",
+    "price":9.99,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Meatball Parmesan Sub",
+    "id":"MeaParSub",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Eggplant Parmesan Sub",
+    "id":"EggParSub",
+    "price":8.95,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Italian Sub",
+    "id":"ItaSub",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Turkey & Fresh Sliced Apple Sandwich",
+    "id":"TurFreSliAppSan",
+    "price":9.5,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Roasted Beets Sandwich",
+    "id":"RoaBeetSan",
+    "price":8.95,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+  {
+    "group":"Sandwiches",
+    "name":"Chicken Parmesan Sub",
+    "id":"ChiParSub",
+    "price":9.25,
+    "suggested":"Bread choice (French Roll, White, Pita, Rye, Ciabatta, Foccacia, Wheat);Additional condiments (Mayo, Pesto, Sun-Dried Tomato Paste, Dijon Mustard, Hummus, Yellow Mustard, Ketchup);Additional toppings (Lettuce, Green Pepper, Tomatoes, Pickles, Cucumbers, Red Onions, Sprouts); Other requests"
+  },
+
+
+  
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"N.U. Sandwich",
+    "id":"NUSan",
+    "price":9.99
+  },
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"B.U. Sandwich",
+    "id":"BUSan",
+    "price":9.99
+  },
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"Wheelock Sandwich",
+    "id":"WheSan",
+    "price":9.99
+  },
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"M.I.T. Sandwich",
+    "id":"MITSan",
+    "price":9.99
+  },
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"Simmons Sandwich",
+    "id":"SimSan",
+    "price":9.99
+  },
+  {
+    "group":"472's Specialty Sandwiches",
+    "name":"Berklee Sandwich",
+    "id":"BerSan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Grilled Chicken Panini",
+    "id":"GriChiPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Smoked Turkey Panini",
+    "id":"SmoTurPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Eggplant Panini",
+    "id":"EggPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Grilled Portabella Mushroom Panini",
+    "id":"GriPorMusPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Prosciutto Panini",
+    "id":"ProPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Italian Cold Cuts Panini",
+    "id":"ItaColCutPan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Roast Beef Panini",
+    "id":"RoaBeePan",
+    "price":9.99
+  },
+  {
+    "group":"Panini Sandwiches",
+    "name":"Triple Grilled Cheese with Tomatoes Panini",
+    "id":"TriGriChewitTomPan",
+    "price":6.95
+  },
+  {
+    "group":"Melts",
+    "name":"Tuna Melt with Tomatoes",
+    "id":"TunMelwitTom",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Ham and Brie Melt with Dijon Mustard",
+    "id":"HamandBriMelwitDijMus",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Smoked Turkey and Swiss Melt",
+    "id":"SmoTurandSwiMel",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Artichoke and Provolone Melt",
+    "id":"ArtandProMel",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Turkey and Cranberry Chutney Melt",
+    "id":"TurandCraChuMel",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Vegetarian Beets Reuben Melt",
+    "id":"VegBeeReuMel",
+    "price":9.99
+  },
+  {
+    "group":"Melts",
+    "name":"Reuben Melt",
+    "id":"ReuMel",
+    "price":9.99
+  },
+  {
+    "group":"Pizza & Calzones",
+    "name":"Small 12\" Pizza",
+    "id":"Sma12Piz",
+    "price":8.99
+  },
+  {
+    "group":"Pizza & Calzones",
+    "name":"Large 16\" Pizza",
+    "id":"Lar16Piz",
+    "price":12.99
+  },
+  {
+    "group":"Pizza & Calzones",
+    "name":"12\" Calzone",
+    "id":"TweCal",
+    "price":9.99
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"472's Fav Pizza",
+    "id":"FSTFavPiz",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Margherita Classica Pizza",
+    "id":"MarClaPiz",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Quattro Formaggi",
+    "id":"PizQuaFor",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Mediterranean",
+    "id":"PizMed",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Vegetariana",
+    "id":"PizVeg",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza con Prosciutto",
+    "id":"PizconPro",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Melanzana",
+    "id":"PizMel",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza di Patate",
+    "id":"PizdiPat",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Port Alba",
+    "id":"PizPorAlb",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Hawaiian Italian",
+    "id":"PizHawIta",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Portobello",
+    "id":"PizPor",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Pollo con Pesto",
+    "id":"PizPolconPes",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Carne Amoroso",
+    "id":"PizCarAmo",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Chicken Barbecue",
+    "id":"PizChiBar",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Chicken Buffalo",
+    "id":"PizChiBuf",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Chicken Thai",
+    "id":"PizChiTha",
+    "price":13.95
+  },
+  {
+    "group":"Specialty Pizzas",
+    "name":"Pizza Chicken Alfredo",
+    "id":"PizChiAlf",
+    "price":13.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Chicken Broccoli Alfredo",
+    "id":"ChiBroAlf",
+    "price":9.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Meatball in Red Sauce",
+    "id":"MeainRedSau",
+    "price":9.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Chicken Parmesan in Red Sauce",
+    "id":"ChiParinRedSau",
+    "price":9.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Meat Lasagna",
+    "id":"MeaLas",
+    "price":8.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Veggie Lasagna",
+    "id":"VegLas",
+    "price":8.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Cheese Ravioli",
+    "id":"CheRav",
+    "price":8.95
+  },
+  {
+    "group":"Pasta Penne",
+    "name":"Chicken Pesto",
+    "id":"ChiPes",
+    "price":9.95
+  },
+  {
+    "group":"Side Orders",
+    "name":"Baked Fries",
+    "id":"BakFri",
+    "price":5.95
+  },
+  {
+    "group":"Side Orders",
+    "name":"Buffalo Wings",
+    "id":"BufWin",
+    "price":9.49
+  },
+  {
+    "group":"Side Orders",
+    "name":"Buffalo Fingers",
+    "id":"BufFin",
+    "price":8.99
+  },
+  {
+    "group":"Side Orders",
+    "name":"Hummus with Pita",
+    "id":"HumwitPit",
+    "price":5.0
+  },
+  {
+    "group":"Side Orders",
+    "name":"Mozzarella Sticks",
+    "id":"MozSti",
+    "price":7.99
+  },
+  {
+    "group":"Side Orders",
+    "name":"Cheese Breadsticks",
+    "id":"CheBre",
+    "price":7.99
+  },
+  {
+    "group":"Side Orders",
+    "name":"Cape Cod Chips",
+    "id":"CapCodChi",
+    "price":1.25
+  },
+  {
+    "group":"Side Orders",
+    "name":"Garlic Bread",
+    "id":"GarBre",
+    "price":3.75
+  },
+  {
+    "group":"Side Orders",
+    "name":"Garlic Bread with Cheese",
+    "id":"GarBrewitChe",
+    "price":4.25
+  },
+  {
+    "group":"Side Orders",
+    "name":"Cole Slaw",
+    "id":"ColSla",
+    "price":4.25
+  },
+  {
+    "group":"Side Orders",
+    "name":"Side Garden Salad",
+    "id":"SidGarSal",
+    "price":4.5
+  },
+  {
+    "group":"Side Orders",
+    "name":"Side Greek Salad",
+    "id":"SidGreSal",
+    "price":5.0
+  },
+  {
+    "group":"Desserts",
+    "name":"Tiramisu",
+    "id":"Tir",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Cheese Cake",
+    "id":"CheCak",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Chocolate Cake",
+    "id":"ChoCak",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Carrot Cake",
+    "id":"CarCak",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Bread Pudding",
+    "id":"BrePud",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Red Velvet",
+    "id":"RedVel",
+    "price":5.25
+  },
+  {
+    "group":"Desserts",
+    "name":"Brownie",
+    "id":"Bro",
+    "price":2.5
+  },
+  {
+    "group":"Desserts",
+    "name":"Chocolate Chip Cookie",
+    "id":"ChoChiCoo",
+    "price":2.0
+  },
+  {
+    "group":"Frozen Yogurt",
+    "name":"Frozen Yogurt",
+    "id":"FroYog",
+    "price":5.5
+  },
+  {
+    "group":"Ice Cream Pies",
+    "name":"Oreo Ice Cream Pie",
+    "id":"OreIceCrePie",
+    "price":5.25
+  },
+  {
+    "group":"Ice Cream Pies",
+    "name":"Mud Ice Cream Pie",
+    "id":"MudIceCrePie",
+    "price":5.25
+  },
+  {
+    "group":"Baklava",
+    "name":"Baklava with Walnuts",
+    "id":"BakwitWal",
+    "price":4.0
+  },
+  {
+    "group":"Baklava",
+    "name":"Baklava with Pistachio",
+    "id":"BakwitPis",
+    "price":5.75
+  }
+]

@@ -173,7 +173,7 @@ $(document).ready(() => {
           <span>Special Instructions:</span>
           <div class="instr">
             <textarea data-instr="${id}" class="instr-text" placeholder="For item additions, deletions, and/or additional info."></textarea>
-            ${suggested ? `<div class="suggested">Suggested things to include: ${suggested}</div>` : ''}
+            ${suggested ? `<div class="suggested">Suggested things to include: ${suggested.split(';').map(el => `<div>${el}</div>`).join('')}</div>` : ''}
           </div>
         </div>
       </div>`
@@ -286,6 +286,7 @@ $(document).ready(() => {
   const room = getParameterByName('room');
   if (room) {
     const roomRef = ref.child('rooms').child(room);
+    console.log("help meeeee");
 
     roomRef.on('value', (snapshot) => {
       const status = snapshot.val();
@@ -313,6 +314,12 @@ $(document).ready(() => {
             $.getJSON(menuUrl, doActions);
           } else if (stat.place === 'Dumpling Palace') {
             const menuUrl = './static/menus/dp.json';
+            $.getJSON(menuUrl, doActions);
+          } else if (stat.place === 'Kung Fu Tea') {
+            const menuUrl = './static/menus/kft.json';
+            $.getJSON(menuUrl, doActions);
+          } else if (stat.place === 'Cafe 472') {
+            const menuUrl = './static/menus/cafe.json';
             $.getJSON(menuUrl, doActions);
           }
         });
