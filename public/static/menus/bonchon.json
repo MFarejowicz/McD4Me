@@ -1,0 +1,493 @@
+[
+  {
+    "group":"Drinks",
+    "name":"San Pellegrino",
+    "id":"SanPel",
+    "price":2.5,
+    "suggested":"Flavor choice (Blood Orange, Orange, Lemon, Pomegranate and Orange)"
+  },
+  {
+    "group":"Drinks",
+    "name":"Orangina",
+    "id":"Ora",
+    "price":2.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Perrier",
+    "id":"Per",
+    "price":1.95
+  },
+  {
+    "group":"Drinks",
+    "name":"Soda",
+    "id":"Sod",
+    "price":1.95,
+    "suggested":"Soda choice (Coke, Diet Coke, Coke Zero, Sprite)"
+  },
+  {
+    "group":"Drinks",
+    "name":"Poland Spring Water",
+    "id":"PolSprWat",
+    "price":1.95
+  },
+  {
+    "group":"Drinks",
+    "name":"Honest Ade",
+    "id":"HonAde",
+    "price":2.75,
+    "suggested":"Flavor choice (Pomegranate Blue, Orange Mango)"
+  },
+
+
+
+  {
+    "group":"Appetizer",
+    "name":"Edamame",
+    "id":"Eda",
+    "price":5.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Seaweed Salad",
+    "id":"SeaSal",
+    "price":6.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Shumai",
+    "id":"Shu",
+    "price":6.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Gyeran Jjim",
+    "id":"GyeJji",
+    "price":6.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Gogi Mandu Gui",
+    "id":"GogManGui",
+    "price":6.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Yachae Mandu Gui",
+    "id":"YacManGui",
+    "price":6.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Takoyaki ",
+    "id":"Tak",
+    "price":7.95
+  },
+  {
+    "group":"Appetizer",
+    "name":"Rice Cake Fritter",
+    "id":"RicCakFri",
+    "price":6.95
+  },
+
+
+
+  {
+    "group":"Soup",
+    "name":"Soondubu Jjigae",
+    "id":"SooJji",
+    "price":13.95,
+    "suggested":"Style choice (Beef, Assorted, Seafood);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Doenjang Jjigae",
+    "id":"DoeJji",
+    "price":13.95
+  },
+  {
+    "group":"Soup",
+    "name":"Kimchi Jjigae",
+    "id":"KimJji",
+    "price":13.95
+  },
+  {
+    "group":"Soup",
+    "name":"Al Jjigae",
+    "id":"AlJji",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Kimchi Al Jjigae",
+    "id":"KimAlJji",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Galbi Tang",
+    "id":"GalTan",
+    "price":14.95,
+    "suggested":"Make it spicy (Yes, No);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Yukgaejang",
+    "id":"Yuk",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Daegu Jiri",
+    "id":"DaeJir",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Daegu Maeuntang",
+    "id":"DaeMae",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Bulgogi Stew",
+    "id":"BulSte",
+    "price":14.95
+  },
+  {
+    "group":"Soup",
+    "name":"Mandu Guk",
+    "id":"ManGuk",
+    "price":12.95
+  },
+
+
+
+  {
+    "group":"Salad",
+    "name":"Plain Salad",
+    "id":"PlaSal",
+    "price":5.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+  {
+    "group":"Salad",
+    "name":"Tofu Salad",
+    "id":"TofSal",
+    "price":7.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+  {
+    "group":"Salad",
+    "name":"Bulgogi Salad",
+    "id":"BulSal",
+    "price":10.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+  {
+    "group":"Salad",
+    "name":"Galbi Salad",
+    "id":"GalSal",
+    "price":12.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+  {
+    "group":"Salad",
+    "name":"Grilled Shrimp Salad",
+    "id":"GriShrSal",
+    "price":10.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+  {
+    "group":"Salad",
+    "name":"Fried Chicken Salad",
+    "id":"FriChiSal",
+    "price":8.95,
+    "suggested":"Extra dressing (Yes, No);Other requests"
+  },
+
+
+
+  {
+    "group":"Our Best-Seller",
+    "name":"Crispy Fish in Sweet and Chili Sauce",
+    "id":"CriFisinSweandChiSau",
+    "price":15.95
+  },
+  {
+    "group":"Our Best-Seller",
+    "name":"Hamul Pajeon",
+    "id":"HamPaj",
+    "price":15.95
+  },
+  {
+    "group":"Our Best-Seller",
+    "name":"Tteok Bokki",
+    "id":"TteBok",
+    "price":12.95
+  },
+  {
+    "group":"Our Best-Seller",
+    "name":"Seafood Tteok Bokki",
+    "id":"SeaTteBok",
+    "price":15.95
+  },
+  {
+    "group":"Our Best-Seller",
+    "name":"Japchae",
+    "id":"Jap",
+    "price":14.95,
+    "suggested":"Make it spicy (Yes, No);Other requests"
+  },
+  {
+    "group":"Our Best-Seller",
+    "name":"Spicy Seafood Japchae",
+    "id":"SpiSeaJap",
+    "price":17.95
+  },
+
+
+
+  {
+    "group":"Bon Chon Chicken",
+    "name":"Chicken Strips",
+    "id":"ChiStr",
+    "price":10.95,
+    "suggested":"Size choice (Small - 10, Medium - 20, Large - 30, Extra Large - 40);Sauce choice (Soy Garlic, Very Hot and Spicy, Half and Half);Other requests"
+  },
+  {
+    "group":"Bon Chon Chicken",
+    "name":"Chicken Wings",
+    "id":"ChiWin",
+    "price":10.95,
+    "suggested":"Size choice (Small - 10, Medium - 20, Large - 30, Extra Large - 40);Sauce choice (Soy Garlic, Very Hot and Spicy, Half and Half);Other requests"
+  },
+  {
+    "group":"Bon Chon Chicken",
+    "name":"Chicken Drumsticks",
+    "id":"ChiDru",
+    "price":10.95,
+    "suggested":"Size choice (Small - 5, Medium - 10, Large - 15, Extra Large - 20);Sauce choice (Soy Garlic, Very Hot and Spicy, Half and Half);Other requests"
+  },
+  {
+    "group":"Bon Chon Chicken",
+    "name":"Chicken Combo",
+    "id":"ChiCom",
+    "price":11.95,
+    "suggested":"Size choice (Small - 6 Wings/3 Drumsticks, Medium - 10 Wings/5 Drumsticks, Large - 15 Wings/8 Drumsticks, Extra Large - 20 Wings/10 Drumsticks);Sauce choice (Soy Garlic, Very Hot and Spicy, Half and Half);Other requests"
+  },
+
+
+
+  {
+    "group":"Cold Noodles",
+    "name":"Mul Naengmyeon",
+    "id":"MulNae",
+    "price":13.95,
+    "suggested":"Extra Buckwheat Noodle (Yes, No);Other requests"
+  },
+  {
+    "group":"Cold Noodles",
+    "name":"Bibim Naengmyeon",
+    "id":"BibNae",
+    "price":13.95,
+    "suggested":"Extra Buckwheat Noodle (Yes, No);Other requests"
+  },
+
+
+
+  {
+    "group":"Rice",
+    "name":"Classic Bibim Bap",
+    "id":"ClaBibBap",
+    "price":11.95,
+    "suggested":"Style choice (Plain, Tofu, Spicy Pork, Bulgogi, Seafood);Other requests"
+  },
+  {
+    "group":"Rice",
+    "name":"Fried Rice",
+    "id":"FriRic",
+    "price":11.95,
+    "suggested":"Style choice (Chicken, Kimchi and Beef, Seafood);Other requests"
+  },
+
+
+
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Seafood Buldak",
+    "id":"SeaBul",
+    "price":20.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Galbi",
+    "id":"Gal",
+    "price":21.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Tofu and Kimchi Daeji Bokkeum",
+    "id":"TofandKimDaeBok",
+    "price":18.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Haemul Udon Bokkeum",
+    "id":"HaeUdoBok",
+    "price":20.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Nakji Bokkeum",
+    "id":"NakBok",
+    "price":20.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Ojinguh Bokkeum",
+    "id":"OjiBok",
+    "price":19.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Bulgogi",
+    "id":"Bulg",
+    "price":19.95
+  },
+  {
+    "group":"All Time Favorite Special Dishes",
+    "name":"Buldak",
+    "id":"Buld",
+    "price":18.95
+  },
+
+
+
+  {
+    "group":"Extras",
+    "name":"Side of Kimchi",
+    "id":"SidofKim",
+    "price":3.95
+  },
+  {
+    "group":"Extras",
+    "name":"Side Miso Soup",
+    "id":"SidMisSou",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Side of French Fries",
+    "id":"SidofFreFri",
+    "price":3.95
+  },
+  {
+    "group":"Extras",
+    "name":"Side of Steamed Rice",
+    "id":"SidofSteRic",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Side of Radish",
+    "id":"SidofRad",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Side of Coleslaw",
+    "id":"SidofCol",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Vegetables",
+    "id":"ExtVeg",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Seafood",
+    "id":"ExtSea",
+    "price":3.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Meat",
+    "id":"ExtMea",
+    "price":2.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Broth",
+    "id":"ExtBro",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Soup",
+    "id":"ExtSou",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Dressing",
+    "id":"ExtDre",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Sauce",
+    "id":"ExtSau",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Egg",
+    "id":"ExtEgg",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Tofu",
+    "id":"ExtTof",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Udon Noodle",
+    "id":"ExtUdoNoo",
+    "price":3.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Ramen Noodle",
+    "id":"ExtRamNoo",
+    "price":3.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Vermicelli",
+    "id":"ExtVer",
+    "price":2.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Glass Noodle",
+    "id":"ExtGlaNoo",
+    "price":2.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Rice Cake",
+    "id":"ExtRicCak",
+    "price":1.95
+  },
+  {
+    "group":"Extras",
+    "name":"Extra Fish Cake",
+    "id":"ExtFisCak",
+    "price":1.95
+  }
+]

@@ -321,6 +321,9 @@ $(document).ready(() => {
           } else if (stat.place === 'Cafe 472') {
             const menuUrl = './static/menus/cafe.json';
             $.getJSON(menuUrl, doActions);
+          } else if (stat.place === 'Bonchon') {
+            const menuUrl = './static/menus/bonchon.json';
+            $.getJSON(menuUrl, doActions);
           }
         });
       }
