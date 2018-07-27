@@ -286,11 +286,19 @@ $(document).ready(() => {
   const room = getParameterByName('room');
   if (room) {
     const roomRef = ref.child('rooms').child(room);
-    console.log("help meeeee");
+    const placeMap = {
+      mcd: 'McDonald\'s',
+      beantown: 'Beantown',
+      dp: 'Dumpling Palace',
+      kft: 'Kung Fu Tea',
+      cafe: 'Cafe 472',
+      bonchon: 'Bonchon',
+      pepper: 'Pepper Sky',
+    };
 
     roomRef.on('value', (snapshot) => {
       const status = snapshot.val();
-      $('#o-resName').text(status.place);
+      $('#o-resName').text(placeMap[status.place]);
       let numLeft = status.numLeft;
       $('#o-numLeft').text(numLeft > 0 ? numLeft : 'no');
       let closeTime = new Date(status.closeTime);
@@ -306,25 +314,8 @@ $(document).ready(() => {
         $('.sorry').css('display', 'none');
         roomRef.once('value').then((snap) => {
           const stat = snap.val();
-          if (stat.place === 'McDonald\'s') {
-            const menuUrl = './static/menus/mcd.json';
-            $.getJSON(menuUrl, doActions);
-          } else if (stat.place === 'Beantown') {
-            const menuUrl = './static/menus/beantown.json';
-            $.getJSON(menuUrl, doActions);
-          } else if (stat.place === 'Dumpling Palace') {
-            const menuUrl = './static/menus/dp.json';
-            $.getJSON(menuUrl, doActions);
-          } else if (stat.place === 'Kung Fu Tea') {
-            const menuUrl = './static/menus/kft.json';
-            $.getJSON(menuUrl, doActions);
-          } else if (stat.place === 'Cafe 472') {
-            const menuUrl = './static/menus/cafe.json';
-            $.getJSON(menuUrl, doActions);
-          } else if (stat.place === 'Bonchon') {
-            const menuUrl = './static/menus/bonchon.json';
-            $.getJSON(menuUrl, doActions);
-          }
+          const menuUrl = `./static/menus/${stat.place}.json`;
+          $.getJSON(menuUrl, doActions);
         });
       }
     });
