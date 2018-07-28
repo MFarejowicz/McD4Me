@@ -57,7 +57,7 @@
             </div>
             <div class="row">
               <div class="row-item">
-                <label for="maxNum">Max orders:</label>
+                <label for="maxNum">Max number of orders:</label>
                 <br/>
                 <input type="number" id="maxNum" name="maxNum" value="15" min="1" required></input>
               </div>
@@ -66,6 +66,15 @@
                 <br/>
                 <input type="text" id="pass" name="pass" >
               </div>
+            </div>
+            <div class="close-warning">
+              <p>
+                Warning: it looks like that restaurant is closed or closing soon!
+                <br/>
+                <span>(<span id="close-warning-res">McDonald's</span> closes at <span id="close-warning-time">9:00pm</span> today)</span>
+                <br/>
+                Would you still like to create a room?
+               </p>
             </div>
             <div class="create-button">
               <button id="create" class="butt" type="button"><span>Create Room</span></button>

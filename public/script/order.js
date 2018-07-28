@@ -229,7 +229,7 @@ $(document).ready(() => {
 
     $('#submit-order').click(function() {
       let name = order.getName();
-      let roomRef = ref.child('rooms/' + room);
+      let roomRef = ref.child(`rooms/${room}`);
       let ordersRef = roomRef.child('orders');
 
       ordersRef.once('value').then((snapshot) => {

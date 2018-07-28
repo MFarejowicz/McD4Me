@@ -284,6 +284,11 @@ a {
   -webkit-appearance: none;
 }
 
+.close-warning {
+  display: none;
+  margin-bottom: 15px;
+}
+
 #create {
   width: 400px;
   font-size: 50px;
@@ -693,6 +698,9 @@ input[type=checkbox] {
   .create-button {
     display: flex;
     justify-content: center;
+  }
+  .close-warning {
+    font-size: 14px;
   }
 
   /*  HOST  */

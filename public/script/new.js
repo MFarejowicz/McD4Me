@@ -31,8 +31,12 @@ $(document).ready(() => {
     const m = parseInt(time.substring(3), 10);
     const s = 0;
 
-    let userEndDate = new Date();
+    const userEndDate = new Date();
     userEndDate.setHours(h, m, s);
+    const now = new Date();
+    if (userEndDate < now) {
+      userEndDate.setDate(userEndDate.getDate() + 1);
+    }
     return userEndDate.toString();
   }
 
@@ -70,6 +74,75 @@ $(document).ready(() => {
         $(location).attr('href', `host.html?room=${nextRoomKey}`);
       });
   }
+
+  // Turn the time in the DB into a usable JavaScript Date object
+  function makeTimeObject(time) {
+    const h = parseInt(time.substring(0, 2), 10);
+    const m = parseInt(time.substring(3, 5), 10);
+    const s = parseInt(time.substring(6), 10);
+
+    const timeObject = new Date();
+    timeObject.setHours(h, m, s);
+    return timeObject;
+  }
+
+  // Check to see if the current time is within the open ranges of a restaurant
+  function isReasonableTime(now, todayHours) {
+    for (let i = 0; i < todayHours.length; i += 1) {
+      const range = todayHours[i];
+      const start = makeTimeObject(range.start);
+      const end = makeTimeObject(range.end);
+      if (start < now && now < end) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Get the closing time of a restaurant as a string
+  function getEndTime(hours) {
+    const dbEndTime = makeTimeObject(hours[0].end);
+    const actualEndTime = new Date(dbEndTime.getTime() + 30 * 60000);
+    return actualEndTime.toLocaleTimeString();
+  }
+
+  // Check to make sure the currently selected restaurant is still open
+  function checkTime() {
+    const place = $('#where').val();
+    const placeMap = {
+      mcd: 'McDonald\'s',
+      beantown: 'Beantown',
+      dp: 'Dumpling Palace',
+      kft: 'Kung Fu Tea',
+      cafe: 'Cafe 472',
+      bonchon: 'Bonchon',
+      pepper: 'Pepper Sky',
+    };
+    const now = new Date();
+    const day = now.getDay();
+
+    const hoursRef = ref.child(`hours/${place}`);
+    hoursRef.once('value')
+      .then((snapshot) => {
+        const hours = snapshot.val();
+        const todayHours = hours[day];
+        if (isReasonableTime(now, todayHours)) {
+          $('#close-warning-res').text('');
+          $('#close-warning-time').text('');
+          $('.close-warning').css('display', 'none');
+        } else {
+          $('#close-warning-res').text(placeMap[place]);
+          $('#close-warning-time').text(getEndTime(todayHours));
+          $('.close-warning').css('display', 'block');
+        }
+      });
+  }
+
+  // Bind changing restaurant selection to checking restaurant hours
+  $('#where').change(() => {
+    checkTime();
+  });
+  checkTime(); // Also do this right when we load the page
 
   // Bind creating a room to button click
   $('#create').click(() => {
