@@ -1,6 +1,18 @@
 {
   "rules": {
     ".read": true,
-    ".write": true
+    ".write": false,
+    "rooms": {
+      "$room_id": {
+        ".write": true,
+        ".validate": "newData.hasChildren(['closeTime', 'numLeft', 'place', 'password'])",
+          "closeTime": {".validate" : "newData.isString()"},
+          "numLeft": {".validate" : "newData.isNumber() && newData.val() >= -10 && newData.val() <= 999"},
+          "place": {".validate" : "newData.isString()"},
+          "password": {".validate": "newData.isString()"},
+          "orders": {".validate": true},
+          "$other": { ".validate": false }
+      }
+    }
   }
 }
