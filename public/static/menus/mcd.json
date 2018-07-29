@@ -3,42 +3,42 @@
     "group": "Extra Value Meals",
     "name": "Big Mac Meal",
     "id": "bmm",
-    "price": 7.99,
+    "price": 8.79,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Quarter Pounder with Cheese Meal",
     "id": "qpcm",
-    "price": 7.99,
+    "price": 8.99,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Double Quarter Pounder with Cheese Meal",
     "id": "dqpcm",
-    "price": 8.79,
+    "price": 9.99,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Two Cheeseburger Meal",
     "id": "tcm",
-    "price": 5.39,
-    "suggested": "Size (Medium, Large);Side (Fries, Hash Brown);Drink choice;Other requests"
+    "price": 5.99,
+    "suggested": "Size (Medium, Large);Side (Fries, Hash Brown, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Crispy Buttermilk Chicken Sandwich Meal",
     "id": "cbcsm",
-    "price": 7.99,
+    "price": 9.19,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "Grilled Artisan Chicken Sandwich Meal",
     "id": "gacsm",
-    "price": 7.19,
+    "price": 9.19,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
@@ -52,28 +52,28 @@
     "group": "Extra Value Meals",
     "name": "Filet-O-Fish Meal",
     "id": "fofm",
-    "price": 7.19,
+    "price": 8.09,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "4pc. Buttermilk Crispy Tenders Meal",
     "id": "fpbctm",
-    "price": 6.99,
+    "price": 7.49,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "6pc. Buttermilk Crispy Tenders Meal",
     "id": "spbctm",
-    "price": 8.99,
+    "price": 9.49,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
     "group": "Extra Value Meals",
     "name": "10pc. Buttermilk Crispy Tenders Meal",
     "id": "tpbctm",
-    "price": 14.29,
+    "price": 13.19,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Sauce choice;Drink choice;Other requests"
   },
   {
@@ -90,49 +90,49 @@
     "group": "All Day Breakfast",
     "name": "Egg McMuffin Meal",
     "id": "emm",
-    "price": 5.79,
+    "price": 5.59,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin with Egg Meal",
     "id": "smem",
-    "price": 5.29,
+    "price": 3.99,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese Biscuit Meal",
     "id": "becbm",
-    "price": 5.79,
+    "price": 5.59,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit with Egg Meal",
     "id": "sbem",
-    "price": 5.79,
+    "price": 5.59,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit Meal",
     "id": "sbm",
-    "price": 3.30,
+    "price": 4.48,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese McGriddle Meal",
     "id": "becmm",
-    "price": 5.79,
+    "price": 6.39,
     "suggested": "Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage, Egg & Cheese McGriddle Meal",
     "id": "secmm",
-    "price": 5.79,
+    "price": 6.39,
     "suggested": "Drink choice;Other requests"
   },
   {
@@ -145,93 +145,93 @@
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin",
     "id": "sm",
-    "price": 1.00
+    "price": 1.99
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McMuffin with Egg and Cheese",
     "id": "sme",
-    "price": 4.19
+    "price": 3.99
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit",
     "id": "sbis",
-    "price": 1.00
+    "price": 2.09
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese Biscuit",
     "id": "becb",
-    "price": 4.09
+    "price": 3.99
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Biscuit with Egg",
     "id": "sbe",
-    "price": 4.09
+    "price": 3.99
   },
   {
     "group": "All Day Breakfast",
     "name": "Bacon, Egg & Cheese McGriddle",
     "id": "becm",
-    "price": 4.69
+    "price": 4.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage, Egg & Cheese McGriddle",
     "id": "secm",
-    "price": 4.69
+    "price": 4.79
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage McGriddle",
     "id": "smg",
-    "price": 3.49
+    "price": 3.69
   },
   {
     "group": "All Day Breakfast",
     "name": "Sausage Burrito",
     "id": "sbur",
-    "price": 1.79,
-    "suggested": "Sauce choice;Other requests"
+    "price": 1.89,
+    "suggested": "Sauce choice (Mild Picante, Ketchup);Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Two Sausage Burrito Meal",
     "id": "tsbm",
-    "price": 3.79,
-    "suggested": "Sauce choice;Drink choice;Other requests"
+    "price": 6.48,
+    "suggested": "Sauce choice (Mild Picante, Ketchup);Drink choice;Other requests"
   },
   {
     "group": "All Day Breakfast",
     "name": "Hash Browns",
     "id": "hbr",
-    "price": 1.00
+    "price": 1.50
   },
   {
     "group": "All Day Breakfast",
     "name": "Biscuit",
     "id": "bc",
-    "price": 1.00
+    "price": 1.50
   },
   {
     "group": "All Day Breakfast",
     "name": "3 Hotcakes",
     "id": "th",
-    "price": 3.09
+    "price": 3.79
   },
   {
     "group": "All Day Breakfast",
     "name": "3 Hotcakes with Sausage",
     "id": "ths",
-    "price": 4.09
+    "price": 4.39
   },
   {
     "group": "All Day Breakfast",
     "name": "Oatmeal",
     "id": "om",
-    "price": 2.39
+    "price": 3.69
   },
 
 
@@ -246,7 +246,46 @@
     "group": "Signature Crafted Recipes",
     "name": "SCR Double Bacon Smokehouse Quarter Meal",
     "id": "scrdbsqm",
-    "price": 8.89,
+    "price": 9.29,
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Quarter",
+    "id": "scrgwcaq",
+    "price": 5.99
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Quarter Meal",
+    "id": "scrgwcaqm",
+    "price": 7.59,
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Grilled",
+    "id": "scrgwcag",
+    "price": 5.99
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Grilled Meal",
+    "id": "scrgwcagm",
+    "price": 7.59,
+    "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Crispy",
+    "id": "scrgwcac",
+    "price": 5.99
+  },
+  {
+    "group": "Signature Crafted Recipes",
+    "name": "SCR Garlic White Cheddar Artisan Crispy Meal",
+    "id": "scrgwcagc",
+    "price": 7.59,
     "suggested": "Size (Medium, Large);Side (Fries, Salad);Drink choice;Other requests"
   },
   {
@@ -259,7 +298,7 @@
     "group": "Signature Crafted Recipes",
     "name": "SCR Bacon Smokehouse Artisan Quarter Meal",
     "id": "scrbsaqm",
-    "price": 8.09,
+    "price": 7.59,
     "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
 
   },
@@ -273,7 +312,7 @@
     "group": "Signature Crafted Recipes",
     "name": "SCR Bacon Smokehouse Artisan Crispy Chicken Meal",
     "id": "scrbsaccm",
-    "price": 8.09,
+    "price": 7.98,
     "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
   },
   {
@@ -286,7 +325,7 @@
     "group": "Signature Crafted Recipes",
     "name": "SCR Bacon Smokehouse Artisan Grilled Chicken Meal",
     "id": "scrbsagcm",
-    "price": 8.09,
+    "price": 7.59,
     "suggested": "Size (Medium, Large);Side (Fries, Salad, Hash Brown);Drink choice;Other requests"
   },
 
@@ -296,28 +335,28 @@
     "group": "Happy Meal",
     "name": "4pc. Chicken McNuggets Happy Meal",
     "id": "fpcmhm",
-    "price": 4.09,
+    "price": 4.59,
     "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "6pc. Chicken McNuggets Mighty Kids Meal",
     "id": "spcmmkm",
-    "price": 4.09,
+    "price": 5.29,
     "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "Hamburger Happy Meal",
     "id": "hhm",
-    "price": 3.19,
+    "price": 3.79,
     "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
   {
     "group": "Happy Meal",
     "name": "Cheeseburger Happy Meal",
     "id": "chm",
-    "price": 3.39,
+    "price": 3.79,
     "suggested": "Side (Stawberry Go-Gurt, Apple Slices, Fries);Drink choice;Other requests"
   },
 
@@ -327,7 +366,7 @@
     "group": "McCafe",
     "name": "Cold Brew Frozen Coffee",
     "id": "cbfc",
-    "price": 2.79,
+    "price": 2.99,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
@@ -341,21 +380,21 @@
     "group": "McCafe",
     "name": "Strawberry Banana Smoothie",
     "id": "sbsmoothie",
-    "price": 2.00,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Mango Pineapple Smoothie",
     "id": "mpsmoothie",
-    "price": 2.00,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Mocha Frappe",
     "id": "mfrappe",
-    "price": 2.00,
+    "price": 2.99,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
@@ -369,140 +408,140 @@
     "group": "McCafe",
     "name": "Mocha",
     "id": "mocha",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Mocha",
     "id": "nfmocha",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Caramel Mocha",
     "id": "cmocha",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Caramel Mocha",
     "id": "nfcmocha",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Mocha",
     "id": "imocha",
-    "price": 1.89,
+    "price": 2.59,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Mocha",
     "id": "infmocha",
-    "price": 1.89,
+    "price": 2.59,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Caramel Mocha",
     "id": "infcmocha",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Latte",
     "id": "latte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Latte",
     "id": "nflatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Caramel Latte",
     "id": "clatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "French Vanilla Latte",
     "id": "fvlatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat French Vanilla Latte",
     "id": "nffvlatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Latte",
     "id": "ilatte",
-    "price": 1.59,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Caramel Latte",
     "id": "iclatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Vanilla Latte",
     "id": "ivlatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Non-Fat Vanilla Latte",
     "id": "infvlatte",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Cappuccino",
     "id": "cappu",
-    "price": 2.29,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Cappuccino",
     "id": "nfcappu",
-    "price": 2.29,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Vanilla Cappuccino",
     "id": "vcappu",
-    "price": 2.29,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Vanilla Cappuccino",
     "id": "nfvcappu",
-    "price": 2.29,
+    "price": 2.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
@@ -523,35 +562,35 @@
     "group": "McCafe",
     "name": "Iced Coffee",
     "id": "icoffee",
-    "price": 1.29,
+    "price": 2.79,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Caramel Coffee",
     "id": "iccoffee",
-    "price": 1.59,
+    "price": 2.79,
     "suggested": "Size (Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Iced Vanilla Coffee",
     "id": "ivcoffee",
-    "price": 1.59,
+    "price": 2.79,
     "suggested": "Size (Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Premium Hot Chocolate",
     "id": "hotchoc",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "McCafe",
     "name": "Non-Fat Premium Hot Chocolate",
     "id": "nfhotchoc",
-    "price": 1.89,
+    "price": 2.49,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
 
@@ -561,33 +600,33 @@
     "group": "Fries & Sides",
     "name": "Fries",
     "id": "fri",
-    "price": 1.00,
+    "price": 1.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Fries & Sides",
     "name": "Apple Slices",
     "id": "as",
-    "price": 0.59
+    "price": 1.25
   },
   {
     "group": "Fries & Sides",
     "name": "Side Salad",
     "id": "ss",
-    "price": 1.39,
+    "price": 2.19,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Fries & Sides",
     "name": "Fruit 'N Yogurt Parfait'",
     "id": "fnyp",
-    "price": 1.00
+    "price": 1.69
   },
   {
     "group": "Fries & Sides",
     "name": "Strawberry Go-Gurt",
     "id": "sgg",
-    "price": 0.59
+    "price": 1.25
   },
 
 
@@ -596,60 +635,60 @@
     "group": "Sweets & Treats",
     "name": "M&M McFlurry",
     "id": "mmmf",
-    "price": 2.09,
+    "price": 2.39,
     "suggested": "Size (Snack, Regular);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Oreo McFlurry",
     "id": "omf",
-    "price": 2.09,
+    "price": 2.39,
     "suggested": "Size (Snack, Regular);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Chocolate Shake",
     "id": "cshake",
-    "price": 2.00,
+    "price": 2.99,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Strawberry Shake",
     "id": "sshake",
-    "price": 2.00,
+    "price": 2.99,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Vanilla Shake",
     "id": "vshake",
-    "price": 2.00,
+    "price": 2.99,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Sweets & Treats",
     "name": "Caramel Sundae",
     "id": "csun",
-    "price": 1.49
+    "price": 2.49
   },
   {
     "group": "Sweets & Treats",
     "name": "Hot Fudge Sundae",
     "id": "hfsun",
-    "price": 1.69
+    "price": 2.49
   },
   {
     "group": "Sweets & Treats",
     "name": "Apple Pie",
     "id": "ap",
-    "price": 0.79
+    "price": 1.00
   },
   {
     "group": "Sweets & Treats",
     "name": "Two Cookies",
     "id": "tcoo",
-    "price": 1.00
+    "price": 1.29
   },
   {
     "group": "Sweets & Treats",
@@ -664,80 +703,80 @@
     "group": "Beverages",
     "name": "Coke",
     "id": "coke",
-    "price": 1.49,
+    "price": 1.69,
     "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Diet Coke",
     "id": "dcoke",
-    "price": 1.49,
+    "price": 1.69,
     "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Sprite",
     "id": "sprite",
-    "price": 1.49,
+    "price": 1.69,
     "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Fanta",
     "id": "fanta",
-    "price": 1.49,
+    "price": 1.69,
     "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Dr Pepper",
     "id": "dpepper",
-    "price": 1.49,
+    "price": 1.69,
     "suggested": "Size (Small, Medium, Large)"
   },
   {
     "group": "Beverages",
     "name": "Apple Juice Box",
     "id": "ajb",
-    "price": 1.19
+    "price": 1.25
   },
   {
     "group": "Beverages",
     "name": "1% Milk",
     "id": "opmilk",
-    "price": 1.19
+    "price": 1.25
   },
   {
     "group": "Beverages",
     "name": "Chocolate Milk",
     "id": "chmilk",
-    "price": 1.19
+    "price": 1.25
   },
   {
     "group": "Beverages",
     "name": "Dasani Water",
     "id": "dw",
-    "price": 1.89
+    "price": 1.99
   },
   {
     "group": "Beverages",
     "name": "Sweet Iced Tea",
     "id": "st",
-    "price": 1.29,
+    "price": 2.09,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Beverages",
     "name": "Unsweetened Ice Tea",
     "id": "it",
-    "price": 1.00,
+    "price": 2.09,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
   {
     "group": "Beverages",
     "name": "Hot Tea",
     "id": "ht",
-    "price": 1.00,
+    "price": 1.89,
     "suggested": "Size (Small, Medium, Large);Other requests"
   },
 
@@ -747,42 +786,42 @@
     "group": "Salads",
     "name": "Southwest Salad",
     "id": "sous",
-    "price": 3.99,
+    "price": 5.19,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Grilled Chicken Southwest Salad",
     "id": "gcsous",
-    "price": 5.49,
+    "price": 6.49,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Crispy Chicken Southwest Salad",
     "id": "ccsous",
-    "price": 5.29,
+    "price": 6.49,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Bacon Ranch Salad",
     "id": "brs",
-    "price": 3.89,
+    "price": 5.19,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Grilled Chicken Bacon Ranch Salad",
     "id": "gcbrs",
-    "price": 5.29,
+    "price": 6.49,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
   {
     "group": "Salads",
     "name": "Crispy Chicken Bacon Ranch Salad",
     "id": "ccbrs",
-    "price": 5.29,
+    "price": 6.49,
     "suggested": "Dressing choice (Ranch, Balsamic Vinaigrette, Southwest, None);Other requests"
   },
 
@@ -792,19 +831,19 @@
     "group": "Individual Items",
     "name": "Cheeseburger",
     "id": "cb",
-    "price": 1.00
+    "price": 1.69
   },
   {
     "group": "Individual Items",
     "name": "McDouble",
     "id": "md",
-    "price": 1.99
+    "price": 2.29
   },
   {
     "group": "Individual Items",
     "name": "Hamburger",
     "id": "hb",
-    "price": 1.29
+    "price": 1.39
   },
   {
     "group": "Individual Items",
@@ -816,13 +855,13 @@
     "group": "Individual Items",
     "name": "Triple Cheeseburger",
     "id": "tcb",
-    "price": 3.49
+    "price": 3.69
   },
   {
     "group": "Individual Items",
     "name": "Big Mac",
     "id": "bm",
-    "price": 5.79
+    "price": 5.49
   },
   {
     "group": "Individual Items",
@@ -834,13 +873,13 @@
     "group": "Individual Items",
     "name": "Double Quarter Pounder with Cheese",
     "id": "dqpc",
-    "price": 6.69
+    "price": 6.59
   },
   {
     "group": "Individual Items",
     "name": "10pc. Chicken McNuggets",
     "id": "tpcm",
-    "price": 5.29,
+    "price": 4.39,
     "suggested": "Sauce choice;Other requests"
   },
   {
@@ -854,83 +893,83 @@
     "group": "Individual Items",
     "name": "40pc. Chicken McNuggets",
     "id": "fopcm",
-    "price": 10.99,
+    "price": 9.99,
     "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "Artisan Grilled Chicken Sandwich",
     "id": "agcs",
-    "price": 5.99
+    "price": 5.89
   },
   {
     "group": "Individual Items",
     "name": "Buttermilk Crispy Chicken Sandwich",
     "id": "bccs",
-    "price": 5.99
+    "price": 5.89
   },
   {
     "group": "Individual Items",
     "name": "McChicken",
     "id": "mc",
-    "price": 2.49
+    "price": 2.29
   },
   {
     "group": "Individual Items",
     "name": "Ranch Grilled Chicken Snack Wrap",
     "id": "rgcsw",
-    "price": 1.99
+    "price": 2.69
   },
   {
     "group": "Individual Items",
     "name": "Ranch Crispy Chicken Snack Wrap",
     "id": "rccsw",
-    "price": 1.99
+    "price": 2.69
   },
   {
     "group": "Individual Items",
     "name": "Filet-O-Fish",
     "id": "fof",
-    "price": 4.89
+    "price": 4.79
   },
   {
     "group": "Individual Items",
     "name": "Bacon McDouble",
     "id": "bmd",
-    "price": 3.09
+    "price": 2.99
   },
   {
     "group": "Individual Items",
     "name": "Classic Chicken Sandwich",
     "id": "ccs",
-    "price": 4.39
+    "price": 3.99
   },
   {
     "group": "Individual Items",
     "name": "2 Piece Buttermilk Crispy Chicken Tenders",
     "id": "twpbcct",
-    "price": 2.00,
+    "price": 2.99,
     "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "4 Piece Buttermilk Crispy Chicken Tenders",
     "id": "fpbcct",
-    "price": 5.29,
+    "price": 4.19,
     "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "6 Piece Buttermilk Crispy Chicken Tenders",
     "id": "spbcct",
-    "price": 6.59,
+    "price": 6.09,
     "suggested": "Sauce choice;Other requests"
   },
   {
     "group": "Individual Items",
     "name": "10 Piece Buttermilk Crispy Chicken Tenders",
     "id": "tepbcct",
-    "price": 11.29,
+    "price": 9.99,
     "suggested": "Sauce choice;Other requests"
   }
 ]
