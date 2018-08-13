@@ -305,20 +305,26 @@ $(document).ready(() => {
       let now = new Date();
       let diff = round((closeTime - now) / 1000 / 60);
       $('#o-closeTime').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
-
-      if (numLeft > 0 && diff > 0) { // Only show menu if orders and time left
-        $('#o-interior').css('display', 'block');
-        $('#o-nameField').css('display', 'block');
-        $('#submit-order').css('display', 'block');
-        $('.note').css('display', 'inline');
-        $('.sorry').css('display', 'none');
-        roomRef.once('value').then((snap) => {
-          const stat = snap.val();
-          const menuUrl = `./static/menus/${stat.place}.json`;
-          $.getJSON(menuUrl, doActions);
-        });
-      }
     });
+
+    roomRef.once('value')
+      .then((snapshot) => {
+        const status = snapshot.val();
+        let numLeft = status.numLeft;
+        let closeTime = new Date(status.closeTime);
+        let now = new Date();
+        let diff = round((closeTime - now) / 1000 / 60);
+
+        if (numLeft > 0 && diff > 0) { // Only show menu if orders and time left
+          $('#o-interior').css('display', 'block');
+          $('#o-nameField').css('display', 'block');
+          $('#submit-order').css('display', 'block');
+          $('.note').css('display', 'inline');
+          $('.sorry').css('display', 'none');
+          const menuUrl = `./static/menus/${status.place}.json`;
+          $.getJSON(menuUrl, doActions);
+        }
+      });
   }
 
   // Bind closing the modal to clicking the 'X' in the modal
