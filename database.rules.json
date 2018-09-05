@@ -1,8 +1,9 @@
 {
   "rules": {
-    ".read": true,
+    ".read": false,
     ".write": false,
     "rooms": {
+      ".read": true,
       "$room_id": {
         ".write": true,
         ".validate": "newData.hasChildren(['closeTime', 'numLeft', 'place', 'password'])",
@@ -13,6 +14,9 @@
           "orders": {".validate": true},
           "$other": { ".validate": false }
       }
+    },
+    "hours": {
+      ".read": true
     }
   }
 }
