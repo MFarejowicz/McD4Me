@@ -309,6 +309,8 @@ $(document).ready(() => {
 
     roomRef.once('value')
       .then((snapshot) => {
+        $('#loading').css('display', 'none');
+        $('#loaded').css('display', 'block');
         const status = snapshot.val();
         let numLeft = status.numLeft;
         let closeTime = new Date(status.closeTime);

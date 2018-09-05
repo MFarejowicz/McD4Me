@@ -404,6 +404,14 @@ a {
 
 /*  ORDER ELEMENTS BELOW */
 
+#loading {
+  font-size: 30px;
+}
+
+#loaded {
+  display: none;
+}
+
 #order-form {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
