@@ -29,10 +29,13 @@ $(document).ready(() => {
 
   // This makes a div that will eventually hold all of the items in a
   // single person's order
-  function makeOrderGroup(name, index) {
+  function makeOrderGroup(name, time, index) {
     return (
       `<div class="list-item">
-        <p class="person">${name}</p>
+        <div class="list-item-top">
+          <p class="person">${name}</p>
+          <span>${time}</span>
+        </div>
         <div class="item-cluster" id="order${index}">
         </div>
       </div>`
@@ -65,24 +68,32 @@ $(document).ready(() => {
     $('#orderList').children().remove();
 
     let orders = status.orders;
-    let index = 0, subTotal = 0, taxTip = 0, total = 0;
-    for (let person in orders) {
-      let order = orders[person];
+    if (orders) {
+      let ordersArray = Object.values(orders);
+      let index = 0, subTotal = 0, taxTip = 0, total = 0;
+      ordersArray.sort((a, b) => {
+        const aTime = new Date(a.time);
+        const bTime = new Date(b.time);
+        return bTime - aTime;
+      });
+      for (let order of ordersArray) {
+        const orderTime = new Date(order.time).toLocaleTimeString();
 
-      $('#orderList').append(makeOrderGroup(order.name, index));
-      for (let item of order.items) {
-        $(`#order${index}`).append(makeOrderItem(item.name, item.itemCost, item.quantity, item.instructions));
+        $('#orderList').append(makeOrderGroup(order.name, orderTime, index));
+        for (let item of order.items) {
+          $(`#order${index}`).append(makeOrderItem(item.name, item.itemCost, item.quantity, item.instructions));
+        }
+        $(`#order${index}`).append(makeOrderTotal(order.total));
+
+        subTotal += order.subTotal;
+        taxTip += order.taxTip;
+        total += order.total;
+        index += 1;
       }
-      $(`#order${index}`).append(makeOrderTotal(order.total));
-
-      subTotal += order.subTotal;
-      taxTip += order.taxTip;
-      total += order.total;
-      index += 1;
+      $('#h-subtotal').text(showTwo(subTotal));
+      $('#h-taxtip').text(showTwo(taxTip));
+      $('#h-total').text(showTwo(total));
     }
-    $('#h-subtotal').text(showTwo(subTotal));
-    $('#h-taxtip').text(showTwo(taxTip));
-    $('#h-total').text(showTwo(total));
   }
 
   // This function starts the listener on order changes to know when to

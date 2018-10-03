@@ -384,6 +384,12 @@ a {
   background-color: #e2b507;
 }
 
+.list-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .person {
   font-size: 30px;
   margin-bottom: 6px;

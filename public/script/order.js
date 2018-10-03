@@ -36,6 +36,7 @@ $(document).ready(() => {
   class Order {
     constructor() {
       this.name = '';
+      this.time = '';
       this.items = [];
       this.subTotal = 0;
       this.taxTip = 0;
@@ -44,6 +45,10 @@ $(document).ready(() => {
 
     setName(val) {
       this.name = val;
+    }
+
+    setTime(val) {
+      this.time = val;
     }
 
     getName() {
@@ -231,6 +236,8 @@ $(document).ready(() => {
       let name = order.getName();
       let roomRef = ref.child(`rooms/${room}`);
       let ordersRef = roomRef.child('orders');
+      let orderTime = new Date().toString();
+      order.setTime(orderTime);
 
       ordersRef.once('value').then((snapshot) => {
         let status = snapshot.val();
