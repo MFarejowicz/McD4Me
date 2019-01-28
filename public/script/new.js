@@ -117,6 +117,7 @@ $(document).ready(() => {
       cafe: 'Cafe 472',
       bonchon: 'Bonchon',
       pepper: 'Pepper Sky',
+      gongcha: 'Gong Cha',
     };
     const now = new Date();
     const day = now.getDay();
