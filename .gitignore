@@ -1,5 +1,6 @@
 # Logs
 logs
+.firebase
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -56,4 +57,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
