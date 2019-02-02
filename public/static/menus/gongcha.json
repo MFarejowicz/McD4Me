@@ -1,409 +1,409 @@
 [
   {
     "group": "Mustache Series",
-    "id": "eb9f266b",
+    "id": "aisbtwsc",
     "name": "Milk Foam Green Tea",
     "price": 4
   },
   {
     "group": "Mustache Series",
-    "id": "4eae5074",
+    "id": "qkkjrbfi",
     "name": "Milk Foam Black Tea",
     "price": 4
   },
   {
     "group": "Mustache Series",
-    "id": "095c8759",
+    "id": "puublhyx",
     "name": "Milk Foam Oolong Tea",
     "price": 4
   },
   {
     "group": "Mustache Series",
-    "id": "efd8f882",
+    "id": "pqinndzd",
     "name": "Milk Foam Earl Grey Tea",
     "price": 4
   },
   {
     "group": "Mustache Series",
-    "id": "700dba84",
+    "id": "bqxfqmmq",
     "name": "Milk Foam Winter Melon",
     "price": 4
   },
   {
     "group": "Mustache Series",
-    "id": "3b24bad4",
+    "id": "liadfgwz",
     "name": "Milk Foam Brown Sugar Ginger Tea",
     "price": 4.25
   },
   {
     "group": "Mustache Series",
-    "id": "b57b259f",
+    "id": "meneqndn",
     "name": "Milk Foam Brown Sugar Oolong Tea",
     "price": 4.25
   },
   {
     "group": "Mustache Series",
-    "id": "e30408b3",
+    "id": "vyakyhvf",
     "name": "Matcha Milk Foam Tea",
     "price": 4.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "334e779e",
+    "id": "gozwhsti",
     "name": "Green Tea",
     "price": 3.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "d6b7e084",
+    "id": "sawoaucg",
     "name": "Black Tea",
     "price": 3.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "acfb3eb2",
+    "id": "yckbrfov",
     "name": "Oolong Tea",
     "price": 3.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "0a35f0c3",
+    "id": "fcucfbvu",
     "name": "Earl Grey Tea",
     "price": 3.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "93aefd65",
+    "id": "jxnufpat",
     "name": "Wintermelon Tea",
     "price": 3.25
   },
   {
     "group": "Brewed Tea Series",
-    "id": "5a11b268",
+    "id": "eldoypuv",
     "name": "Wintermelon Oolong Tea",
     "price": 3.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "2d9bd87d",
+    "id": "whzvmdoo",
     "name": "Earl Grey Milk Tea with 3J'S",
     "price": 4.75
   },
   {
     "group": "Milk Tea Series",
-    "id": "6a69ed7f",
+    "id": "gfknchim",
     "name": "Pearl Milk Tea",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "8e156d16",
+    "id": "zlodwybz",
     "name": "Milk Tea with Herbal Jelly",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "0687a12d",
+    "id": "tlhzcvug",
     "name": "Oolong Milk Tea with Pudding",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "755328c5",
+    "id": "hmrlgicm",
     "name": "Green Milk Tea with White Pearl",
     "price": 4.5
   },
   {
     "group": "Milk Tea Series",
-    "id": "4e3a869e",
+    "id": "omasyskp",
     "name": "Milk Tea",
     "price": 3.75
   },
   {
     "group": "Milk Tea Series",
-    "id": "ce43baee",
+    "id": "edcsbywn",
     "name": "Caramel Milk Tea",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "c93043d7",
+    "id": "gvwegsfn",
     "name": "Brown Sugar Milk Tea",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "42684f6d",
+    "id": "lbfbzggh",
     "name": "Brown Sugar Ginger Milk Tea",
     "price": 4.25
   },
   {
     "group": "Milk Tea Series",
-    "id": "777acf60",
+    "id": "cqclirzc",
     "name": "Thai Milk Tea",
     "price": 4.25
   },
   {
     "group": "Tea Latte",
-    "id": "d8141fc5",
+    "id": "xknknryx",
     "name": "Wintermelon Latte",
     "price": 4
   },
   {
     "group": "Tea Latte",
-    "id": "88f45b35",
+    "id": "iuxebkau",
     "name": "Earl Grey Tea Latte",
     "price": 4
   },
   {
     "group": "Tea Latte",
-    "id": "55782053",
+    "id": "hjixtybn",
     "name": "Fresh Milk with Herbal Jelly",
     "price": 4.75
   },
   {
     "group": "Tea Latte",
-    "id": "1e45bd04",
+    "id": "tqxbyzpw",
     "name": "Fresh Milk with Pudding and Red Bean",
     "price": 4.75
   },
   {
     "group": "Tea Latte",
-    "id": "e0528d2a",
+    "id": "sdiloyby",
     "name": "Chai Tea Latte",
     "price": 4.25
   },
   {
     "group": "Tea Latte",
-    "id": "1a2baa35",
+    "id": "srnlezna",
     "name": "Brown Sugar Ginger Tea Latte",
     "price": 4.25
   },
   {
     "group": "Creative Mix Series",
-    "id": "9bcf87a7",
+    "id": "xazpfzvv",
     "name": "Lemon Ai-Yu with White Pearl",
     "price": 4.25
   },
   {
     "group": "Creative Mix Series",
-    "id": "3ea885bb",
+    "id": "gmxifiri",
     "name": "Lemon Wintermelon with Basil Seeds",
     "price": 4.25
   },
   {
     "group": "Creative Mix Series",
-    "id": "38c4e439",
+    "id": "tsgoohom",
     "name": "Honey Green Tea",
     "price": 4
   },
   {
     "group": "Creative Mix Series",
-    "id": "9829cffb",
+    "id": "rucglwwy",
     "name": "Mango Green Tea",
     "price": 4
   },
   {
     "group": "Creative Mix Series",
-    "id": "0f8e076b",
+    "id": "bptjpctd",
     "name": "Lychee Oolong Tea",
     "price": 4
   },
   {
     "group": "Creative Mix Series",
-    "id": "3fb0aabc",
+    "id": "uyuvvale",
     "name": "QQ Passionfruit Green Tea (Half Boba Half Coconut ...",
     "price": 4.5
   },
   {
     "group": "Creative Mix Series",
-    "id": "30c09034",
+    "id": "dvtteqxp",
     "name": "Rossele Drink with Basil Seeds",
     "price": 4.25
   },
   {
     "group": "Creative Mix Series",
-    "id": "2e8b2663",
+    "id": "aafjycxy",
     "name": "Taro Milk Tea",
     "price": 4.25
   },
   {
     "group": "Creative Mix Series",
-    "id": "da00ff88",
+    "id": "eovjcldo",
     "name": "Matcha Milk Tea with Red Bean",
     "price": 4.75
   },
   {
     "group": "Creative Mix Series",
-    "id": "147fb94f",
+    "id": "bwleweqa",
     "name": "Caramel Chocolate",
     "price": 4.25
   },
   {
     "group": "Coffee Series",
-    "id": "62cec828",
+    "id": "wralulvz",
     "name": "Milk Coffee",
     "price": 4
   },
   {
     "group": "Coffee Series",
-    "id": "8fe2be8f",
+    "id": "khyglfqv",
     "name": "Milk Foam Black Coffee",
     "price": 4
   },
   {
     "group": "Coffee Series",
-    "id": "e5c1e3d8",
+    "id": "jylvazhf",
     "name": "Coffee Milk Tea",
     "price": 4
   },
   {
     "group": "Yogurt Series",
-    "id": "07c58b67",
+    "id": "fkhqrfew",
     "name": "Green Tea Yogurt",
     "price": 4.5
   },
   {
     "group": "Yogurt Series",
-    "id": "28f6cc6b",
+    "id": "brpvwbtv",
     "name": "Mango Yogurt",
     "price": 4.5
   },
   {
     "group": "Yogurt Series",
-    "id": "3f30cbba",
+    "id": "egenckru",
     "name": "Lemon Yogurt",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "6f46eb17",
+    "id": "fwoisjyj",
     "name": "Matcha Milk Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "8e25ddb6",
+    "id": "qelanjve",
     "name": "Mango Milk Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "ed02fbd4",
+    "id": "uhboafxu",
     "name": "Taro Milk Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "56cb2250",
+    "id": "guhxgczs",
     "name": "Caramel Chocolate Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "fdc0ed08",
+    "id": "ovkkmgxb",
     "name": "Passionfruit Yogurt Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "fae36baa",
+    "id": "gobgzjbq",
     "name": "Lychee Slush",
     "price": 4.5
   },
   {
     "group": "Slush Series",
-    "id": "298666ac",
+    "id": "cjsoyfts",
     "name": "Strawberry Slush",
     "price": 4.5
   },
   {
     "group": "Sparkling Series",
-    "id": "6ee0ad1c",
+    "id": "iubwjtlp",
     "name": "Passionfruit Sparkling",
     "price": 4.5
   },
   {
     "group": "Sparkling Series",
-    "id": "b4ba9693",
+    "id": "paspdojg",
     "name": "Lemon Sparkling",
     "price": 4.5
   },
   {
     "group": "Sparkling Series",
-    "id": "4218a3a0",
+    "id": "mqifetgb",
     "name": "Lychee Sparkling",
     "price": 4.5
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "34807303",
+    "id": "uohxmtii",
     "name": "Panda Milk Tea (White and Black Boba)",
     "price": 5
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "39824669",
+    "id": "bkulldja",
     "name": "Panda Milk Foam Tea (White and Black Boba)",
     "price": 5.25
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "ad8fcf7d",
+    "id": "kiqahfxc",
     "name": "Panda Oreo Milk Foam Tea (White and Black Boba)",
     "price": 5.25
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "139ac8ea",
+    "id": "czrpffhc",
     "name": "Oreo Milk Tea",
     "price": 4.25
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "ca96a03d",
+    "id": "dkqtoprc",
     "name": "Oreo Milk Foam Tea",
     "price": 4.25
   },
   {
     "group": "Panda and Oreo Series",
-    "id": "f12c8c9b",
+    "id": "kqdhjqjh",
     "name": "Oreo Chocolate Drink",
     "price": 4.5
   },
   {
     "group": "Strawberry Series",
-    "id": "f6467c46",
+    "id": "oxpulwtk",
     "name": "Strawberry Green Tea",
     "price": 4
   },
   {
     "group": "Strawberry Series",
-    "id": "75362570",
+    "id": "wwqpwpcg",
     "name": "Strawberry Milk Tea",
     "price": 4.5
   },
   {
     "group": "Strawberry Series",
-    "id": "e9052019",
+    "id": "wqnjbsui",
     "name": "Strawberry Milk Foam Tea",
     "price": 4.25
   },
   {
     "group": "Strawberry Series",
-    "id": "c9f4c266",
+    "id": "ajmevypm",
     "name": "Strawberry Oreo Chocolate Drink",
     "price": 4.5
   },
   {
     "group": "Strawberry Series",
-    "id": "65b80828",
+    "id": "lajtvhaz",
     "name": "Strawberry Yogurt",
     "price": 4.5
   },
   {
     "group": "Strawberry Series",
-    "id": "5c504646",
+    "id": "yovuojmu",
     "name": "Strawberry Fresh Milk",
     "price": 4.25
   }
