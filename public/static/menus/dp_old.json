@@ -1,0 +1,2149 @@
+[
+  {
+    "group":"Drinks",
+    "name":"Original Bubble Tea",
+    "id":"OriBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Taro Bubble Tea",
+    "id":"TarBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Strawberry Bubble Tea",
+    "id":"StrBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Almond Bubble Tea",
+    "id":"AlmBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Lychee Bubble Tea",
+    "id":"LycBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Vanilla Bubble Tea",
+    "id":"VanBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Banana Bubble Tea",
+    "id":"BanBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Mango Bubble Tea",
+    "id":"ManBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Papaya Bubble Tea",
+    "id":"PapBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Honeydew Bubble Tea",
+    "id":"HonBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Watermelon Bubble Tea",
+    "id":"WatBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Thai Tea Bubble Tea",
+    "id":"ThaTeaBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Green Tea Bubble Tea",
+    "id":"GreTeaBubTea",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Taro Milk Shake",
+    "id":"TarMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Strawberry Milk Shake",
+    "id":"StrMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Almond Milk Shake",
+    "id":"AlmMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Lychee Milk Shake",
+    "id":"LycMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Vanilla Milk Shake",
+    "id":"VanMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Banana Milk Shake",
+    "id":"BanMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Mango Milk Shake",
+    "id":"ManMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Papaya Milk Shake",
+    "id":"PapMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Honeydew Milk Shake",
+    "id":"HonMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Watermelon Milk Shake",
+    "id":"WatMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Green Tea Milk Shake",
+    "id":"GreTeaMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Thai Tea Milk Shake",
+    "id":"ThaTeaMilSha",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Lychee Juice",
+    "id":"LycJui",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Guava Juice",
+    "id":"GuaJui",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Peach Juice",
+    "id":"PeaJui",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Passion Fruit Juice",
+    "id":"PasFruJui",
+    "price":4.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Can Soda",
+    "id":"CanSod",
+    "price":1.5,
+    "suggested":"Soda choice (Coke, Diet Coke, Sprite, Orange, Ginger Ale, Ice Tea, Chinese Herbal Tea)"
+  },
+  {
+    "group":"Drinks",
+    "name":"Bottle of Water",
+    "id":"BotofWat",
+    "price":1.5
+  },
+  {
+    "group":"Drinks",
+    "name":"Hot Tea",
+    "id":"HotTea",
+    "price":1.5
+  },
+
+
+
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Oyster Pancake with Gravy",
+    "id":"OysPanwitGra",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Shrimp Pancake with Gravy",
+    "id":"ShrPanwitGra",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Fried Stinky Tofu with Pickle",
+    "id":"FriStiTofwitPic",
+    "price":8.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Chilled Picked Cucumber with Garlic",
+    "id":"ChiPicCucwitGar",
+    "price":6.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Fried Pork Intestines",
+    "id":"FriPorInt",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Roast Marinated Bean Curd",
+    "id":"RoaMarBeaCur",
+    "price":5.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Roast Beef (Cut)",
+    "id":"RoaBeeCut",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Preserved Egg with Chilled Tofu",
+    "id":"PreEggwitChiTof",
+    "price":6.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Poached Pork Intestine with Dipping Sauce",
+    "id":"PoaPorIntwitDipSau",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Steamed Pork with Garlic",
+    "id":"StePorwitGar",
+    "price":7.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Enoki Mushroom with Beef Tripe",
+    "id":"EnoMuswitBeeTri",
+    "price":11.45,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Taiwan Style Grilled Chicken Leg",
+    "id":"TaiStyGriChiLeg",
+    "price":7.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Taiwan Style Grilled Sausage",
+    "id":"TaiStyGriSau",
+    "price":7.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Chicken Wings",
+    "id":"ChiWin",
+    "price":6.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Chicken Teriyaki",
+    "id":"ChiTer",
+    "price":6.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Beef Teriyaki",
+    "id":"BeeTer",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Grilled Squid",
+    "id":"GriSqu",
+    "price":10.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Crab Rangoon",
+    "id":"CraRan",
+    "price":7.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Shrimp Teriyaki",
+    "id":"ShrTer",
+    "price":7.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Crispy Chicken Strip Taiwan Style",
+    "id":"CriChiStrTaiSty",
+    "price":8.95
+  },
+  {
+    "group":"Appetizers and Grilled",
+    "name":"Beef with Tendons and Tripe",
+    "id":"BeewitTenandTri",
+    "price":9.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+
+
+
+  {
+    "group":"Appetizer Combo",
+    "name":"Appetizer Combo",
+    "id":"AppCom",
+    "price":10.95,
+    "suggested": "Choose 3 from (Spring Roll, Crab Rangoon, Beef Teriyaki, Chicken Wings, Chicken Teriyaki, Shrimp Teriyaki);Choose rice (White, Fried)"
+  },
+
+
+
+  {
+    "group":"Soup",
+    "name":"Egg Drop Soup",
+    "id":"EggDroSou",
+    "price":4.45,
+    "suggested": "Size choice (Regular, Large);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Taiwan Style Wonton Soup",
+    "id":"TaiStyWonSou",
+    "price":4.45,
+    "suggested": "Size choice (Regular, Large);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Taiwan Style Hot and Sour Soup",
+    "id":"TaiStyHotandSouSou",
+    "price":4.45,
+    "suggested": "Size choice (Regular, Large);Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Minced Beef with Parsley",
+    "id":"MinBeewitPar",
+    "price":12.95
+  },
+  {
+    "group":"Soup",
+    "name":"Miso Soup with Tofu and Veggies",
+    "id":"MisSouwitTofandVeg",
+    "price":4.45,
+    "suggested": "Size choice (Regular, Large);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Miso Soup with Fish",
+    "id":"MisSouwitFis",
+    "price":10.95
+  },
+  {
+    "group":"Soup",
+    "name":"Picked Mustard Greens Soup with Fish",
+    "id":"PicMusGreSouwitFis",
+    "price":10.95
+  },
+  {
+    "group":"Soup",
+    "name":"Clam Soup with Chinese Zucchini",
+    "id":"ClaSouwitChiZuc",
+    "price":12.95
+  },
+  {
+    "group":"Soup",
+    "name":"Oyster Tofu Soup",
+    "id":"OysTofSou",
+    "price":10.4
+  },
+  {
+    "group":"Soup",
+    "name":"Tomato with Fish Soup",
+    "id":"TomwitFisSou",
+    "price":10.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Soup",
+    "name":"Soup with Pork Intestines and Blood Pudding",
+    "id":"SouwitPorIntandBloPud",
+    "price":9.4
+  },
+  {
+    "group":"Soup",
+    "name":"Soup with Spinach and Pork Liver",
+    "id":"SouwitSpiandPorLiv",
+    "price":9.4
+  },
+  {
+    "group":"Soup",
+    "name":"Clam Soup",
+    "id":"ClaSou",
+    "price":12.95
+  },
+
+
+
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Spring Roll",
+    "id":"SprRol",
+    "price":5.5
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Scallion Pancake",
+    "id":"ScaPan",
+    "price":7.5
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Scallion Pancake with Egg",
+    "id":"ScaPanwitEgg",
+    "price":7.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Roast Beef with Scallion Pancake",
+    "id":"RoaBeewitScaPan",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Steamed Dumpling with Vegetables",
+    "id":"SteDumwitVeg",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Steamed Beef with Cabbage Dumpling",
+    "id":"SteBeewitCabDum",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Fried Beef with Cabbage",
+    "id":"FriBeewitCab",
+    "price":9.2
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Steamed Pork and Leek Dumpling",
+    "id":"StePorandLeeDum",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Fried Pork and Leek Dumpling",
+    "id":"FriPorandLeeDum",
+    "price":9.2
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Pan-Fried Wonton",
+    "id":"PanWon",
+    "price":7.5
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Taiwan-Style Pan Fried Dumpling",
+    "id":"TaiPanFriDum",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Mini Juicy Buns with Pork",
+    "id":"MinJuiBunwitPor",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Mini Juicy Buns with Pork and Crabmeat",
+    "id":"MinJuiBunwitPorandCra",
+    "price":9.2
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Roasted Duck Buns",
+    "id":"RoaDucBun",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Steamed Chicken Dumpling",
+    "id":"SteChiDum",
+    "price":9.45
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Fried Chicken Dumpling",
+    "id":"FriChiDum",
+    "price":9.7
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Pan-Fried Chives with Clear Noodle Pocket",
+    "id":"PanChiwitCleNooPoc",
+    "price":5.5
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Steamed Shrimp Dumpling",
+    "id":"SteShrDum",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Sticky Rice Shao Mai Shanghai Style",
+    "id":"StiRicShaMaiShaSty",
+    "price":8.95
+  },
+  {
+    "group":"Dumpling and Bun - Rice not Included",
+    "name":"Pan-Fried Pork Buns Shanghai Style",
+    "id":"PanPorBunShaSty",
+    "price":8.95
+  },
+
+
+
+  {
+    "group":"Fried Rice",
+    "name":"Pork Fried Rice",
+    "id":"PorFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Beef Fried Rice",
+    "id":"BeeFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Shrimp Fried Rice",
+    "id":"ShrFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Chicken Fried Rice",
+    "id":"ChiFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Seafood Fried Rice",
+    "id":"SeaFriRic",
+    "price":10.25
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Vegetable Fried Rice",
+    "id":"VegFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Sausage Fried Rice",
+    "id":"SauFriRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Yang Chow Fried Rice",
+    "id":"YanChoFriRic",
+    "price":10.25
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Pork Chop over Rice",
+    "id":"PorChooveRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Chicken Leg over Rice",
+    "id":"ChiLegoveRic",
+    "price":9.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Stewed Minced Pork over Rice",
+    "id":"SteMinPoroveRic",
+    "price":6.95
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Egg Fried Rice",
+    "id":"EggFriRic",
+    "price":8.5
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Small White Rice",
+    "id":"SmaWhiRic",
+    "price":1.0
+  },
+  {
+    "group":"Fried Rice",
+    "name":"Large White Rice",
+    "id":"LarWhiRic",
+    "price":2.0
+  },
+
+
+
+  {
+    "group":"Noodles",
+    "name":"Braised Beef Brisket Noodles Soup with Spinach",
+    "id":"BraBeeBriNooSouwitSpi",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Shredded Beef with Long Horn Peppers Noodle Soup",
+    "id":"ShrBeewitLonHorPepNooSou",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Noodles Soup with Pork and Veg",
+    "id":"TaiStyNooSouwitPorandVeg",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Pork and Special Mustard Greens",
+    "id":"NooSouwitPorandSpeMusGre",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Beef and Special Mustard Greens",
+    "id":"NooSouwitBeeandSpeMusGre",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Chicken and Special Mustard Greens",
+    "id":"NooSouwitChiandSpeMusGre",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Pork and Picked Turnip",
+    "id":"NooSouwitPorandPicTur",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Beef and Picked Turnip",
+    "id":"NooSouwitBeeandPicTur",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Chicken and Picked Turnip",
+    "id":"NooSouwitChiandPicTur",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Wonton Noodle Soup",
+    "id":"TaiStyWonNooSou",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Pork Kidney and Liver",
+    "id":"NooSouwitPorKidandLiv",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Seafood Noodles Soup",
+    "id":"SeaNooSou",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Noodles Soup with Mixed Vegetable",
+    "id":"NooSouwitMixVeg",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Hearty Noodles with Pork and Vegetable",
+    "id":"HeaNoowitPorandVeg",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Pork Chop Noodles Soup",
+    "id":"TaiStyPorChoNooSou",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Chicken Leg Noodle Soup",
+    "id":"TaiStyChiLegNooSou",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Minced Pork with Black Bean Sauce over Noodles",
+    "id":"MinPorwitBlaBeaSauoveNoo",
+    "price":9.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Fuzhou Style Rice Noodles",
+    "id":"FuzStyRicNoo",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Sauteed Shanghai Noodles",
+    "id":"SauShaNoo",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Sauteed Flat Noodles with Beef",
+    "id":"SauFlaNoowitBee",
+    "price":10.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Noodles with Pork and Vegetable",
+    "id":"TaiStyNoowitPorandVeg",
+    "price":10.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Seafood Lomein Noodle",
+    "id":"SeaLomNoo",
+    "price":10.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Mixed Vegetable Lomein Noodle",
+    "id":"MixVegLomNoo",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Oyster Lomein Noodle",
+    "id":"OysLomNoo",
+    "price":10.95,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Beef and Vegetable in Satay Sauce",
+    "id":"StiFriNoowitBeeandVeginSatSau",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Pork and Vegetable in Satay Sauce",
+    "id":"StiFriNoowitPorandVeginSatSau",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Chicken and Vegetable in Satay Sauce",
+    "id":"StiFriNoowitChiandVeginSatSau",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Pork and Mustard Green",
+    "id":"StiFriNoowitPorandMusGre",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Beef and Mustard Green",
+    "id":"StiFriNoowitBeeandMusGre",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Stir Fried Noodle with Chicken and Mustard Green",
+    "id":"StiFriNoowitChiandMusGre",
+    "price":10.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Pan Fried Noodles with Seafood",
+    "id":"PanFriNoowitSea",
+    "price":13.5
+  },
+  {
+    "group":"Noodles",
+    "name":"Pan Fried Noodles with Beef",
+    "id":"PanFriNoowitBee",
+    "price":12.5
+  },
+  {
+    "group":"Noodles",
+    "name":"Pan Fried Noodles with Pork",
+    "id":"PanFriNoowitPor",
+    "price":12.5
+  },
+  {
+    "group":"Noodles",
+    "name":"Pan Fried Noodles with Chicken",
+    "id":"PanFriNoowitChi",
+    "price":12.5
+  },
+  {
+    "group":"Noodles",
+    "name":"Pan Fried Noodles with Mixed Vegetable",
+    "id":"PanFriNoowitMixVeg",
+    "price":10.5
+  },
+  {
+    "group":"Noodles",
+    "name":"Rice Cake with Pork and Mustard Greens Noodle",
+    "id":"RicCakwitPorandMusGreNoo",
+    "price":11.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Taiwan Style Rice Cake with Veggies and Pork Noodle",
+    "id":"TaiStyRicCakwitVegandPorNoo",
+    "price":11.5,
+    "suggested": "Noodle choice (Taiwan, Shanghai, Rice, Flat, Rice Cake, Udon);Other requests"
+  },
+  {
+    "group":"Noodles",
+    "name":"Singapore Rice Noodle",
+    "id":"SinRicNoo",
+    "price":10.5
+  },
+
+
+
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Long Horn Pepper",
+    "id":"BeewitLonHorPep",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Chinese Watercress in Satay Sauce",
+    "id":"BeewitChiWatinSatSau",
+    "price":15.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Asparagus in Satay Sauce",
+    "id":"BeewitAspinSatSau",
+    "price":16.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with String Bean",
+    "id":"BeewitStrBea",
+    "price":15.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Scallions",
+    "id":"BeewitSca",
+    "price":15.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with American Broccoli",
+    "id":"BeewitAmeBro",
+    "price":15.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Bamboo Tips",
+    "id":"BeewitBamTip",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Vegetables",
+    "id":"BeewitVeg",
+    "price":15.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Hot Sauce",
+    "id":"BeewitHotSau",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Potatoes and Long Horn Pepper",
+    "id":"BeewitPotandLonHorPep",
+    "price":16.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Basil",
+    "id":"BeewitBas",
+    "price":16.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Black Pepper Sauce",
+    "id":"BeewitBlaPepSau",
+    "price":16.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Asparagus",
+    "id":"BeewitAsp",
+    "price":16.5
+  },
+  {
+    "group":"Beef - Rice not Included",
+    "name":"Beef with Green Pepper",
+    "id":"BeewitGrePep",
+    "price":15.5
+  },
+
+
+
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Asparagus in Satay Sauce",
+    "id":"ChiwitAspinSatSau",
+    "price":14.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with String Beans",
+    "id":"ChiwitStrBea",
+    "price":13.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Scallions",
+    "id":"ChiwitSca",
+    "price":14.5
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken Leg with 3 Essences in Hot Pot",
+    "id":"ChiLegwit3EssinHotPot",
+    "price":13.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"General Gau's Chicken",
+    "id":"GenGauChi",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Sesame Chicken",
+    "id":"SesChi",
+    "price":13.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Kung Pao Chicken",
+    "id":"KunPaoChi",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Diced Chicken Peking Style",
+    "id":"DicChiPekSty",
+    "price":13.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Mango Chicken",
+    "id":"ManChi",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Eggplants",
+    "id":"ChiwitEgg",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Asparagus",
+    "id":"ChiwitAsp",
+    "price":14.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Hot Sauce",
+    "id":"ChiwitHotSau",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Potatoes and Long Horn Pepper",
+    "id":"ChiwitPotandLonHorPep",
+    "price":14.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with American Broccoli",
+    "id":"ChiwitAmeBro",
+    "price":13.95
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Chicken with Garlic Sauce",
+    "id":"ChiwitGarSau",
+    "price":14.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chicken - Rice not Included",
+    "name":"Orange Chicken",
+    "id":"OraChi",
+    "price":13.95
+  },
+
+
+
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Scallions",
+    "id":"PorwitSca",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Dry Bean Crud",
+    "id":"PorwitDryBeaCru",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Chives and Bean Curd",
+    "id":"PorwitChiandBeaCur",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Dry Bean Curd and Chinese Celery",
+    "id":"PorwitDryBeaCurandChiCel",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Twice Cooked Pork",
+    "id":"TwiCooPor",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Twice Cooked Preserved Pork",
+    "id":"TwiCooPrePor",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Bitter Melons",
+    "id":"PorwitBitMel",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Asparagus in Sa-cha Sauce",
+    "id":"PorwitAspinSacSau",
+    "price":14.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Special Mustard Greens and Bean Curd Sheet",
+    "id":"PorwitSpeMusGreandBeaCurShe",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Bamboo Tips",
+    "id":"PorwitBamTip",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork Chops with Peking Sauce",
+    "id":"PorChowitPekSau",
+    "price":14.5
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Salt and Pepper Pork Chops",
+    "id":"SalandPepPorCho",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork Belly Taiwanese Style",
+    "id":"PorBelTaiSty",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork Belly with Bean Curd",
+    "id":"PorBelwitBeaCur",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork Belly with Cabbage",
+    "id":"PorBelwitCab",
+    "price":13.95
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Preserved Pork with Chinese Leek",
+    "id":"PrePorwitChiLee",
+    "price":14.5
+  },
+  {
+    "group":"Pork - Rice not Included",
+    "name":"Pork with Potatoes Long Horn Pepper",
+    "id":"PorwitPotLonHorPep",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+
+
+
+  {
+    "group":"Seafood and Specials",
+    "name":"Salt and Pepper Shrimp with Head",
+    "id":"SalandPepShrwitHea",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Salt and Pepper Shrimp",
+    "id":"SalandPepShr",
+    "price":17.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Mango Shrimp",
+    "id":"ManShr",
+    "price":17.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Shrimp with American Broccoli",
+    "id":"ShrwitAmeBro",
+    "price":17.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Shrimp with Asparagus in Satay Sauce",
+    "id":"ShrwitAspinSatSau",
+    "price":17.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Jumbo Shrimp with Mixed Vegetables",
+    "id":"JumShrwitMixVeg",
+    "price":17.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Salt and Pepper Squid",
+    "id":"SalandPepSqu",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Clam with Basil",
+    "id":"ClawitBas",
+    "price":16.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Clam with Ginger and Scallion",
+    "id":"ClawitGinandSca",
+    "price":16.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Kung Pao Squid",
+    "id":"KunPaoSqu",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Kung Pao Shrimp",
+    "id":"KunPaoShr",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Sauteed Squid with Chives",
+    "id":"SauSquwitChi",
+    "price":15.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Sauteed Pork Blood with Leek",
+    "id":"SauPorBlowitLee",
+    "price":15.95
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Intestine and Pork Blood with Mustard in Hot Pot",
+    "id":"IntandPorBlowitMusinHotPot",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Stinky Tofu",
+    "id":"StiTof",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Taiwan Style Sauteed Pork Liver",
+    "id":"TaiStySauPorLiv",
+    "price":13.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Pickled Mustard with Intestine",
+    "id":"PicMuswitInt",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Shrimp with Tofu",
+    "id":"ShrwitTof",
+    "price":15.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Shrimp with Scrambled Eggs and Tomatoes",
+    "id":"ShrwitScrEggandTom",
+    "price":15.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Pork Intestine with Long Horn Pepper",
+    "id":"PorIntwitLonHorPep",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Squid with Pickled Mustard Greens",
+    "id":"SquwitPicMusGre",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Sauteed Squid with Chinese Celery",
+    "id":"SauSquwitChiCel",
+    "price":15.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Pork Kidney with Sesame Oil",
+    "id":"PorKidwitSesOil",
+    "price":14.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Pork Kidney with Hot Sauce",
+    "id":"PorKidwitHotSau",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Sweet and Sour Flounder",
+    "id":"SweandSouFlo",
+    "price":15.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Flounder with Vegetables",
+    "id":"FlowitVeg",
+    "price":15.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Jumbo Shrimp with Mayonnaise Sauce",
+    "id":"JumShrwitMaySau",
+    "price":18.5
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Jumbo Shrimp with Chili Sauce over Greens",
+    "id":"JumShrwitChiSauoveGre",
+    "price":18.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Seafood and Specials",
+    "name":"Flounder with Chili Sauce",
+    "id":"FlowitChiSau",
+    "price":17.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+
+
+
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Chinese Watercress with Garlic",
+    "id":"ChiWatwitGar",
+    "price":14.95
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Spinach with Garlic",
+    "id":"SpiwitGar",
+    "price":14.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Bitter Melon with Salty Eggs",
+    "id":"BitMelwitSalEgg",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Chinese Zucchini with Salty Eggs",
+    "id":"ChiZucwitSalEgg",
+    "price":14.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Asparagus with Garlic",
+    "id":"AspwitGar",
+    "price":14.95
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Special Mustard Green with Edamame Bean Curd Sheet",
+    "id":"SpeMusGrewitEdaBeaCurShe",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Taiwan Style Eggplant",
+    "id":"TaiStyEgg",
+    "price":13.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Sauteed String Bean",
+    "id":"SauStrBea",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Taiwan Style Pan Fried Tofu",
+    "id":"TaiStyPanFriTof",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Braised Tofu with Scallion and Veggies",
+    "id":"BraTofwitScaandVeg",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Dried Bean Curd with Chinese Celery and Peppers",
+    "id":"DriBeaCurwitChiCelandPep",
+    "price":13.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Home Style Tofu",
+    "id":"HomStyTof",
+    "price":13.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Ma Po Tofu",
+    "id":"MaPoTof",
+    "price":13.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Mixed Vegetables with Garlic",
+    "id":"MixVegwitGar",
+    "price":13.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Chinese Mushroom over Greens",
+    "id":"ChiMusoveGre",
+    "price":14.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Tofu with Cabbage & Bean Sprout in Clay Pot",
+    "id":"TofwitCabBeaSprinClaPot",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"General Gau's Tofu",
+    "id":"GenGauTof",
+    "price":14.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Shanghai Bok Choy with Garlic",
+    "id":"ShaBokChowitGar",
+    "price":14.5
+  },
+  {
+    "group":"Vegetable - Rice not Included",
+    "name":"Shredded Potatoes Home Style",
+    "id":"ShrPotHomSty",
+    "price":13.5,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+
+
+
+  {
+    "group":"Chef's Special",
+    "name":"Lamb with Soy Bean Sprout in Clay Pot",
+    "id":"LamwitSoyBeaSprinClaPot",
+    "price":18.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Frog with Soy Bean Sprout in Clay Pot",
+    "id":"FrowitSoyBeaSprinClaPot",
+    "price":22.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Salt and Pepper Frog",
+    "id":"SalandPepFro",
+    "price":22.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"House Special (Pork, Squid, Beef Tripe, Chinese Celery etc)",
+    "id":"HouSpePorSquBeeTriChiCeletc",
+    "price":16.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Beef with Sour Cabbage in Clay Pot",
+    "id":"BeewitSouCabinClaPot",
+    "price":20.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Lamb with Sour Cabbage in Clay Pot",
+    "id":"LamwitSouCabinClaPot",
+    "price":20.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Seafood and Tofu Hot Pot",
+    "id":"SeaandTofHotPot",
+    "price":18.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Seafood with Mixed Vegetable",
+    "id":"SeawitMixVeg",
+    "price":19.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Szechuan Style Flounder",
+    "id":"SzeStyFlo",
+    "price":17.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Seafood with Mixed Vegetable in Clay Pot",
+    "id":"SeawitMixVeginClaPot",
+    "price":21.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Szechuan Style Fish Shrimp and Squid",
+    "id":"SzeStyFisShrandSqu",
+    "price":19.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Shrimp with Edamame",
+    "id":"ShrwitEda",
+    "price":16.95
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Pork Intestine with Soy Bean Sprout in Clay Pot",
+    "id":"PorIntwitSoyBeaSprinClaPot",
+    "price":17.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Pork Blood in Spicy Sauce",
+    "id":"PorBloinSpiSau",
+    "price":16.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Mixed Seafood with Spicy Sauce in Play Pot",
+    "id":"MixSeawitSpiSauinPlaPot",
+    "price":18.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Beef with Spicy Sauce in Clay Pot",
+    "id":"BeewitSpiSauinClaPot",
+    "price":17.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Lamb with Spicy Sauce in Clay Pot",
+    "id":"LamwitSpiSauinClaPot",
+    "price":17.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Mix Vegetable with Spicy Sauce in Clay Pot",
+    "id":"MixVegwitSpiSauinClaPot",
+    "price":15.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Tons of Spices over Frog",
+    "id":"TonofSpioveFro",
+    "price":23.95,
+    "suggested": "Spice level (Not, Mild, Medium, Hot, Very Hot);Other requests"
+  },
+  {
+    "group":"Chef's Special",
+    "name":"Fish with Pickled Mustard Green",
+    "id":"FiswitPicMusGre",
+    "price":17.95
+  },
+
+
+
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Scallion",
+    "id":"SpeBeewitSca",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Scallion",
+    "id":"SpePorwitSca",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with Scallion",
+    "id":"SpeChiwitSca",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Long-Horn Peppers",
+    "id":"SpeBeewitLonPep",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Asparagus Beef in Satay Sauce",
+    "id":"SpeAspBeeinSatSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Asparagus Pork in Satay Sauce",
+    "id":"SpeAspPorinSatSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Asparagus Chicken in Satay Sauce",
+    "id":"SpeAspChiinSatSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Chinese Watercress in Satay Sauce",
+    "id":"SpeBeewitChiWatinSatSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Hot Spicy Beef",
+    "id":"SpeHotSpiBee",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Broccoli",
+    "id":"SpeBeewitBro",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Shrimp with Broccoli",
+    "id":"SpeShrwitBro",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with Broccoli",
+    "id":"SpeChiwitBro",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with String Beans",
+    "id":"SpeBeewitStrBea",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with String Beans",
+    "id":"SpePorwitStrBea",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with String Beans",
+    "id":"SpeChiwitStrBea",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"3 Essence Chicken Legs Taiwanese Style",
+    "id":"SpeEssChiLegTaiSty",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"General Gau's Chicken",
+    "id":"SpeGenGauChi",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Kung Pao Chicken",
+    "id":"SpeKunPaoChi",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Sesame Chicken",
+    "id":"SpeSesChi",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with Garlic Sauce",
+    "id":"SpeChiwitGarSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Hot Spicy Chicken",
+    "id":"SpeHotSpiChi",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Diced Chicken Peking Style",
+    "id":"SpeDicChiPekSty",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Twice Cooked Pork",
+    "id":"SpeTwiCooPor",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Twice Cooked Preserved Pork",
+    "id":"SpeTwiCooPrePor",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Preserved Pork with Chinese Leek",
+    "id":"SpePrePorwitChiLee",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Bamboo Tips",
+    "id":"SpeBeewitBamTip",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Bamboo Tips",
+    "id":"SpePorwitBamTip",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with Bamboo Tips",
+    "id":"SpeChiwitBamTip",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Mustard Greens and Bean Curd Sheet",
+    "id":"SpePorwitMusGreandBeaCurShe",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Mustard Green with Bean Curd Sheet",
+    "id":"SpeMusGrewitBeaCurShe",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Bitter Melon",
+    "id":"SpePorwitBitMel",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Bitter Melon with Salty Eggs",
+    "id":"SpeBitMelwitSalEgg",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Peking Style Pork Chops",
+    "id":"SpePekStyPorCho",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Salt and Pepper Pork Chops",
+    "id":"SpeSalandPepPorCho",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork Bellied with Taiwanese Style",
+    "id":"SpePorBelwitTaiSty",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork Bellied with Bean Curd",
+    "id":"SpePorBelwitBeaCur",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Shredded Potatoes Home Style",
+    "id":"SpeShrPotHomSty",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork Intestine with Long Horn Peppers",
+    "id":"SpePorIntwitLonHorPep",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork Intestine with Pickled Mustard Greens",
+    "id":"SpePorIntwitPicMusGre",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Mustard with Intestine and Blood Pudding",
+    "id":"SpeMuswitIntandBloPud",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Sauteed Pork Blood with Leek",
+    "id":"SpeSauPorBlowitLee",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Taiwanese Style Sauteed Pork Liver",
+    "id":"SpeTaiStySauPorLiv",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Sauteed Pork Kidney with Sesame Oil",
+    "id":"SpeSauPorKidwitSesOil",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Shrimp with Scrambled Eggs and Tomatoes",
+    "id":"SpeShrwitScrEggandTom",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Dried Bean Curd",
+    "id":"SpePorwitDriBeaCur",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chicken with Dried Bean Curd",
+    "id":"SpeChiwitDriBeaCur",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Beef with Dried Bean Curd",
+    "id":"SpeBeewitDriBeaCur",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Pork with Dried Bean Curd and Chinese Celery",
+    "id":"SpePorwitDriBeaCurandChiCel",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Dried Bean Curd with Chinese Celery and Peppers",
+    "id":"SpeDriBeaCurwitChiCelandPep",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Squid with Chinese Celery",
+    "id":"SpeSquwitChiCel",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Squid with Picked Mustard Greens",
+    "id":"SpeSquwitPicMusGre",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Flounder with Vegetable",
+    "id":"SpeFlowitVeg",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Flounder with Hot Sauce",
+    "id":"SpeFlowitHotSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Flounder with Sweet and Sour Sauce",
+    "id":"SpeFlowitSweandSouSau",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Clams with Basil",
+    "id":"SpeClawitBas",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Clam with Ginger and Scallion",
+    "id":"SpeClawitGinandSca",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Home Style Tofu",
+    "id":"SpeHomStyTof",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Tofu with Scallion and Vegetable",
+    "id":"SpeTofwitScaandVeg",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Ma Po Tofu (Vegetable)",
+    "id":"SpeMaPoTofVeg",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Shrimp with Tofu",
+    "id":"SpeShrwitTof",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Shrimp with Edamame",
+    "id":"SpeShrwitEda",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Kung Pao Shrimp",
+    "id":"SpeKunPaoShr",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chinese Zucchini with Garlic",
+    "id":"SpeChiZucwitGar",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Chinese Watercress with Garlic",
+    "id":"SpeChiWatwitGar",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Spinach with Garlic",
+    "id":"SpeSpiwitGar",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Sauteed String Bean",
+    "id":"SpeSauStrBea",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Taiwan Style Braised Eggplant",
+    "id":"SpeTaiStyBraEgg",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+  {
+    "group":"Special Combination (After 4 PM)",
+    "name":"Sauteed Bitter Melon with Garlic",
+    "id":"SpeSauBitMelwitGar",
+    "price":9.3,
+    "suggested": "Side choice (White Rice, Fried Rice);Other requests"
+  },
+
+
+
+  {
+    "group":"Dessert",
+    "name":"Ice Cream",
+    "id":"IceCre",
+    "price":2.95,
+    "suggested": "Flavor choice (Vanilla, Chocolate)"
+  }
+]
