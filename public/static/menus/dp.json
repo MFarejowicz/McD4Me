@@ -1278,409 +1278,409 @@
 {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Scallion",
-  "id": "BeewitSca",
+  "id": "SpeBeewitSca",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Scallion",
-  "id": "PorwitSca",
+  "id": "SpePorwitSca",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with Scallion",
-  "id": "ChiwitSca",
+  "id": "SpeChiwitSca",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Long-Horn Peppers",
-  "id": "BeewitLonPep",
+  "id": "SpeBeewitLonPep",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Asparagus Beef in Shacha Sauce",
-  "id": "AspBeeinShaSau",
+  "id": "SpeAspBeeinShaSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Asparagus Pork in Shacha Sauce",
-  "id": "AspPorinShaSau",
+  "id": "SpeAspPorinShaSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Asparagus Chicken in Shacha Sauce",
-  "id": "AspChiinShaSau",
+  "id": "SpeAspChiinShaSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Chinese Watercress in Shacha Sauce",
-  "id": "BeewitChiWatinShaSau",
+  "id": "SpeBeewitChiWatinShaSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Hot Spicy Beef",
-  "id": "HotSpiBee",
+  "id": "SpeHotSpiBee",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Broccoli",
-  "id": "BeewitBro",
+  "id": "SpeBeewitBro",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Shrimp with Broccoli",
-  "id": "ShrwitBro",
+  "id": "SpeShrwitBro",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with Broccoli",
-  "id": "ChiwitBro",
+  "id": "SpeChiwitBro",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with String Beans",
-  "id": "BeewitStrBea",
+  "id": "SpeBeewitStrBea",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with String Beans",
-  "id": "PorwitStrBea",
+  "id": "SpePorwitStrBea",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with String Beans",
-  "id": "ChiwitStrBea",
+  "id": "SpeChiwitStrBea",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "3 Essence Chicken Legs Taiwanese Style",
-  "id": "3EssChiLegTaiSty",
+  "id": "Spe3EssChiLegTaiSty",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "General Gau's Chicken",
-  "id": "GenGauChi",
+  "id": "SpeGenGauChi",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Kung Pao Chicken",
-  "id": "KunPaoChi",
+  "id": "SpeKunPaoChi",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Sesame Chicken",
-  "id": "SesChi",
+  "id": "SpeSesChi",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with Garlic Sauce",
-  "id": "ChiwitGarSau",
+  "id": "SpeChiwitGarSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Hot Spicy Chicken",
-  "id": "HotSpiChi",
+  "id": "SpeHotSpiChi",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Diced Chicken Peking Style",
-  "id": "DicChiPekSty",
+  "id": "SpeDicChiPekSty",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Twice Cooked Pork",
-  "id": "TwiCooPor",
+  "id": "SpeTwiCooPor",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Twice Cooked Preserved Pork",
-  "id": "TwiCooPrePor",
+  "id": "SpeTwiCooPrePor",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Preserved Pork with Chinese Leek",
-  "id": "PrePorwitChiLee",
+  "id": "SpePrePorwitChiLee",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Bamboo Tips",
-  "id": "BeewitBamTip",
+  "id": "SpeBeewitBamTip",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Bamboo Tips",
-  "id": "PorwitBamTip",
+  "id": "SpePorwitBamTip",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with Bamboo Tips",
-  "id": "ChiwitBamTip",
+  "id": "SpeChiwitBamTip",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Mustard Greens and Bean Curd Sheet",
-  "id": "PorwitMusGreandBeaCurShe",
+  "id": "SpePorwitMusGreandBeaCurShe",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Mustard Green with Bean Curd Sheet",
-  "id": "MusGrewitBeaCurShe",
+  "id": "SpeMusGrewitBeaCurShe",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Bitter Melon",
-  "id": "PorwitBitMel",
+  "id": "SpePorwitBitMel",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Bitter Melon with Salty Eggs",
-  "id": "BitMelwitSalEgg",
+  "id": "SpeBitMelwitSalEgg",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Peking Style Pork Chops",
-  "id": "PekStyPorCho",
+  "id": "SpePekStyPorCho",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Salt and Pepper Pork Chops",
-  "id": "SalandPepPorCho",
+  "id": "SpeSalandPepPorCho",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork Bellied with Taiwanese Style",
-  "id": "PorBelwitTaiSty",
+  "id": "SpePorBelwitTaiSty",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork Bellied with Bean Curd",
-  "id": "PorBelwitBeaCur",
+  "id": "SpePorBelwitBeaCur",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Shredded Potatoes Home Style",
-  "id": "ShrPotHomSty",
+  "id": "SpeShrPotHomSty",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork Intestine with Long Horn Peppers",
-  "id": "PorIntwitLonHorPep",
+  "id": "SpePorIntwitLonHorPep",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork Intestine with Pickled Mustard Greens",
-  "id": "PorIntwitPicMusGre",
+  "id": "SpePorIntwitPicMusGre",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Mustard with Intestine and Blood Pudding",
-  "id": "MuswitIntandBloPud",
+  "id": "SpeMuswitIntandBloPud",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Sauteed Pork Blood with Leek",
-  "id": "SauPorBlowitLee",
+  "id": "SpeSauPorBlowitLee",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Taiwanese Style Sauteed Pork Liver",
-  "id": "TaiStySauPorLiv",
+  "id": "SpeTaiStySauPorLiv",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Sauteed Pork Kidney with Sesame Oil",
-  "id": "SauPorKidwitSesOil",
+  "id": "SpeSauPorKidwitSesOil",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Shrimp with Scrambled Eggs and Tomatoes",
-  "id": "ShrwitScrEggandTom",
+  "id": "SpeShrwitScrEggandTom",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Dried Bean Curd",
-  "id": "PorwitDriBeaCur",
+  "id": "SpePorwitDriBeaCur",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chicken with Dried Bean Curd",
-  "id": "ChiwitDriBeaCur",
+  "id": "SpeChiwitDriBeaCur",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Beef with Dried Bean Curd",
-  "id": "BeewitDriBeaCur",
+  "id": "SpeBeewitDriBeaCur",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Pork with Dried Bean Curd and Chinese Celery",
-  "id": "PorwitDriBeaCurandChiCel",
+  "id": "SpePorwitDriBeaCurandChiCel",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Dried Bean Curd with Chinese Celery and Peppers",
-  "id": "DriBeaCurwitChiCelandPep",
+  "id": "SpeDriBeaCurwitChiCelandPep",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Squid with Chinese Celery",
-  "id": "SquwitChiCel",
+  "id": "SpeSquwitChiCel",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Squid with Picked Mustard Greens",
-  "id": "SquwitPicMusGre",
+  "id": "SpeSquwitPicMusGre",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Flounder with Vegetable",
-  "id": "FlowitVeg",
+  "id": "SpeFlowitVeg",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Flounder with Hot Sauce",
-  "id": "FlowitHotSau",
+  "id": "SpeFlowitHotSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Flounder with Sweet and Sour Sauce",
-  "id": "FlowitSweandSouSau",
+  "id": "SpeFlowitSweandSouSau",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Clams with Basil",
-  "id": "ClawitBas",
+  "id": "SpeClawitBas",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Clam with Ginger and Scallion",
-  "id": "ClawitGinandSca",
+  "id": "SpeClawitGinandSca",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Home Style Tofu",
-  "id": "HomStyTof",
+  "id": "SpeHomStyTof",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Tofu with Scallion and Vegetable",
-  "id": "TofwitScaandVeg",
+  "id": "SpeTofwitScaandVeg",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Ma Po Tofu",
-  "id": "MaPoTof",
+  "id": "SpeMaPoTof",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Shrimp with Tofu",
-  "id": "ShrwitTof",
+  "id": "SpeShrwitTof",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Shrimp with Edamame",
-  "id": "ShrwitEda",
+  "id": "SpeShrwitEda",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Kung Pao Shrimp",
-  "id": "KunPaoShr",
+  "id": "SpeKunPaoShr",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chinese Zucchini with Garlic",
-  "id": "ChiZucwitGar",
+  "id": "SpeChiZucwitGar",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Chinese Watercress with Garlic",
-  "id": "ChiWatwitGar",
+  "id": "SpeChiWatwitGar",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Spinach with Garlic",
-  "id": "SpiwitGar",
+  "id": "SpeSpiwitGar",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Sauteed String Bean",
-  "id": "SauStrBea",
+  "id": "SpeSauStrBea",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Taiwan Style Braised Eggplant",
-  "id": "TaiStyBraEgg",
+  "id": "SpeTaiStyBraEgg",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 }, {
   "group": "Special Combination (After 4 PM)",
   "name": "Sauteed Bitter Melon with Garlic",
-  "id": "SauBitMelwitGar",
+  "id": "SpeSauBitMelwitGar",
   "price": 10.5,
   "suggested": "Side choice (White Rice, Fried Rice);Other requests"
 },
