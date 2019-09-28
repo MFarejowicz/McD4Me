@@ -70,7 +70,10 @@ $(document).ready(() => {
     let orders = status.orders;
     if (orders) {
       let ordersArray = Object.values(orders);
-      let index = 0, subTotal = 0, taxTip = 0, total = 0;
+      let index = 0,
+        subTotal = 0,
+        taxTip = 0,
+        total = 0;
       ordersArray.sort((a, b) => {
         const aTime = new Date(a.time);
         const bTime = new Date(b.time);
@@ -120,7 +123,7 @@ $(document).ready(() => {
   const room = getParameterByName('room');
   if (room) {
     $('#h-roomNum').text(room);
-    const roomLink = `https://mcd4-me.firebaseapp.com/order.html?room=${room}`;
+    const roomLink = `https://mcd4-me.web.app/order.html?room=${room}`;
     $('#h-roomLink').html(`<a href="${roomLink}">${roomLink}</a>`);
     const roomRef = ref.child('rooms').child(room);
 
@@ -201,7 +204,9 @@ $(document).ready(() => {
     roomRef.once('value').then((snapshot) => {
       const status = snapshot.val();
       let numLeft = status.numLeft;
-      roomRef.update({ numLeft: numLeft + 1 });
+      roomRef.update({
+        numLeft: numLeft + 1
+      });
     });
   });
 
@@ -215,11 +220,13 @@ $(document).ready(() => {
       let now = new Date();
       let diff = closeTime - now;
 
-      let newCloseTime = (diff > 0
-        ? new Date(closeTime.getTime() + 1 * 60000)
-        : new Date(now.getTime() + 1 * 60000)
+      let newCloseTime = (diff > 0 ?
+        new Date(closeTime.getTime() + 1 * 60000) :
+        new Date(now.getTime() + 1 * 60000)
       );
-      roomRef.update({ closeTime: newCloseTime.toString() });
+      roomRef.update({
+        closeTime: newCloseTime.toString()
+      });
     });
   });
 
@@ -233,11 +240,13 @@ $(document).ready(() => {
       let now = new Date();
       let diff = closeTime - now;
 
-      let newCloseTime = (diff > 0
-        ? new Date(closeTime.getTime() + 10 * 60000)
-        : new Date(now.getTime() + 10 * 60000)
+      let newCloseTime = (diff > 0 ?
+        new Date(closeTime.getTime() + 10 * 60000) :
+        new Date(now.getTime() + 10 * 60000)
       );
-      roomRef.update({ closeTime: newCloseTime.toString() });
+      roomRef.update({
+        closeTime: newCloseTime.toString()
+      });
     });
   });
 });

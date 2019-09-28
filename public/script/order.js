@@ -60,7 +60,11 @@ $(document).ready(() => {
     }
 
     getCosts() {
-      return { subTotal: this.subTotal, taxTip: this.taxTip, total: this.total };
+      return {
+        subTotal: this.subTotal,
+        taxTip: this.taxTip,
+        total: this.total
+      };
     }
 
     addItem(id, name, price, quantity, instructions) {
@@ -155,7 +159,7 @@ $(document).ready(() => {
 
   // Handles toggle for any menu headers
   function handleToggle() {
-    $('p[data-group]').click(function() {
+    $('p[data-group]').click(function () {
       let group = $(this).attr('data-group');
       $(`div[data-group="${group}"]`).toggle(500);
     });
@@ -189,7 +193,7 @@ $(document).ready(() => {
   // including getting a user's name, the items they choose, those item quantities
   // and descriptions, and calculates costs
   function takeOrder() {
-    var order = new Order();
+    const order = new Order();
 
     $('#name').off().bind('keyup mouseup', function () {
       let val = $(this).val();
@@ -223,7 +227,7 @@ $(document).ready(() => {
         order.changeInstructions(elID, instructions);
       });
 
-      $('.remove-item').off().click(function() {
+      $('.remove-item').off().click(function () {
         let elID = $(this).attr('data-rem');
         $(`div#${elID}`).remove();
         $(`#${elID}`).prop('checked', false);
@@ -232,7 +236,7 @@ $(document).ready(() => {
       });
     });
 
-    $('#submit-order').click(function() {
+    $('#submit-order').click(function () {
       let name = order.getName();
       let roomRef = ref.child(`rooms/${room}`);
       let ordersRef = roomRef.child('orders');
@@ -248,14 +252,14 @@ $(document).ready(() => {
         roomRef.once('value').then((snap) => {
           let stat = snap.val();
           let ordersLeft = stat.numLeft;
-          if (order.items.length == 0){
+          if (order.items.length == 0) {
             $('#o-modal-text').text('This order has no items!');
             $('#modal').css('display', 'block');
           } else {
             if (!name) {
               $('#o-modal-text').text('Enter a name please!');
               $('#modal').css('display', 'block');
-            } else if (prevNames.includes(name)){
+            } else if (prevNames.includes(name)) {
               $('#o-modal-text').text('This name is already taken!');
               $('#modal').css('display', 'block');
             } else if (ordersLeft <= 0) {
@@ -264,7 +268,9 @@ $(document).ready(() => {
             } else {
               let nameRef = ordersRef.child(name);
               nameRef.set(order);
-              roomRef.update({numLeft: ordersLeft - 1});
+              roomRef.update({
+                numLeft: ordersLeft - 1
+              });
               $(location).attr('href', 'confirm.html');
             }
           }
@@ -306,13 +312,15 @@ $(document).ready(() => {
 
     roomRef.on('value', (snapshot) => {
       const status = snapshot.val();
-      $('#o-resName').text(placeMap[status.place]);
+      const resName = placeMap[status.place];
+      $('#o-resName').text(resName);
       let numLeft = status.numLeft;
       $('#o-numLeft').text(numLeft > 0 ? numLeft : 'no');
       let closeTime = new Date(status.closeTime);
       let now = new Date();
       let diff = round((closeTime - now) / 1000 / 60);
       $('#o-closeTime').text(diff >= 0 ? `${diff} minutes.` : 'Order closed!');
+      document.title = `${resName} - ${diff} minutes remaining - Order`;
     });
 
     roomRef.once('value')
